@@ -1,3 +1,7 @@
+.button {
+    font-family: var( --font-heading-family) !important;
+}
+
 /* FEATURED RECORDS */
 .featured_records {
     padding: 100px 0;
@@ -99,3 +103,10 @@ details[open] .modal-overlay::after,
     background-color: unset !important;
 }
 /* END SEARCH + CART MODAL */
+
+
+/* FOOTER */
+footer .rte a {
+    color: unset !important;
+}
+/* FOOTER */
