@@ -78,6 +78,9 @@
 }
 
 .featured_record_tab button.active {
-    /* font-weight: bold; */
     border-bottom: 2px solid black;
+}
+
+.featured_records .swiper-slide img {
+    margin-bottom: 40px;
 }
