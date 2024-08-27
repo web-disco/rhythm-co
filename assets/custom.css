@@ -201,4 +201,13 @@ footer .rte a {
     justify-content: space-between;
     align-items: center;
 }
+
+.essentials_header h2 {
+    text-transform: uppercase;
+}
+
+.essentials_header a {
+    text-decoration: none;
+    color: unset;
+}
 /* ESSENTIALS SLIDER */
