@@ -183,4 +183,10 @@ footer .rte a {
     font-weight: bold;
     line-height: 16px;
 }
+
+.essential-artist {
+    font-size: 14px;
+    color: #737373 !important;
+    line-height: 25px;
+}
 /* ESSENTIALS SLIDER */
