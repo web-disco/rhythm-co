@@ -6,9 +6,11 @@
 
            <div class="essentials_slider">
             <div class="swiper-wrapper">
-            {% for product in collection.products %}
-                <p>product</p>
-            {% endfor %}
+                {% for product in collection.products %}
+                    <div class="swiper-slide">
+                        <p>product</p>
+                    </div>
+                {% endfor %}
             </div>
            </div>
             
