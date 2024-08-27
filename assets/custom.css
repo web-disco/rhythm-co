@@ -8,6 +8,7 @@
 
 .featured_record {
     display: flex;
+    align-items: center;
 }
 
 .featured_record_content {
@@ -16,4 +17,9 @@
 
 .featured_record_image {
     width: 50%;
+}
+
+.featured_record_image img {
+    width: 100%;
+    height: auto;
 }
