@@ -1,5 +1,9 @@
 .featured_records {
+<<<<<<< Updated upstream
     padding: 0 100px !important;
+=======
+    padding: 100px 0;
+>>>>>>> Stashed changes
 }
 
 .featured_records p {
