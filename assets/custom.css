@@ -114,7 +114,7 @@ footer .rte a {
 
 /* COMING SOON */
 .coming-soon {
-    height: 100vh;
+    height: 50svh;
     display: grid;
     place-items: center;
 }
