@@ -202,11 +202,12 @@ footer .rte a {
     align-items: center;
     border-bottom: 1px solid white;
     margin-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 .essentials_header h2 {
     text-transform: uppercase;
-    padding: 0;
+    margin: 0;
 }
 
 .essentials_header a {
