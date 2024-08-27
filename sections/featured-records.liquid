@@ -9,6 +9,11 @@
                     <p>{{ product.metafields.custom.artist }}</p>
                     <h2>{{ product.title }}</h2>
                     <p>{{ block.settings.text }}</p>
+                    {% if block.settings.button_label != blank %}
+                        <a href="{{ product.url }}" class="button">{{ block.settings.button_label }}</a>
+                    {% endif %}
+                        <a href="{{ product.url }}" class="button">Shop Now</a>
+                    {%  else %}
                 </div>
                 
             {% endfor %}
