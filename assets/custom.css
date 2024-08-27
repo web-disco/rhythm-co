@@ -41,3 +41,9 @@
     width: 100%;
     height: auto;
 }
+
+.featured_records_tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
