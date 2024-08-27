@@ -9,6 +9,7 @@
                     <a href="{{ product.url }}">
                         <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
                         <p>{{ product.title }}</p>
+                        <p>{{ product.metafields.custom.artist }}</p>
                     </a>  
                 </div>
             {% endfor %}
