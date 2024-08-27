@@ -40,11 +40,7 @@
                         
                         {% assign product = block.settings.product %}
 
-<<<<<<< Updated upstream
-                        <div class="swiper-slide" data-swiper-autoplay="2000">
-=======
                         <div class="swiper-slide">
->>>>>>> Stashed changes
 
                             <a href="{{ product.url }}">
                                 <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
@@ -74,15 +70,11 @@
         const swiper = new Swiper('.featured_records_slider', {
             slidesPerView: 1,
             spaceBetween: 40,
-<<<<<<< Updated upstream
             autoHeight: true,
             autoplay: {
             delay: 2500,
             disableOnInteraction: false,
             },
-=======
-            autoHeight: true
->>>>>>> Stashed changes
         });
 
         // desktop javascript
