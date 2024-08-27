@@ -50,7 +50,8 @@
     gap: 20px;
 }
 
-.featured_records_tab button {
-    background-color: transparent !important;
+.featured_record_tab button {
+    background-color: transparent;
+    border: none;
     color: black;
 }
