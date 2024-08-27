@@ -200,6 +200,8 @@ footer .rte a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid white;
+    margin-bottom: 25px;
 }
 
 .essentials_header h2 {
