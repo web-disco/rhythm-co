@@ -15,6 +15,10 @@
     margin-bottom: 20px;
 }
 
+.featured_records a {
+    margin-top: 20px;
+}
+
 .featured_record {
     display: flex;
     align-items: center;
