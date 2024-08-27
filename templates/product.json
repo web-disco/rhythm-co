@@ -51,7 +51,7 @@
         "audioly_sticky_audio_player_product_preview_inline_GqE4tx": {
           "type": "shopify:\/\/apps\/audioly-sticky-audio-player\/blocks\/product-preview-inline\/1f530410-ca0c-4485-98fc-b2daea5cb117",
           "settings": {
-            "hideIfEmptyAudio": false,
+            "hideIfEmptyAudio": true,
             "useGlobalTheme": true,
             "playButtonBackgroundColor": "#000000",
             "playButtonIconColor": "#FFFFFF",
