@@ -27,13 +27,20 @@
 
         // slider javascript
         const swiper = new Swiper('.essentials_slider', {
-            slidesPerView: 3,
+            slidesPerView: 1.2,
             spaceBetween: 40,
             autoHeight: true,
-            autoplay: {
-            delay: 4500,
-            disableOnInteraction: false,
-            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+                1200: {
+                    slidesPerView: 4,
+                }
+            }
         });
     });
 </script>
