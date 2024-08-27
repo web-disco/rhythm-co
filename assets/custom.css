@@ -9,3 +9,11 @@
 .featured_record {
     display: flex;
 }
+
+.featured_record_content {
+    width: 50%;
+}
+
+.featured_record_img {
+    width: 50%;
+}
