@@ -87,7 +87,8 @@
 }
 
 /* SEARCH MODAL */
-details[open] .modal-overlay::after {
+details[open] .modal-overlay::after,
+.cart-drawer__overlay {
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
 }
