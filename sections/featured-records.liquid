@@ -41,9 +41,20 @@
                         {% assign product = block.settings.product %}
 
                         <div class="swiper-slide">
+
                             <a href="{{ product.url }}">
                                 <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
                             </a>  
+
+                            <span>{{ product.metafields.custom.artist }}</span>
+                            <h1>{{ product.title }}</h1>
+                            <p>{{ block.settings.text }}</p>
+                            {% if block.settings.button_label != blank %}
+                                <a href="{{ product.url }}" class="button">{{ block.settings.button_label }}</a>
+                            {% else %}
+                                <a href="{{ product.url }}" class="button">Shop Now</a>
+                            {%  endif %}
+
                         </div>
                     {% endfor %}
                 </div>
