@@ -172,4 +172,9 @@ footer .rte a {
     width: 100%;
     display: block;
 }
+
+.essentials_slider .swiper-slide a {
+    text-decoration: none;
+    color: unset;
+}
 /* ESSENTIALS SLIDER */
