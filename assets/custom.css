@@ -5,3 +5,7 @@
 .featured_records p {
     margin: 0;
 }
+
+.featured_record {
+    display: flex;
+}
