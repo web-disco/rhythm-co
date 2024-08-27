@@ -35,22 +35,18 @@
         </div>
         <div class="featured_records_mobile">
             <div class="featured_records_slider">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-            </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    {% for block in section.blocks %}
+                        
+                        {% assign product = block.settings.product %}
 
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
+                        <div class="featured_records_slide">
+                            <a href="{{ product.url }}">
+                                <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
+                            </a>  
+                        </div>
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
