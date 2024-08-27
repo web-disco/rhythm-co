@@ -92,3 +92,7 @@ details[open] .modal-overlay::after,
     background-color: rgba(0, 0, 0, 0.5) !important;
     backdrop-filter: blur(10px);
 }
+
+.drawer {
+    background-color: unset !important;
+}
