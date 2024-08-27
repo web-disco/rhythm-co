@@ -20,8 +20,12 @@
 }
 
 .featured_record {
-    display: flex;
+    display: none;
     align-items: center;
+}
+
+.featured_record.active {
+    display: flex;
 }
 
 .featured_record_content {
