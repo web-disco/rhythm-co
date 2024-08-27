@@ -2,13 +2,20 @@
     padding: 100px 0;
 }
 
+.featured_records_mobile {
+    display: block;
+}
+
 .featured_records_desktop {
     display: none;
 }
 
-@media(min-width: 768px) {
+@media(min-width: 991px) {
     .featured_records_desktop {
         display: block;
+    }
+    .featured_records_mobile {
+        display: none;
     }
 }
 
