@@ -85,3 +85,7 @@
 .featured_records .swiper-slide img {
     margin-bottom: 40px;
 }
+
+/* SEARCH MODAL */
+details[open] .modal-overlay::after {
+    background-color: rgba(0, 0, 0, 0.8);}
