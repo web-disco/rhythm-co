@@ -111,3 +111,11 @@ footer .rte a {
     color: unset !important;
 }
 /* FOOTER */
+
+/* COMING SOON */
+.coming-soon {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+/* COMING SOON */
