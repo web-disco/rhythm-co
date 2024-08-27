@@ -195,4 +195,10 @@ footer .rte a {
     text-transform: uppercase;
     font-size: 12px;
 }
+
+.essentials_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* ESSENTIALS SLIDER */
