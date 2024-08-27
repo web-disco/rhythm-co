@@ -150,8 +150,8 @@ footer .rte a {
 
 @media(min-width: 749px) {
     .image-with-text__content {
-        padding-left: unset !important;
-        padding-right: unset !important;
+        padding-left: 4rem !important;
+        padding-right: 4rem !important;
     }
 }
 /* IMAGE WITH TEXT */
