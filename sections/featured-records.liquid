@@ -2,10 +2,13 @@
     <div class="page-width">
         <div class="featured_records_desktop">
             {% for block in section.blocks %}
+                
                 {% assign product = block.settings.product %}
+
                 <div class="featured_record">
-                    {{ product.title }}
+                    {{ product.metafields.custom.artist }}
                 </div>
+
             {% endfor %}
         </div>
     </div>
