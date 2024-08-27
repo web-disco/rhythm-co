@@ -1,13 +1,13 @@
 <div class="featured_records section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
     <div class="page-width">
         <div class="featured_records_desktop">
-
-                {% for block in section.blocks %}
-                    <div class="featured_record">
-                    <p>yo</p>
-                    </div>
-                {% endfor %}
-            
+            {% for block in section.blocks %}
+                <div class="featured_record">
+                    <script>
+                        console.log({{ block.settings.product }});
+                    </script>
+                </div>
+            {% endfor %}
         </div>
     </div>
 </div>
