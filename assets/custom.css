@@ -146,4 +146,12 @@ footer .rte a {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
+
+
+@media(min-width: 749px) {
+    .image-with-text__content {
+        padding-left: unset !important;
+        padding-right: unset !important;
+    }
+}
 /* IMAGE WITH TEXT */
