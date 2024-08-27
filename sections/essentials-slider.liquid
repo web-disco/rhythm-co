@@ -5,9 +5,12 @@
            {% assign collection = section.settings.collection  %}
 
            <div class="essentials_slider">
-           {% for product in collection.products %}
-            <p>product</p>
-           {% endfor %}
+            <div class="swiper-wrapper">
+            {% for product in collection.products %}
+                <p>product</p>
+            {% endfor %}
+            </div>
+           </div>
             
         
     </div>
