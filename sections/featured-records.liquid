@@ -6,9 +6,10 @@
                 {% assign product = block.settings.product %}
 
                 <div class="featured_record">
-                    {{ product.metafields.custom.artist }}
+                    <p>{{ product.metafields.custom.artist }}</p>
+                    <h2>{{ product.title }}</h2>
                 </div>
-
+                
             {% endfor %}
         </div>
     </div>
