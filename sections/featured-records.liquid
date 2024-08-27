@@ -17,7 +17,9 @@
                         {%  endif %}
                     </div>
                     <div class="featured_record_image">
-                        <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
+                        <a href="{{ product.url }}">
+                            <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
+                        </a>    
                     </div>  
                 </div>
                 
