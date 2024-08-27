@@ -4,7 +4,14 @@
 
 /* FEATURED RECORDS */
 .featured_records {
-    padding: 100px 0;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+@media(min-width: 991px) {
+    .featured_records {
+        padding: 100px 0;
+    }
 }
 
 .featured_records_mobile {
