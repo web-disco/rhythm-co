@@ -12,13 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "text_wEHFRJ": {
           "type": "text",
           "settings": {
@@ -74,7 +67,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "text_wEHFRJ",
         "title",
         "caption",
