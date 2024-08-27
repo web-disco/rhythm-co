@@ -6,7 +6,9 @@
         <div class="swiper-wrapper">
             {% for product in collection.products %}
                 <div class="swiper-slide">
-                    <p>product</p>
+                    <a href="{{ product.url }}">
+                        <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
+                    </a>  
                 </div>
             {% endfor %}
         </div>
