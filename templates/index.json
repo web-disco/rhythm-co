@@ -27,11 +27,29 @@
             "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
             "button_label": ""
           }
+        },
+        "product_i9kDiD": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_F3ec7M": {
+          "type": "product",
+          "settings": {
+            "product": "alternative-record",
+            "text": "",
+            "button_label": ""
+          }
         }
       },
       "block_order": [
         "product_7K7fn8",
-        "product_66f4Ky"
+        "product_66f4Ky",
+        "product_i9kDiD",
+        "product_F3ec7M"
       ],
       "settings": {
         "section_color_scheme": "scheme-2"
