@@ -140,3 +140,10 @@ footer .rte a {
     }
   }
 /* COMING SOON */
+
+/* IMAGE WITH TEXT */
+.image-with-text__content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+/* IMAGE WITH TEXT */
