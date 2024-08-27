@@ -40,7 +40,7 @@
                         
                         {% assign product = block.settings.product %}
 
-                        <div class="swiper-slide">
+                        <div class="swiper-slide" data-swiper-autoplay="2000">
 
                             <a href="{{ product.url }}">
                                 <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
@@ -71,6 +71,10 @@
             slidesPerView: 1,
             spaceBetween: 40,
             autoHeight: true,
+            autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+            },
         });
 
         // desktop javascript
