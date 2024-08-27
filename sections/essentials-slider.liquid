@@ -1,7 +1,9 @@
 <div class="essential_records section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
     <div class="page-width">
         {% assign collection = section.settings.collection %}
-
+        {% for product in collections[collection].products %}
+            <p>yo</p>
+        {% endfor %}
         
     </div>
 </div>
