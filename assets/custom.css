@@ -58,7 +58,10 @@
 .featured_records img {
     width: 100%;
     height: auto;
+<<<<<<< Updated upstream
     display: block;
+=======
+>>>>>>> Stashed changes
 }
 
 .featured_records_tabs {
@@ -85,6 +88,7 @@
 
 .featured_records .swiper-slide img {
     margin-bottom: 40px;
+<<<<<<< Updated upstream
 }
 /* END FEATURED RECORDS */
 
@@ -99,3 +103,6 @@ details[open] .modal-overlay::after,
     background-color: unset !important;
 }
 /* END SEARCH + CART MODAL */
+=======
+}
+>>>>>>> Stashed changes
