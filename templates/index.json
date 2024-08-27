@@ -11,7 +11,19 @@
   "sections": {
     "featured_records_ca3QVJ": {
       "type": "featured-records",
+      "blocks": {
+        "product_7K7fn8": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_7K7fn8"
+      ],
       "settings": {
+        "section_color_scheme": "scheme-2"
       }
     },
     "image_with_text_EEn6jt": {
@@ -108,7 +120,6 @@
     }
   },
   "order": [
-    "image_banner",
     "featured_records_ca3QVJ",
     "image_with_text_EEn6jt",
     "image_with_text_PgkTUz"
