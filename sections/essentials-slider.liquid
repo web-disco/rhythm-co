@@ -1,0 +1,33 @@
+<div class="featured_records section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+    <p>essentials</p>
+</div>
+
+{% schema %}
+{
+    "name": "Essentials Slider",
+    "settings": [
+            {
+                "type": "color_scheme",
+                "id": "section_color_scheme",
+                "label": "Color Scheme",
+                "default": "scheme-1"
+            },
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title",
+                "default": "This Week's Essentials"
+            },
+            {
+                "type": "collection",
+                "id": "collection",
+                "label": "Collection"
+            }
+        ],
+    "presets": [
+        {
+            "name": "Essentials Slider"
+        }
+    ]
+}
+{% endschema %}
