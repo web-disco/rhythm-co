@@ -19,6 +19,13 @@
             "text_style": "uppercase"
           }
         },
+        "text_wEHFRJ": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.artist.value }}",
+            "text_style": "body"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -68,6 +75,7 @@
       },
       "block_order": [
         "vendor",
+        "text_wEHFRJ",
         "title",
         "caption",
         "price",
