@@ -140,6 +140,35 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "10905257233323761681": {
+        "type": "shopify:\/\/apps\/audioly-sticky-audio-player\/blocks\/audio-player\/1f530410-ca0c-4485-98fc-b2daea5cb117",
+        "disabled": false,
+        "settings": {
+          "playerBackground": "white",
+          "playerForegroundColor": "#000000",
+          "playButtonBackgroundColor": "#000000",
+          "playButtonIconColor": "#FFFFFF",
+          "volumeButtonsIconColor": "#000000",
+          "playerIconPosition": "left",
+          "advanceTimeBySecondsOnArrowKeyPress": 5,
+          "desktopPlayerProductImagePadding": "10px",
+          "buyNowButtonThemeClass": "button",
+          "playButtonLabel": "Play",
+          "pauseButtonLabel": "Pause",
+          "muteVolumeButtonLabel": "Mute volume",
+          "unmuteVolumeButtonLabel": "Unmute volume",
+          "volumeUpButtonLabel": "Volume up",
+          "volumeDownButtonLabel": "Volume down",
+          "timeProgressSliderLabel": "Time progress",
+          "buyNowButtonText": "Buy now",
+          "previewText": "Preview",
+          "infoTextForNoAudio": "No sample is available for the product",
+          "errorText": "An error ocurred while loading the file",
+          "firstVisitText": "No product is selected"
+        }
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
