@@ -1,16 +1,20 @@
+{% assign collection = section.settings.collection  %}
+
 <div class="essentials section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
     <div class="page-width">
-
-        {% assign collection = section.settings.collection  %}
+    <div class="essentials_header">
+        <h2>{{ section.settings.title }}</h2>
+        <a href="{{ collection.url }}">See all</a>
+    </div>
         <div class="essentials_slider">
         <div class="swiper-wrapper">
             {% for product in collection.products %}
                 <div class="swiper-slide">
                     <a href="{{ product.url }}">
                         <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
-                        <p>{{ product.title }}</p>
-                        <p>{{ product.metafields.custom.artist }}</p>
-                        <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
+                        <p class="essential-title">{{ product.title }}</p>
+                        <p class="essential-artist">{{ product.metafields.custom.artist }}</p>
+                        <span class="essential-badge badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
                             Essential
                         </span>
                     </a>  
@@ -27,13 +31,20 @@
 
         // slider javascript
         const swiper = new Swiper('.essentials_slider', {
-            slidesPerView: 3,
+            slidesPerView: 1.2,
             spaceBetween: 40,
             autoHeight: true,
-            autoplay: {
-            delay: 4500,
-            disableOnInteraction: false,
-            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+                1200: {
+                    slidesPerView: 4,
+                }
+            }
         });
     });
 </script>
