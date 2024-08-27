@@ -48,18 +48,6 @@
           "settings": {
           }
         },
-        "audioly_sticky_audio_player_product_preview_inline_GqE4tx": {
-          "type": "shopify:\/\/apps\/audioly-sticky-audio-player\/blocks\/product-preview-inline\/1f530410-ca0c-4485-98fc-b2daea5cb117",
-          "settings": {
-            "hideIfEmptyAudio": true,
-            "useGlobalTheme": true,
-            "playButtonBackgroundColor": "#000000",
-            "playButtonIconColor": "#ffffff",
-            "changeTrackBackgroundColor": "#ffffff",
-            "changeTrackIconColor": "#000000",
-            "volumeButtonsIconColor": "#000000"
-          }
-        },
         "audioly_sticky_audio_player_product_preview_Kbdtq7": {
           "type": "shopify:\/\/apps\/audioly-sticky-audio-player\/blocks\/product-preview\/1f530410-ca0c-4485-98fc-b2daea5cb117",
           "settings": {
@@ -85,7 +73,6 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "audioly_sticky_audio_player_product_preview_inline_GqE4tx",
         "audioly_sticky_audio_player_product_preview_Kbdtq7",
         "buy_buttons",
         "description"
