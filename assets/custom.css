@@ -189,4 +189,8 @@ footer .rte a {
     color: #737373 !important;
     line-height: 25px;
 }
+
+.essential-badge {
+    font-weight: 900;
+}
 /* ESSENTIALS SLIDER */
