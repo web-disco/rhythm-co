@@ -118,4 +118,8 @@ footer .rte a {
     display: grid;
     place-items: center;
 }
+
+.coming-soon span {
+    display: inline-block;
+}
 /* COMING SOON */
