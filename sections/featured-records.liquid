@@ -2,10 +2,9 @@
     <div class="page-width">
         <div class="featured_records_desktop">
             {% for block in section.blocks %}
+                {% assign product = block.product %}
                 <div class="featured_record">
-                    <script>
-                        
-                    </script>
+                    {{ product.title }}
                 </div>
             {% endfor %}
         </div>
