@@ -1,3 +1,4 @@
+/* FEATURED RECORDS */
 .featured_records {
     padding: 100px 0;
 }
@@ -85,6 +86,7 @@
 .featured_records .swiper-slide img {
     margin-bottom: 40px;
 }
+/* END FEATURED RECORDS */
 
 /* SEARCH + CART MODAL */
 details[open] .modal-overlay::after,
