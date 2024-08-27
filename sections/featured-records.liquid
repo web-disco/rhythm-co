@@ -1,9 +1,34 @@
+<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+    <div class="page-width">
+        <p>yooo</p>
+    </div>
+</div>
 {% schema %}
 {
     "name": "Featured Records",
     "settings": [
-        
-        ],
+        {
+            "type": "color_scheme",
+            "id": "section_color_scheme",
+            "label": "t:sections.all.colors.label",
+            "default": "scheme-1"
+        }
+    ],
+    "blocks": [
+        {
+            "name": "Product",
+            "type": "product",
+            "limit": 6,
+            "settings": [
+                {
+                    "type": "product",
+                    "id": "product",
+                    "label": "t:sections.featured_records.product.label"
+                }
+            ]
+
+        }
+    ],
     "presets": [
         {
             "name": "Featured Records"
