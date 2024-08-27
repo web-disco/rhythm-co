@@ -18,6 +18,22 @@
     </div>
 </div>
 
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+
+        // slider javascript
+        const swiper = new Swiper('.essentials_slider', {
+            slidesPerView: 6,
+            spaceBetween: 40,
+            autoHeight: true,
+            autoplay: {
+            delay: 4500,
+            disableOnInteraction: false,
+            },
+        });
+    });
+</script>
+
 {% schema %}
 {
     "name": "Essentials Slider",
