@@ -57,6 +57,7 @@
 .featured_records img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 .featured_records_tabs {
