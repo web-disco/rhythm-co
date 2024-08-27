@@ -37,6 +37,14 @@
         "section_color_scheme": "scheme-2"
       }
     },
+    "essentials_slider_4Jdkgx": {
+      "type": "essentials-slider",
+      "settings": {
+        "section_color_scheme": "",
+        "title": "This Week's Essentials",
+        "collection": ""
+      }
+    },
     "image_with_text_EEn6jt": {
       "type": "image-with-text",
       "blocks": {
@@ -132,6 +140,7 @@
   },
   "order": [
     "featured_records_ca3QVJ",
+    "essentials_slider_4Jdkgx",
     "image_with_text_EEn6jt",
     "image_with_text_PgkTUz"
   ]
