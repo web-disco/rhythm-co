@@ -2,6 +2,16 @@
     padding: 100px 0;
 }
 
+.featured_records_desktop {
+    display: none;
+}
+
+@media(min-width: 1024px) {
+    .featured_records_desktop {
+        display: block;
+    }
+}
+
 .featured_records p,
 .featured_records h1 {
     margin: 0;
