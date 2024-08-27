@@ -6,6 +6,7 @@
                 {% assign product = block.settings.product %}
 
                 <div class="featured_record">
+                    <div class="featured_record_content">
                     <p>{{ product.metafields.custom.artist }}</p>
                     <h2>{{ product.title }}</h2>
                     <p>{{ block.settings.text }}</p>
@@ -14,6 +15,7 @@
                     {% else %}
                         <a href="{{ product.url }}" class="button">Shop Now</a>
                     {%  endif %}
+                    </div>
                 </div>
                 
             {% endfor %}
