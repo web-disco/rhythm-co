@@ -1,7 +1,16 @@
 <div class="featured_records section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
     <div class="page-width">
         <div class="featured_records_desktop">
-            
+            {% for block in section.blocks %}
+                
+                {% assign product = block.settings.product %}
+
+                <div class="featured_record">
+                    <p>{{ product.metafields.custom.artist }}</p>
+                    <h2>{{ product.title }}</h2>
+                </div>
+                
+            {% endfor %}
         </div>
     </div>
 </div>
@@ -26,6 +35,16 @@
                     "type": "product",
                     "id": "product",
                     "label": "Product"
+                },
+                {
+                    "type": "text",
+                    "id": "text",
+                    "label": "Text"
+                },
+                {
+                    "type": "text",
+                    "id": "button_label",
+                    "label": "Button Label"
                 }
             ]
 
