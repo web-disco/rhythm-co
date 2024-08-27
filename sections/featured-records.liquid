@@ -39,10 +39,14 @@
         const records = document.querySelectorAll('.featured_record');
         const tabs = document.querySelectorAll('.featured_record_tab button');
 
-        console.log(records)
-
         records[0].classList.add("active");
         tabs[0].classList.add("active");
+
+        tabs.forEach((tab, index) => {
+            tab.addEventListener("click", () => {
+                records.forEach(record => record.classList.remove("active"))''
+            })
+        })
     });
 </script>
 
