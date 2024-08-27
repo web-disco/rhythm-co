@@ -1,22 +1,8 @@
-<div class="featured_records section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+<div class="essentials_slider section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
     <div class="page-width">
         <div class="featured_records_desktop">
             <h1>{{ section.settings.title }}</h1>
-            <div class="featured_records_slider">
-                <div class="swiper-wrapper">
-                    {% for product in section.settings.collection.products %}
-                        <div class="swiper-slide">
-                            <a href="{{ product.url }}">
-                                <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
-                            </a>
-                            <span>{{ product.metafields.custom.artist }}</span>
-                            <h1>{{ product.title }}</h1>
-                            <p>{{ product.description }}</p>
-                            <a href="{{ product.url }}" class="button">Shop Now</a>
-                        </div>
-                    {% endfor %}
-                </div>
-            </div>
+            
         </div>
     </div>
 </div>
