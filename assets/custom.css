@@ -155,3 +155,10 @@ footer .rte a {
     }
 }
 /* IMAGE WITH TEXT */
+
+/* ESSENTIALS SLIDER */
+.essentials_slider img {
+    width: 100%;
+    display: block;
+}
+/* ESSENTIALS SLIDER */
