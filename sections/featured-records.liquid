@@ -11,9 +11,9 @@
                     <p>{{ block.settings.text }}</p>
                     {% if block.settings.button_label != blank %}
                         <a href="{{ product.url }}" class="button">{{ block.settings.button_label }}</a>
-                    {% endif %}
+                    {% else %}
                         <a href="{{ product.url }}" class="button">Shop Now</a>
-                    {%  else %}
+                    {%  endif %}
                 </div>
                 
             {% endfor %}
