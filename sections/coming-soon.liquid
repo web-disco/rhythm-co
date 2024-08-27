@@ -1,7 +1,17 @@
+<div class="featured_records section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+
+</div>
 {% schema %}
 {
     "name": "Coming Soon",
-    "settings": [],
+    "settings": [
+        {
+            "type": "color_scheme",
+            "id": "section_color_scheme",
+            "label": "Color Scheme",
+            "default": "scheme-1"
+        }
+    ],
     "presets": [
         {
             "name": "Coming Soon"
