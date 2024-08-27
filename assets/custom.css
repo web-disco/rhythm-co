@@ -88,4 +88,6 @@
 
 /* SEARCH MODAL */
 details[open] .modal-overlay::after {
-    background-color: rgba(0, 0, 0, 0.8);}
+    background-color: rgba(0, 0, 0, 0.8);
+    filter: blur(20px);
+}
