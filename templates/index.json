@@ -57,6 +57,11 @@
         "show_text_below": false
       }
     },
+    "featured_records_ca3QVJ": {
+      "type": "featured-records",
+      "settings": {
+      }
+    },
     "image_with_text_EEn6jt": {
       "type": "image-with-text",
       "blocks": {
@@ -152,6 +157,7 @@
   },
   "order": [
     "image_banner",
+    "featured_records_ca3QVJ",
     "image_with_text_EEn6jt",
     "image_with_text_PgkTUz"
   ]
