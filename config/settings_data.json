@@ -147,8 +147,8 @@
         "settings": {
           "playerBackground": "white",
           "playerForegroundColor": "#000000",
-          "playButtonBackgroundColor": "#000000",
-          "playButtonIconColor": "#FFFFFF",
+          "playButtonBackgroundColor": "#ffffff",
+          "playButtonIconColor": "#000000",
           "volumeButtonsIconColor": "#000000",
           "playerIconPosition": "left",
           "advanceTimeBySecondsOnArrowKeyPress": 5,
