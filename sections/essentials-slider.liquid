@@ -1,6 +1,8 @@
 <div class="essentials section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
     <div class="page-width">
-
+    <div class="essentials_header">
+        <h2>{{ section.settings.title }}</h2>
+    </div>
         {% assign collection = section.settings.collection  %}
         <div class="essentials_slider">
         <div class="swiper-wrapper">
