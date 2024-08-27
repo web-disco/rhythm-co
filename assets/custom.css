@@ -1,3 +1,7 @@
+.button {
+    font-family: var( --font-heading-family) !important;
+}
+
 /* FEATURED RECORDS */
 .featured_records {
     padding: 100px 0;
