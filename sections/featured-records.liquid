@@ -33,6 +33,17 @@
         </div>
     </div>
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const records = document.querySelectorAll('.featured_record');
+        const tabs = document.querySelectorAll('.featured_record_tab button');
+
+        records[0].classList.add("active");
+        tabs[0].classList.add("active");
+    })
+</script>
+
 {% schema %}
 {
     "name": "Featured Records",
