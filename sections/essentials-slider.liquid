@@ -2,6 +2,11 @@
     <div class="page-width">
         <div class="featured_records_desktop">
            <p>yooo</p>
+           {% assign collection = section.settings.collection  %}
+
+           {% for product in collection.products %}
+            <p>product</p>
+           {% endfor %}
             
         </div>
     </div>
