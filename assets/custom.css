@@ -85,6 +85,7 @@
 
 .featured_record_tab button.active {
     border-bottom: 2px solid black;
+    font-weight: bold;
 }
 
 .featured_records .swiper-slide img {
