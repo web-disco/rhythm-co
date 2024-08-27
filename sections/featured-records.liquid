@@ -44,7 +44,11 @@
 
         tabs.forEach((tab, index) => {
             tab.addEventListener("click", () => {
-                records.forEach(record => record.classList.remove("active"))''
+                records.forEach(record => record.classList.remove("active"));
+                tabs.forEeach(tab => tab.classList.remove("active"));
+
+                records[index].classList.add("active");
+                tabs[index].classList.add("active");
             })
         })
     });
