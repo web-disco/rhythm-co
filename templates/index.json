@@ -15,12 +15,19 @@
         "product_7K7fn8": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "thomas-schumacher-final-fantasy"
+          }
+        },
+        "product_66f4Ky": {
+          "type": "product",
+          "settings": {
+            "product": "house-record"
           }
         }
       },
       "block_order": [
-        "product_7K7fn8"
+        "product_7K7fn8",
+        "product_66f4Ky"
       ],
       "settings": {
         "section_color_scheme": "scheme-2"
