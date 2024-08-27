@@ -1,6 +1,42 @@
-<div class="featured_records section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
-    <p>essentials</p>
+<div class="essentials section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+    <div class="page-width">
+
+        {% assign collection = section.settings.collection  %}
+        <div class="essentials_slider">
+        <div class="swiper-wrapper">
+            {% for product in collection.products %}
+                <div class="swiper-slide">
+                    <a href="{{ product.url }}">
+                        <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
+                        <p>{{ product.title }}</p>
+                        <p>{{ product.metafields.custom.artist }}</p>
+                        <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
+                            Essential
+                        </span>
+                    </a>  
+                </div>
+            {% endfor %}
+        </div>
+        </div>  
+        
+    </div>
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+
+        // slider javascript
+        const swiper = new Swiper('.essentials_slider', {
+            slidesPerView: 3,
+            spaceBetween: 40,
+            autoHeight: true,
+            autoplay: {
+            delay: 4500,
+            disableOnInteraction: false,
+            },
+        });
+    });
+</script>
 
 {% schema %}
 {
