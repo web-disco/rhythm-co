@@ -192,5 +192,7 @@ footer .rte a {
 
 .essential-badge {
     font-weight: 900;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 /* ESSENTIALS SLIDER */
