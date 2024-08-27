@@ -1,19 +1,16 @@
 <div class="essentials_slider section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
     <div class="page-width">
-        
 
-           {% assign collection = section.settings.collection  %}
-
-           <div class="essentials_slider">
-            <div class="swiper-wrapper">
-                {% for product in collection.products %}
-                    <div class="swiper-slide">
-                        <p>product</p>
-                    </div>
-                {% endfor %}
-            </div>
-           </div>
-            
+        {% assign collection = section.settings.collection  %}
+        <div class="essentials_slider">
+        <div class="swiper-wrapper">
+            {% for product in collection.products %}
+                <div class="swiper-slide">
+                    <p>product</p>
+                </div>
+            {% endfor %}
+        </div>
+        </div>  
         
     </div>
 </div>
