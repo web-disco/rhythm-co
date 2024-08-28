@@ -171,6 +171,7 @@ footer .rte a {
 .essentials_slider img {
     width: 100%;
     display: block;
+    margin-bottom: 20px;
 }
 
 .essentials_slider .swiper-slide a {
@@ -186,6 +187,7 @@ footer .rte a {
 }
 
 .essential-artist {
+    margin: 0;
     font-size: 14px;
     color: #737373 !important;
     line-height: 25px;
