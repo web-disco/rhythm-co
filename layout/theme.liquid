@@ -53,7 +53,7 @@
     {% style %}
       @font-face {
         font-family: "OCR";
-        src: url("{{ 'ocr-regular.woff' |  asset_url }}");
+        src: url("{{ 'ocr-regular.woff2' |  asset_url }}") format("woff2");
       }
 
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
