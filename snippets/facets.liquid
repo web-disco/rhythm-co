@@ -138,7 +138,7 @@
                       <div>
                         
                         <span class="facets__summary-label">
-                          {% comment %} {{- filter.label | escape }} {% endcomment %}
+                          {{- filter.label | escape }}
                           {%- if filter_type == 'vertical' -%}
                             <span class="facets__selected{% if filter.active_values.size == 0 %} hidden{% endif %}">
                               ({{ filter.active_values.size }})</span
