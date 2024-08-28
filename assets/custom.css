@@ -196,7 +196,8 @@ footer .rte a {
 .essential-badge {
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 12px; 
+    margin: 0;
 }
 
 .essentials_header {
