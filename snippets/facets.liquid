@@ -75,7 +75,7 @@
                 {%- for filter in results.filters -%}
                   {%- for value in filter.active_values -%}
                     <script>
-                      console.log({{ value | json }})
+                      console.log({ filter | json })
                     </script>
                     <facet-remove>
                       <a href="{{ value.url_to_remove }}" class="active-facets__button active-facets__button--light">
