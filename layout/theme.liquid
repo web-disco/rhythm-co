@@ -56,6 +56,50 @@
         src: url("{{ 'ocr-regular.woff2' |  asset_url }}") format("woff2");
       }
 
+      @font-face {
+        font-family: "pp";
+        src: url("{{ 'pp-book.woff2' |  asset_url }}") format("woff2");
+        font-weight: normal;
+      }
+
+      @font-face {
+        font-family: "pp";
+        src: url("{{ 'pp-thin.woff2' |  asset_url }}") format("woff2");
+        font-weight: 100;
+      }
+
+      @font-face {
+        font-family: "pp";
+        src: url("{{ 'pp-book.woff2' |  asset_url }}") format("woff2");
+        font-weight: normal;
+      }
+
+      @font-face {
+        font-family: "pp";
+        src: url("{{ 'pp-medium.woff2' |  asset_url }}") format("woff2");
+        font-weight: 500;
+      }
+
+      @font-face {
+        font-family: "pp";
+        src: url("{{ 'pp-bold.woff2' |  asset_url }}") format("woff2");
+        font-weight: 700;
+      }
+
+      @font-face {
+        font-family: "pp";
+        src: url("{{ 'pp-semi-bold-italic.woff2' |  asset_url }}") format("woff2");
+        font-weight: 600;
+        font-style: italic;
+      }
+
+      @font-face {
+        font-family: "pp";
+        src: url("{{ 'pp-italic.woff2' |  asset_url }}") format("woff2");
+        font-weight: normal;
+        font-style: italic;
+      }
+
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
       {{ body_font_italic | font_face: font_display: 'swap' }}
@@ -109,14 +153,14 @@
 
       :root {
       
-        --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+        /* --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
         --font-body-style: {{ settings.type_body_font.style }};
         --font-body-weight: {{ settings.type_body_font.weight }};
-        --font-body-weight-bold: {{ settings.type_body_font.weight | plus: 300 | at_most: 1000 }};
+        --font-body-weight-bold: {{ settings.type_body_font.weight | plus: 300 | at_most: 1000 }}; */
 
         
         --font-heading-family: "OCR";
-        
+
         /* --font-heading-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
         --font-heading-style: {{ settings.type_header_font.style }};
         --font-heading-weight: {{ settings.type_header_font.weight }}; */
