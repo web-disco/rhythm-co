@@ -136,9 +136,9 @@
                       aria-label="{{ filter.label | escape }} ({{ 'products.facets.filters_selected.one' | t: count: filter.active_values.size }})"
                     >
                       <div>
-                        <script>console.log({{ filter | json }})</script>
+                        
                         <span class="facets__summary-label">
-                          {{- filter.label | escape }}
+                          {% comment %} {{- filter.label | escape }} {% endcomment %}
                           {%- if filter_type == 'vertical' -%}
                             <span class="facets__selected{% if filter.active_values.size == 0 %} hidden{% endif %}">
                               ({{ filter.active_values.size }})</span
