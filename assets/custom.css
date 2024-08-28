@@ -219,3 +219,11 @@ footer .rte a {
     color: unset;
 }
 /* ESSENTIALS SLIDER */
+
+/*  MEGA MENU */
+.mega-menu__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+/* MEGA MENU */
