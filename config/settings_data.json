@@ -145,8 +145,8 @@
         "type": "shopify:\/\/apps\/audioly-sticky-audio-player\/blocks\/audio-player\/1f530410-ca0c-4485-98fc-b2daea5cb117",
         "disabled": false,
         "settings": {
-          "playerBackground": "#C5B540",
-          "playerForegroundColor": "#0d0d0d",
+          "playerBackground": "#0D0D0D",
+          "playerForegroundColor": "#ffffff",
           "playButtonBackgroundColor": "#ffffff",
           "playButtonIconColor": "#0d0d0d",
           "volumeButtonsIconColor": "#0d0d0d",
