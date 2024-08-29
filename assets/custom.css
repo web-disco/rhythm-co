@@ -228,6 +228,6 @@ footer .rte a {
 }
 /* MEGA MENU */
 
-.card__inner {
+.product-card-wrapper .card__inner {
     background-color: none !important;
 }
