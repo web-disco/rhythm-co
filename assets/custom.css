@@ -243,7 +243,3 @@ footer .rte a {
 .price__container {
    font-size: calc(var(--font-heading-scale)* 1.3rem) !important;
 }
-
-.quantity {
-    width: 100% !important;
-}
