@@ -228,5 +228,5 @@ footer .rte a {
 }
 
 .price__container {
-   font-size: 12px !important;
+   font-size: calc(var(--font-heading-scale)* 1.3rem) !important;
 }
