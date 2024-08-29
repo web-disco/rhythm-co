@@ -229,5 +229,5 @@ footer .rte a {
 /* MEGA MENU */
 
 .card__inner {
-    background-color: none;
+    background-color: none !important;
 }
