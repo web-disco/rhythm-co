@@ -171,7 +171,6 @@ footer .rte a {
 .essentials_slider img {
     width: 100%;
     display: block;
-    margin-bottom: 20px;
 }
 
 .essentials_slider .swiper-slide a {
@@ -183,11 +182,9 @@ footer .rte a {
     font-size: 16px;
     font-weight: bold;
     line-height: 16px;
-    margin: 0;
 }
 
 .essential-artist {
-    margin: 0;
     font-size: 14px;
     color: #737373 !important;
     line-height: 25px;
@@ -196,8 +193,7 @@ footer .rte a {
 .essential-badge {
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 12px; 
-    margin: 20px 0 0 0;
+    font-size: 12px;
 }
 
 .essentials_header {
@@ -219,11 +215,3 @@ footer .rte a {
     color: unset;
 }
 /* ESSENTIALS SLIDER */
-
-/*  MEGA MENU */
-.mega-menu__list {
-    display: grid !important;
-    grid-template-columns: repeat(4, 1fr) !important;
-    gap: 20px;
-}
-/* MEGA MENU */
