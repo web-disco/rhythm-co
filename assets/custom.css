@@ -45,7 +45,7 @@
 .featured_record {
     display: none;
     align-items: center;
-    gap: 100px;
+    gap: 60px;
 }
 
 .featured_record.active {
