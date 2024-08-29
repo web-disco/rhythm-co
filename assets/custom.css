@@ -73,6 +73,12 @@
     display: block;
 }
 
+@media(min-width: 991px) {
+    .featured_records img {
+        width: 75%;
+    }
+}
+
 .featured_records_tabs {
     margin-top: 50px;
     display: flex;
