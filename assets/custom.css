@@ -228,5 +228,5 @@ footer .rte a {
 }
 
 .card-information {
-   font-size: calc(var(--font-heading-scale)* 1.3rem) !important;
+   font-size: 12px !important;
 }
