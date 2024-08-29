@@ -8,12 +8,6 @@
     overflow: hidden;
 }
 
-@media(min-width: 991px) {
-    .featured_records {
-        padding: 100px 0;
-    }
-}
-
 .featured_records_mobile {
     display: block;
 }
@@ -67,7 +61,7 @@
 }
 
 .featured_records img {
-    width: 100%;
+    width: 75%;
     height: auto;
     display: block;
 }
