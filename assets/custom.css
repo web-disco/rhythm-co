@@ -4,8 +4,14 @@
 
 /* FEATURED RECORDS */
 .featured_records {
-    padding: 60px 0;
+    padding: 50px 0;
     overflow: hidden;
+}
+
+@media(min-width: 991px) {
+    .featured_records {
+        padding: 100px 0;
+    }
 }
 
 .featured_records_mobile {
@@ -45,7 +51,7 @@
 .featured_record {
     display: none;
     align-items: center;
-    gap: 60px;
+    gap: 100px;
 }
 
 .featured_record.active {
@@ -54,7 +60,6 @@
 
 .featured_record_content {
     width: 50%;
-    padding-right: 20px;
 }
 
 .featured_record_image {
@@ -226,8 +231,4 @@ footer .rte a {
 .card--card.gradient, .card__inner.gradient {
     background-color: none !important;
     background: none !important;
-}
-
-.price__container {
-   font-size: calc(var(--font-heading-scale)* 1.3rem) !important;
 }
