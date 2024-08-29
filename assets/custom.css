@@ -228,6 +228,7 @@ footer .rte a {
 }
 /* MEGA MENU */
 
-.gradient {
+.card--card.gradient, .card__inner.gradient {
     background-color: none !important;
+    background: none !important;
 }
