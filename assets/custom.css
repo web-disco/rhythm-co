@@ -227,3 +227,8 @@ footer .rte a {
     gap: 20px;
 }
 /* MEGA MENU */
+
+.card--card.gradient, .card__inner.gradient {
+    background-color: none !important;
+    background: none !important;
+}
