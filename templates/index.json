@@ -11,6 +11,19 @@
   "sections": {
     "featured_records_ca3QVJ": {
       "type": "featured-records",
+      "blocks": {
+        "product_TzgfyL": {
+          "type": "product",
+          "settings": {
+            "product": "these-heavens",
+            "text": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_TzgfyL"
+      ],
       "settings": {
         "section_color_scheme": "scheme-2"
       }
