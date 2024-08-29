@@ -45,7 +45,7 @@
 .featured_record {
     display: none;
     align-items: center;
-    gap: 60px;
+    /* gap: 60px; */
 }
 
 .featured_record.active {
@@ -59,6 +59,8 @@
 
 .featured_record_image {
     width: 50%;
+    display: flex;
+    align-items: center;
 }
 
 .featured_records img {
