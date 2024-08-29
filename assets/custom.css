@@ -226,3 +226,7 @@ footer .rte a {
     background-color: none !important;
     background: none !important;
 }
+
+.card-information {
+   font-size: calc(var(--font-heading-scale)* 1.3rem) !important;
+}
