@@ -16,8 +16,8 @@
           "type": "product",
           "settings": {
             "product": "these-heavens",
-            "text": "",
-            "button_label": ""
+            "text": "Blah blah blah.",
+            "button_label": "Pre-Order"
           }
         }
       },
