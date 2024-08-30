@@ -19,10 +19,19 @@
             "text": "Blah blah blah.",
             "button_label": "Pre-Order"
           }
+        },
+        "product_NHb8ec": {
+          "type": "product",
+          "settings": {
+            "product": "another-night-re-edit",
+            "text": "",
+            "button_label": ""
+          }
         }
       },
       "block_order": [
-        "product_TzgfyL"
+        "product_TzgfyL",
+        "product_NHb8ec"
       ],
       "settings": {
         "section_color_scheme": "scheme-2"
