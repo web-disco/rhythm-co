@@ -114,14 +114,14 @@
         "text_PGJkmX": {
           "type": "text",
           "settings": {
-            "text": "<p>Info about stuio bookings<\/p>",
+            "text": "<h2>Coming Soon<\/h2>",
             "text_style": "body"
           }
         },
         "button_eKTUfx": {
           "type": "button",
           "settings": {
-            "button_label": "Book Now",
+            "button_label": "SIGN UP FOR STUDIO UPDATES",
             "button_link": "shopify:\/\/pages\/studios",
             "button_style_secondary": false
           }
@@ -133,6 +133,7 @@
         "button_eKTUfx"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/98344312300c293dcd69a47e06b7eb3e.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
