@@ -114,14 +114,14 @@
         "text_PGJkmX": {
           "type": "text",
           "settings": {
-            "text": "<h2>Coming Soon<\/h2>",
+            "text": "<h5>Coming Soon<\/h5>",
             "text_style": "body"
           }
         },
         "button_eKTUfx": {
           "type": "button",
           "settings": {
-            "button_label": "SIGN UP FOR STUDIO UPDATES",
+            "button_label": "SIGN UP FOR FIRST ACCESS",
             "button_link": "shopify:\/\/pages\/studios",
             "button_style_secondary": false
           }
