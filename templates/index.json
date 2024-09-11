@@ -51,22 +51,30 @@
         "heading_n773QR": {
           "type": "heading",
           "settings": {
-            "heading": "Promotion Slot",
+            "heading": "Artist of the Month",
             "heading_size": "h1"
           }
         },
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<p>Info about this promotion slot<\/p>",
-            "text_style": "body"
+            "text": "<h3><strong>gyrofield<\/strong><\/h3>",
+            "text_style": "subtitle"
+          }
+        },
+        "caption_xBJgtQ": {
+          "type": "caption",
+          "settings": {
+            "caption": "Hong-Kong born, Bristol-based product gyrofield is one of the most exciting new wave talents in the UK electronic market. Plucking from garage, trance and techno whilst feeling grounded in a core DnB sonic identity, they’ve been picking up steam on the live circuit, with this coming autumn promising some of their biggest shows yet, including a Warehouse Project debut and an appearance at Overmono’s Pure Devotion take-over of The Prospect Building.",
+            "text_style": "subtitle",
+            "text_size": "medium"
           }
         },
         "button_Gw3kqU": {
           "type": "button",
           "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/contact",
+            "button_label": "LISTEN TO \"THESE HEAVENS\"",
+            "button_link": "shopify:\/\/products\/these-heavens",
             "button_style_secondary": false
           }
         }
@@ -74,9 +82,11 @@
       "block_order": [
         "heading_n773QR",
         "text_FmBMex",
+        "caption_xBJgtQ",
         "button_Gw3kqU"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_15.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
