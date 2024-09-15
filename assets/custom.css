@@ -259,3 +259,7 @@ footer .rte a {
     display: flex;
     justify-content: center !important;
 }
+
+.studio-form {
+    padding-top: 0 !important;
+}
