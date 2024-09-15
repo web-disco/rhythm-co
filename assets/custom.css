@@ -121,6 +121,10 @@ details[open] .modal-overlay::after,
 
 
 /* FOOTER */
+.footer-block--newsletter {
+    padding: 40px 0 !important;
+}
+
 footer .rte a {
     color: unset !important;
 }
@@ -128,7 +132,8 @@ footer .rte a {
 
 /* COMING SOON */
 .coming-soon {
-    height: 50svh;
+    /* height: 50svh; */
+    padding-top: 150px;
     display: grid;
     place-items: center;
 }
@@ -228,6 +233,12 @@ footer .rte a {
 /* ESSENTIALS SLIDER */
 
 /*  MEGA MENU */
+.header__menu-item,
+.menu-drawer__menu-item,
+.mega-menu__link {
+    font-family: OCR, monospace !important;
+}
+
 .mega-menu__list {
     display: grid !important;
     grid-template-columns: repeat(4, 1fr) !important;
@@ -242,4 +253,9 @@ footer .rte a {
 
 .price__container {
    font-size: calc(var(--font-heading-scale)* 1.3rem) !important;
+}
+
+.image-with-text__content {
+    display: flex;
+    justify-content: center !important;
 }
