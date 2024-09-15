@@ -15,25 +15,24 @@
         "section_color_scheme": ""
       }
     },
-    "newsletter_rVge9e": {
-      "type": "newsletter",
+    "studio_form_HrWaRF": {
+      "type": "studio-form",
       "blocks": {
-        "heading_N8zphP": {
-          "type": "heading",
+        "paragraph_pPNF6C": {
+          "type": "paragraph",
           "settings": {
-            "heading": "Early Studio Access",
-            "heading_size": "h2"
+            "text": "<p>Sign up for early studio access.<\/p>"
           }
         },
-        "email_form_UEkyPw": {
+        "email_form_QqMadk": {
           "type": "email_form",
           "settings": {
           }
         }
       },
       "block_order": [
-        "heading_N8zphP",
-        "email_form_UEkyPw"
+        "paragraph_pPNF6C",
+        "email_form_QqMadk"
       ],
       "settings": {
         "color_scheme": "",
@@ -45,6 +44,6 @@
   },
   "order": [
     "coming-soon",
-    "newsletter_rVge9e"
+    "studio_form_HrWaRF"
   ]
 }
