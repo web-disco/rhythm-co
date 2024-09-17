@@ -28,26 +28,26 @@
             "menu": "footer-shop-menu"
           }
         },
-        "link_list_BWPQKd": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Help",
-            "menu": "footer-help-menu"
-          }
-        },
         "link_list_cd8MRg": {
           "type": "link_list",
           "settings": {
             "heading": "About",
             "menu": "footer-about-menu"
           }
+        },
+        "link_list_BWPQKd": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Help",
+            "menu": "footer-help-menu"
+          }
         }
       },
       "block_order": [
         "text_bzeNrg",
         "link_list_LNtg3W",
-        "link_list_BWPQKd",
-        "link_list_cd8MRg"
+        "link_list_cd8MRg",
+        "link_list_BWPQKd"
       ],
       "settings": {
         "color_scheme": "scheme-1",
