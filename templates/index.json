@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "featured_records_ca3QVJ": {
@@ -27,11 +27,29 @@
             "text": "",
             "button_label": ""
           }
+        },
+        "product_ppcLwP": {
+          "type": "product",
+          "settings": {
+            "product": "whodunit-incl-terence-terry-niko-maxen-remixes-copy",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_fzHk7U": {
+          "type": "product",
+          "settings": {
+            "product": "fin-groove",
+            "text": "",
+            "button_label": ""
+          }
         }
       },
       "block_order": [
         "product_TzgfyL",
-        "product_NHb8ec"
+        "product_NHb8ec",
+        "product_ppcLwP",
+        "product_fzHk7U"
       ],
       "settings": {
         "section_color_scheme": "scheme-2"
@@ -58,7 +76,7 @@
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>gyrofield<\/strong><\/h3>",
+            "text": "<h3><strong>gyrofield</strong></h3>",
             "text_style": "subtitle"
           }
         },
@@ -74,7 +92,7 @@
           "type": "button",
           "settings": {
             "button_label": "LISTEN TO \"THESE HEAVENS\"",
-            "button_link": "shopify:\/\/products\/these-heavens",
+            "button_link": "shopify://products/these-heavens",
             "button_style_secondary": false
           }
         }
@@ -86,7 +104,7 @@
         "button_Gw3kqU"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_15.png",
+        "image": "shopify://shop_images/Frame_15.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -114,7 +132,7 @@
         "text_PGJkmX": {
           "type": "text",
           "settings": {
-            "text": "<h5>Coming Soon<\/h5>",
+            "text": "<h5>Coming Soon</h5>",
             "text_style": "body"
           }
         },
@@ -122,7 +140,7 @@
           "type": "button",
           "settings": {
             "button_label": "SIGN UP FOR FIRST ACCESS",
-            "button_link": "shopify:\/\/pages\/studios",
+            "button_link": "shopify://pages/studios",
             "button_style_secondary": false
           }
         }
@@ -133,7 +151,7 @@
         "button_eKTUfx"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/98344312300c293dcd69a47e06b7eb3e.jpg",
+        "image": "shopify://shop_images/98344312300c293dcd69a47e06b7eb3e.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
