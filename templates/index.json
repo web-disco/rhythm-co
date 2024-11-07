@@ -23,7 +23,15 @@
         "product_NHb8ec": {
           "type": "product",
           "settings": {
-            "product": "another-night-re-edit",
+            "product": "coolin-incl-demi-riquisimo-ocb-remixes",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_tJeJxW": {
+          "type": "product",
+          "settings": {
+            "product": "",
             "text": "",
             "button_label": ""
           }
@@ -48,6 +56,7 @@
       "block_order": [
         "product_TzgfyL",
         "product_NHb8ec",
+        "product_tJeJxW",
         "product_ppcLwP",
         "product_fzHk7U"
       ],
