@@ -17,21 +17,13 @@
           "settings": {
             "product": "these-heavens",
             "text": "",
-            "button_label": "Pre-Order"
+            "button_label": "Shop Now"
           }
         },
         "product_NHb8ec": {
           "type": "product",
           "settings": {
             "product": "coolin-incl-demi-riquisimo-ocb-remixes",
-            "text": "",
-            "button_label": ""
-          }
-        },
-        "product_tJeJxW": {
-          "type": "product",
-          "settings": {
-            "product": "",
             "text": "",
             "button_label": ""
           }
@@ -64,7 +56,6 @@
       "block_order": [
         "product_TzgfyL",
         "product_NHb8ec",
-        "product_tJeJxW",
         "product_XWJcN3",
         "product_ppcLwP",
         "product_fzHk7U"
