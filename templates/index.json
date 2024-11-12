@@ -36,14 +36,6 @@
             "button_label": ""
           }
         },
-        "product_dLPMT9": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "text": "",
-            "button_label": ""
-          }
-        },
         "product_ppcLwP": {
           "type": "product",
           "settings": {
@@ -65,7 +57,6 @@
         "product_TzgfyL",
         "product_NHb8ec",
         "product_XWJcN3",
-        "product_dLPMT9",
         "product_ppcLwP",
         "product_fzHk7U"
       ],
