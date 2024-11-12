@@ -36,6 +36,14 @@
             "button_label": ""
           }
         },
+        "product_XWJcN3": {
+          "type": "product",
+          "settings": {
+            "product": "get-get-down",
+            "text": "",
+            "button_label": ""
+          }
+        },
         "product_ppcLwP": {
           "type": "product",
           "settings": {
@@ -57,6 +65,7 @@
         "product_TzgfyL",
         "product_NHb8ec",
         "product_tJeJxW",
+        "product_XWJcN3",
         "product_ppcLwP",
         "product_fzHk7U"
       ],
