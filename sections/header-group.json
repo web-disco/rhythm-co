@@ -29,7 +29,7 @@
         "announcement_8htFVd": {
           "type": "announcement",
           "settings": {
-            "text": "ALL ORDERS PICK UP ONLY FOR NOW",
+            "text": "ALL ORDERS PICK UP ONLY AT 141 BATHURST",
             "link": ""
           }
         }
@@ -38,7 +38,7 @@
         "announcement_8htFVd"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
