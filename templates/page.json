@@ -26,21 +26,12 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_gFH3Jc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Option_3.png",
-            "title": "Jan 9th - Artist TBA",
-            "text": "<p>An intimate free in-store event. Coffee, tea, and non-alcoholic beverages available. Shop is open for hangs or digging. </p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_kD9CKJ": {
           "type": "column",
           "settings": {
-            "title": "Feb 1st TBA",
-            "text": "<p>Coming soon.</p>",
+            "image": "shopify://shop_images/New_Flyer_-_Full_00b745a3-9f80-46f2-90e3-91303ebe8555.png",
+            "title": "Feb 1st - Shuffling Wax",
+            "text": "<p>ALL WAX, NO FILLERS, NO B.S<br/>HOUSE/TECHNO/BREAKS/MINIMAL AND EVERYTHING IN BETWEEN.<br/></p>",
             "link_label": "",
             "link": ""
           }
@@ -48,15 +39,15 @@
         "column_cMMxVN": {
           "type": "column",
           "settings": {
-            "title": "Feb 8th TBA",
-            "text": "<p>Coming soon.</p>",
+            "image": "shopify://shop_images/Final_Bfast_Club.png",
+            "title": "Feb 8th - Breakfast Club",
+            "text": "<p>Start your day (or continue your night) with minimal dubs and house, premium coffee, and refreshing juices from Greenhouse Toronto. Breakfast menu designed and provided by Tasty Tay's Toronto.</p>",
             "link_label": "",
             "link": "https://ra.co/events/2046002"
           }
         }
       },
       "block_order": [
-        "column_gFH3Jc",
         "column_kD9CKJ",
         "column_cMMxVN"
       ],
