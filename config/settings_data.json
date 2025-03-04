@@ -429,7 +429,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".izyAddon span {color: white !important;}"
+      ".izyAddon span a {color: white !important;}"
     ]
   }
 }
