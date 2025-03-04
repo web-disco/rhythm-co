@@ -426,5 +426,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".izyAddon span {color: white !important;}"
+    ]
   }
 }
