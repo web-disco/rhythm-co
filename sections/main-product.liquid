@@ -466,7 +466,7 @@
               {% assign show_pickup_availability = false %}
             {% endif %}
 
-                            {{ show_pickup_availability }}
+                           <p style="color: white;"> {{ show_pickup_availability }}</p>
 
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
