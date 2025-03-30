@@ -12,10 +12,18 @@
     "featured_records_ca3QVJ": {
       "type": "featured-records",
       "blocks": {
+        "product_TxBVGR": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "text": "",
+            "button_label": ""
+          }
+        },
         "product_TzgfyL": {
           "type": "product",
           "settings": {
-            "product": "fragments-of-us-lp",
+            "product": "untitled-copy",
             "text": "",
             "button_label": "Shop Now"
           }
@@ -54,6 +62,7 @@
         }
       },
       "block_order": [
+        "product_TxBVGR",
         "product_TzgfyL",
         "product_NHb8ec",
         "product_XWJcN3",
