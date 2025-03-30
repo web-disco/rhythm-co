@@ -110,7 +110,7 @@
           "type": "button",
           "settings": {
             "button_label": "TICKES FOR (D.I.E) NOW ON SALE",
-            "button_link": "shopify://products/these-heavens",
+            "button_link": "https://ra.co/events/2085467",
             "button_style_secondary": false
           }
         }
