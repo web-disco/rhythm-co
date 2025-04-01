@@ -143,14 +143,14 @@
         "heading_RmMaaq": {
           "type": "heading",
           "settings": {
-            "heading": "Studio Bookings",
+            "heading": "Co-working Space",
             "heading_size": "h1"
           }
         },
         "text_PGJkmX": {
           "type": "text",
           "settings": {
-            "text": "<h5>Coming Soon</h5>",
+            "text": "<h5>Now available to book</h5>",
             "text_style": "body"
           }
         },
