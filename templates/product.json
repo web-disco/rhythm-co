@@ -102,13 +102,6 @@
             "text_style": "subtitle"
           }
         },
-        "text_4PkDzW": {
-          "type": "text",
-          "settings": {
-            "text": "Your booking includes 1x seat in the space, complimentary coffee/tea, access to wi-fi, charge ports, and access to our kitchenette (fridge, microwave, dry storage).",
-            "text_style": "uppercase"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {}
@@ -124,7 +117,6 @@
         "buy_buttons",
         "audioly_sticky_audio_player_product_preview_Kbdtq7",
         "text_n8QJck",
-        "text_4PkDzW",
         "description"
       ],
       "settings": {
