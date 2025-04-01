@@ -56,6 +56,13 @@
           "type": "shopify://apps/audioly-sticky-audio-player/blocks/product-preview/1f530410-ca0c-4485-98fc-b2daea5cb117",
           "settings": {}
         },
+        "text_4PkDzW": {
+          "type": "text",
+          "settings": {
+            "text": "Your booking includes 1x seat in the space, complimentary coffee/tea, access to wi-fi, charge ports, and access to our kitchenette (fridge, microwave, dry storage).",
+            "text_style": "uppercase"
+          }
+        },
         "text_n8QJck": {
           "type": "text",
           "settings": {
@@ -77,6 +84,7 @@
         "quantity_selector",
         "buy_buttons",
         "audioly_sticky_audio_player_product_preview_Kbdtq7",
+        "text_4PkDzW",
         "text_n8QJck",
         "description"
       ],
