@@ -157,8 +157,8 @@
         "button_eKTUfx": {
           "type": "button",
           "settings": {
-            "button_label": "SIGN UP FOR FIRST ACCESS",
-            "button_link": "shopify://pages/studios",
+            "button_label": "BOOK NOW",
+            "button_link": "https://rhythm.space/products/co-working-slot-day",
             "button_style_secondary": false
           }
         }
