@@ -94,7 +94,7 @@
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<h2><strong>Detroit In Effect (D.I.E)</strong></h2>",
+            "text": "<h2><strong>LIZZ (RO)</strong></h2>",
             "text_style": "subtitle"
           }
         },
@@ -109,7 +109,7 @@
         "button_Gw3kqU": {
           "type": "button",
           "settings": {
-            "button_label": "TICKETS FOR (D.I.E) NOW ON SALE",
+            "button_label": "TICKETS FOR LIZZ NOW ON SALE",
             "button_link": "https://ra.co/events/2085467",
             "button_style_secondary": false
           }
@@ -122,7 +122,7 @@
         "button_Gw3kqU"
       ],
       "settings": {
-        "image": "shopify://shop_images/DIE.png",
+        "image": "shopify://shop_images/LIZZ_DJ.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
