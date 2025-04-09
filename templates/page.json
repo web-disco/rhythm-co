@@ -45,11 +45,21 @@
             "link_label": "RSVP HERE",
             "link": ""
           }
+        },
+        "column_aChyzf": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_kD9CKJ",
-        "column_cMMxVN"
+        "column_cMMxVN",
+        "column_aChyzf"
       ],
       "settings": {
         "title": "Upcoming Events",
