@@ -30,7 +30,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Lizz_Flyer.png",
-            "title": "April 18th -    <a href=\"https://ra.co/events/2139728\" title=\"https://ra.co/events/2139728\">LIZZ (RO), MILIDI & MARY</a>",
+            "title": "<a href=\"https://ra.co/events/2139728\" title=\"https://ra.co/events/2139728\"> APRIL 18TH AT RHYTHM:     LIZZ  (RO,MILIDI & MARY</a>",
             "text": "<p>Rhythm welcomes Lizz— a key figure in the global microhouse scene, known for his sleek, groove-heavy sets and deep contributions to the Romanian sound. <br/><br/>Warming up the night are local talents Milidi and Mary, curating a journey through refined, leftfield minimal sounds.</p>",
             "link_label": "",
             "link": ""
@@ -40,7 +40,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/WhatsApp_Image_2025-04-09_at_15.08.35.jpg",
-            "title": "<a href=\"https://ra.co/events/2146029\" title=\"https://ra.co/events/2146029\">APRIL 24TH - SHUFFLING WAX </a>Paul Quzz, Lolo, Pepe Calles",
+            "title": "<a href=\"https://ra.co/events/2146029\" title=\"https://ra.co/events/2146029\">APRIL 24TH - SHUFFLING WAX </a><a href=\"https://ra.co/events/2146029\" title=\"https://ra.co/events/2146029\">Paul Quzz, Lolo, Pepe Calles</a>",
             "text": "<p>ALL WAX, NO FILLERS, NO B.S<br/>HOUSE/TECHNO/BREAKS/MINIMAL AND EVERYTHING IN BETWEEN.<br/><br/>THE PURPOSE OF THIS PARTY SERIES IS TO PRESERVE AND PROMOTE DJS/ARTISTS IN TORONTO THAT CONTINUE TO PUSH UNIQUE SOUNDS ON A 12” PIECE OF PLASTIC.</p>",
             "link_label": "",
             "link": ""
@@ -49,8 +49,9 @@
         "column_aChyzf": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Updated.png",
+            "title": "SATURDAY, MAY 3RD AT RHYTHM: BREAKFAST CLUB",
+            "text": "<p> Designed for the early risers and all-day dancers, we’re kicking off bright and early with music taking you through the morning and into the early afternoon.<br/><br/>Start your day (or continue your night) with minimal dubs and house, premium coffee, and refreshing juices.<br/></p>",
             "link_label": "",
             "link": ""
           }
