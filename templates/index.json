@@ -12,6 +12,14 @@
     "featured_records_ca3QVJ": {
       "type": "featured-records",
       "blocks": {
+        "product_ppcLwP": {
+          "type": "product",
+          "settings": {
+            "product": "raw-groove-3",
+            "text": "",
+            "button_label": ""
+          }
+        },
         "product_TzgfyL": {
           "type": "product",
           "settings": {
@@ -36,14 +44,6 @@
             "button_label": ""
           }
         },
-        "product_ppcLwP": {
-          "type": "product",
-          "settings": {
-            "product": "30-years-downtown",
-            "text": "",
-            "button_label": ""
-          }
-        },
         "product_fzHk7U": {
           "type": "product",
           "settings": {
@@ -54,10 +54,10 @@
         }
       },
       "block_order": [
+        "product_ppcLwP",
         "product_TzgfyL",
         "product_NHb8ec",
         "product_XWJcN3",
-        "product_ppcLwP",
         "product_fzHk7U"
       ],
       "settings": {
