@@ -15,17 +15,9 @@
         "product_TzgfyL": {
           "type": "product",
           "settings": {
-            "product": "untitled-copy",
+            "product": "lexica",
             "text": "",
             "button_label": "Shop Now"
-          }
-        },
-        "product_TxBVGR": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "text": "",
-            "button_label": ""
           }
         },
         "product_NHb8ec": {
@@ -63,7 +55,6 @@
       },
       "block_order": [
         "product_TzgfyL",
-        "product_TxBVGR",
         "product_NHb8ec",
         "product_XWJcN3",
         "product_ppcLwP",
