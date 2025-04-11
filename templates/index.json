@@ -12,6 +12,14 @@
     "featured_records_ca3QVJ": {
       "type": "featured-records",
       "blocks": {
+        "product_XWJcN3": {
+          "type": "product",
+          "settings": {
+            "product": "final-frontier-ep",
+            "text": "",
+            "button_label": ""
+          }
+        },
         "product_ppcLwP": {
           "type": "product",
           "settings": {
@@ -36,14 +44,6 @@
             "button_label": ""
           }
         },
-        "product_XWJcN3": {
-          "type": "product",
-          "settings": {
-            "product": "the-mood",
-            "text": "",
-            "button_label": ""
-          }
-        },
         "product_fzHk7U": {
           "type": "product",
           "settings": {
@@ -54,10 +54,10 @@
         }
       },
       "block_order": [
+        "product_XWJcN3",
         "product_ppcLwP",
         "product_TzgfyL",
         "product_NHb8ec",
-        "product_XWJcN3",
         "product_fzHk7U"
       ],
       "settings": {
