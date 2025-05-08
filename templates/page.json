@@ -26,16 +26,6 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_aChyzf": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-05-08_at_18.31.00.png",
-            "title": "<a href=\"https://ra.co/events/2129528\" title=\"https://ra.co/events/2129528\">MAY 31ST:  CROSS-POLLINATE </a>",
-            "text": "<p>Now that the sun is shining and flowers are blooming, it’s time to return to the dancefloor for the next edition of Garden Disco & Rhythmic Roots’ Cross-Pollinate day-to-night party!<br/><br/>Soulful house selections of Carlos Estebban, Iced Misto, Nicholas Nothing, and Shen.<br/></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_kD9CKJ": {
           "type": "column",
           "settings": {
@@ -49,18 +39,28 @@
         "column_cMMxVN": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2025-04-09_at_15.08.35.jpg",
-            "title": "<a href=\"https://ra.co/events/2146029\" title=\"https://ra.co/events/2146029\">APRIL 24TH - SHUFFLING WAX Paul Quzz, Lolo, Pepe Calles</a>",
-            "text": "<p>ALL WAX, NO FILLERS, NO B.S<br/>HOUSE/TECHNO/BREAKS/MINIMAL AND EVERYTHING IN BETWEEN.<br/><br/>THE PURPOSE OF THIS PARTY SERIES IS TO PRESERVE AND PROMOTE DJS/ARTISTS IN TORONTO THAT CONTINUE TO PUSH UNIQUE SOUNDS ON A 12” PIECE OF PLASTIC.</p>",
+            "image": "shopify://shop_images/Voodoos_and_Taboos.png",
+            "title": "<a href=\"https://ra.co/events/2166343\" title=\"https://ra.co/events/2166343\">MAY 30TH: AFALINAS LABEL NIGHT: VOODOOS AND TABOOS</a>",
+            "text": "<p>Afalinas Records unveils the \"Intercity EP,\" the latest vinyl release from label founder Olekhar. Known for his deep vinyl knowledge and eclectic sets, Olekhar will guide us through the EP's sonic journey, blending unreleased tracks with his signature grooves.​<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aChyzf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-05-08_at_18.31.00.png",
+            "title": "<a href=\"https://ra.co/events/2129528\" title=\"https://ra.co/events/2129528\">MAY 31ST:  CROSS-POLLINATE </a>",
+            "text": "<p>Now that the sun is shining and flowers are blooming, it’s time to return to the dancefloor for the next edition of Garden Disco & Rhythmic Roots’ Cross-Pollinate day-to-night party!<br/><br/>Soulful house selections of Carlos Estebban, Iced Misto, Nicholas Nothing, and Shen.<br/></p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_aChyzf",
         "column_kD9CKJ",
-        "column_cMMxVN"
+        "column_cMMxVN",
+        "column_aChyzf"
       ],
       "settings": {
         "title": "Upcoming Events",
