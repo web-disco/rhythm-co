@@ -94,7 +94,7 @@
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<h1>Voodoos and Taboos</h1>",
+            "text": "<h2>Voodoos and Taboos</h2>",
             "text_style": "subtitle"
           }
         },
@@ -109,7 +109,7 @@
         "button_Gw3kqU": {
           "type": "button",
           "settings": {
-            "button_label": "TICKETS FOR VOODS AND TABOOS",
+            "button_label": "TICKETS FOR VOODOOS AND TABOOS",
             "button_link": "https://ra.co/events/2166343",
             "button_style_secondary": false
           }
@@ -124,7 +124,7 @@
       "settings": {
         "image": "shopify://shop_images/Voodoos_and_Taboos.jpg",
         "height": "small",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
