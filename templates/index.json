@@ -20,10 +20,18 @@
             "button_label": ""
           }
         },
-        "product_ppcLwP": {
+        "product_44CYA4": {
           "type": "product",
           "settings": {
-            "product": "raw-groove-3",
+            "product": "annus-alchemicus-mini-lp",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_dyWgiV": {
+          "type": "product",
+          "settings": {
+            "product": "fragments-of-us-lp",
             "text": "",
             "button_label": ""
           }
@@ -55,7 +63,8 @@
       },
       "block_order": [
         "product_XWJcN3",
-        "product_ppcLwP",
+        "product_44CYA4",
+        "product_dyWgiV",
         "product_TzgfyL",
         "product_NHb8ec",
         "product_NGq74J"
