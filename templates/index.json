@@ -94,14 +94,14 @@
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<h2><strong>LIZZ (RO)</strong></h2>",
+            "text": "<h1>Voodoos and Taboos</h1>",
             "text_style": "subtitle"
           }
         },
         "caption_xBJgtQ": {
           "type": "caption",
           "settings": {
-            "caption": "Based in Romania, Lizz, has been listening to electronic music for  15-16 years, and since then has developed a passion for mixing and production. He is well known, for his releases on the MOMENT Records and on leading labels such as EASTENDERZ, Hoxton, Moment, Playedby or Valioso Records. He has a flourishing career, receiving the support of artists like Petre Inspirescu, Rhadoo, Barac, Mihigh and many more. In 2016 he becomes a part of Sunwaves and Mioritmic Festivals, and gigs in cities like Berlin, Moscow, Paris and London become his standard. Lizz will be touching down in Toronto at Rhythm on April 18th - See you there!",
+            "caption": "Voodoos & Taboos are an enigmatic Italian DJ and production duo who have carved a niche in the underground house and techno scenes with their genre-blending approach. Emerging in 2019, they quickly gained attention for their unique fusion of acid house, electro, breakbeat, and 90s-inspired tech house, infused with a punk DIY ethos. They'll be dropping by Rhythm on May 30th. Don't miss out!",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -109,8 +109,8 @@
         "button_Gw3kqU": {
           "type": "button",
           "settings": {
-            "button_label": "TICKETS FOR LIZZ NOW ON SALE",
-            "button_link": "https://ra.co/events/2139728",
+            "button_label": "TICKETS FOR VOODS AND TABOOS",
+            "button_link": "https://ra.co/events/2166343",
             "button_style_secondary": false
           }
         }
