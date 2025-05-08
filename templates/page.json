@@ -26,12 +26,22 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
+        "column_aChyzf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-05-08_at_18.31.00.png",
+            "title": "<a href=\"https://ra.co/events/2129528\" title=\"https://ra.co/events/2129528\">MAY 31ST:  CROSS-POLLINATE </a>",
+            "text": "<p>Now that the sun is shining and flowers are blooming, it’s time to return to the dancefloor for the next edition of Garden Disco & Rhythmic Roots’ Cross-Pollinate day-to-night party!<br/><br/>Soulful house selections of Carlos Estebban, Iced Misto, Nicholas Nothing, and Shen.<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_kD9CKJ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Lizz_Flyer.png",
-            "title": "<a href=\"https://ra.co/events/2139728\" title=\"https://ra.co/events/2139728\"> APRIL 18TH AT RHYTHM:     LIZZ  (RO,MILIDI & MARY</a>",
-            "text": "<p>Rhythm welcomes Lizz— a key figure in the global microhouse scene, known for his sleek, groove-heavy sets and deep contributions to the Romanian sound. <br/><br/>Warming up the night are local talents Milidi and Mary, curating a journey through refined, leftfield minimal sounds.</p>",
+            "image": "shopify://shop_images/Screenshot_2025-05-08_at_18.29.47.png",
+            "title": "<a href=\"https://ra.co/events/2121203\" title=\"https://ra.co/events/2121203\">MAY 10TH: UNDRGRND</a>",
+            "text": "<p>Join us for Rhythm's first 2 room event with visuals by Mehrak Tehrani and Samuel Wasserman will feature experimental animation work, enveloping the Main Room in dialogue with an installation by [Spaceplanner] aka NEGIN. Together, they create a layered experience where light, form, and movement unfold in real time.</p>",
             "link_label": "",
             "link": ""
           }
@@ -40,27 +50,17 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/WhatsApp_Image_2025-04-09_at_15.08.35.jpg",
-            "title": "<a href=\"https://ra.co/events/2146029\" title=\"https://ra.co/events/2146029\">APRIL 24TH - SHUFFLING WAX </a><a href=\"https://ra.co/events/2146029\" title=\"https://ra.co/events/2146029\">Paul Quzz, Lolo, Pepe Calles</a>",
+            "title": "<a href=\"https://ra.co/events/2146029\" title=\"https://ra.co/events/2146029\">APRIL 24TH - SHUFFLING WAX Paul Quzz, Lolo, Pepe Calles</a>",
             "text": "<p>ALL WAX, NO FILLERS, NO B.S<br/>HOUSE/TECHNO/BREAKS/MINIMAL AND EVERYTHING IN BETWEEN.<br/><br/>THE PURPOSE OF THIS PARTY SERIES IS TO PRESERVE AND PROMOTE DJS/ARTISTS IN TORONTO THAT CONTINUE TO PUSH UNIQUE SOUNDS ON A 12” PIECE OF PLASTIC.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_aChyzf": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Updated.png",
-            "title": "<a href=\"https://ra.co/events/2146304\" title=\"https://ra.co/events/2146304\">SATURDAY, MAY 3RD AT RHYTHM: BREAKFAST CLUB </a>",
-            "text": "<p> Designed for the early risers and all-day dancers, we’re kicking off bright and early with music taking you through the morning and into the early afternoon.<br/><br/>Start your day (or continue your night) with minimal dubs and house, premium coffee, and refreshing juices.<br/></p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
+        "column_aChyzf",
         "column_kD9CKJ",
-        "column_cMMxVN",
-        "column_aChyzf"
+        "column_cMMxVN"
       ],
       "settings": {
         "title": "Upcoming Events",
