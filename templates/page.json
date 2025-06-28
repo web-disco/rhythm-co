@@ -26,48 +26,26 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_kD9CKJ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-05-08_at_18.29.47.png",
-            "title": "<a href=\"https://ra.co/events/2121203\" title=\"https://ra.co/events/2121203\">MAY 10TH: UNDRGRND</a>",
-            "text": "<p>Join us for Rhythm's first 2 room event with visuals by Mehrak Tehrani and Samuel Wasserman will feature experimental animation work, enveloping the Main Room in dialogue with an installation by [Spaceplanner] aka NEGIN. Together, they create a layered experience where light, form, and movement unfold in real time.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_cMMxVN": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Voodoos_and_Taboos.png",
-            "title": "<a href=\"https://ra.co/events/2166343\" title=\"https://ra.co/events/2166343\">MAY 30TH: AFALINAS LABEL NIGHT: VOODOOS AND TABOOS</a>",
-            "text": "<p>Afalinas Records unveils the \"Intercity EP,\" the latest vinyl release from label founder Olekhar. Known for his deep vinyl knowledge and eclectic sets, Olekhar will guide us through the EP's sonic journey, blending unreleased tracks with his signature grooves.​<br/></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_aChyzf": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-05-08_at_18.31.00.png",
-            "title": "<a href=\"https://ra.co/events/2129528\" title=\"https://ra.co/events/2129528\">MAY 31ST:  CROSS-POLLINATE </a>",
-            "text": "<p>Now that the sun is shining and flowers are blooming, it’s time to return to the dancefloor for the next edition of Garden Disco & Rhythmic Roots’ Cross-Pollinate day-to-night party!<br/><br/>Soulful house selections of Carlos Estebban, Iced Misto, Nicholas Nothing, and Shen.<br/></p>",
+            "image": "shopify://shop_images/WhatsApp_Image_2025-06-23_at_12.54.18_PM.jpg",
+            "title": "<a href=\"https://ra.co/events/2199819\" target=\"_blank\" title=\"https://ra.co/events/2199819\">PRICHINDEL (RO) - JULY 4TH</a>",
+            "text": "<p>Hailing from Romania, Prichindel brings a distinct, joy-fueled energy to the dancefloor. As co-founder of Tonomat Records, he’s been instrumental in shaping a new wave of Romanian electronic music—one that’s playful, genre-fluid, and deeply rooted in groove.</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_kD9CKJ",
-        "column_cMMxVN",
         "column_aChyzf"
       ],
       "settings": {
         "title": "Upcoming Events",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "image_width": "half",
+        "image_ratio": "portrait",
+        "columns_desktop": 1,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "TICKETS",
