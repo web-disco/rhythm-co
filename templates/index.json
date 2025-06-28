@@ -94,8 +94,8 @@
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<h2>Prichindel</h2>",
-            "text_style": "body"
+            "text": "<h2>Prichindel (RO)</h2>",
+            "text_style": "subtitle"
           }
         },
         "caption_xBJgtQ": {
