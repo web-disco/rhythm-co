@@ -94,14 +94,14 @@
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<h2>Voodoos and Taboos</h2>",
-            "text_style": "subtitle"
+            "text": "<h2>Prichindel</h2>",
+            "text_style": "body"
           }
         },
         "caption_xBJgtQ": {
           "type": "caption",
           "settings": {
-            "caption": "Voodoos & Taboos are an enigmatic Italian DJ and production duo who have carved a niche in the underground house and techno scenes with their genre-blending approach. Emerging in 2019, they quickly gained attention for their unique fusion of acid house, electro, breakbeat, and 90s-inspired tech house, infused with a punk DIY ethos. They'll be dropping by Rhythm on May 30th. Don't miss out!",
+            "caption": "Hailing from Romania, Prichindel brings a distinct, joy-fueled energy to the dancefloor. As co-founder of Tonomat Records, he’s been instrumental in shaping a new wave of Romanian electronic music—one that’s playful, genre-fluid, and deeply rooted in groove.",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -109,8 +109,8 @@
         "button_Gw3kqU": {
           "type": "button",
           "settings": {
-            "button_label": "TICKETS FOR VOODOOS AND TABOOS",
-            "button_link": "https://ra.co/events/2166343",
+            "button_label": "TICKETS FOR PRICHINDEL",
+            "button_link": "https://ra.co/events/2199819",
             "button_style_secondary": false
           }
         }
@@ -122,7 +122,7 @@
         "button_Gw3kqU"
       ],
       "settings": {
-        "image": "shopify://shop_images/Voodoos_and_Taboos.jpg",
+        "image": "shopify://shop_images/prichindel.jpg",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
