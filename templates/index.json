@@ -12,10 +12,10 @@
     "featured_records_ca3QVJ": {
       "type": "featured-records",
       "blocks": {
-        "product_XWJcN3": {
+        "product_NGq74J": {
           "type": "product",
           "settings": {
-            "product": "fermented-grooves-vol-4",
+            "product": "two-opposites",
             "text": "",
             "button_label": ""
           }
@@ -51,23 +51,14 @@
             "text": "",
             "button_label": ""
           }
-        },
-        "product_NGq74J": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "text": "",
-            "button_label": ""
-          }
         }
       },
       "block_order": [
-        "product_XWJcN3",
+        "product_NGq74J",
         "product_44CYA4",
         "product_dyWgiV",
         "product_TzgfyL",
-        "product_NHb8ec",
-        "product_NGq74J"
+        "product_NHb8ec"
       ],
       "settings": {
         "section_color_scheme": "scheme-5"
