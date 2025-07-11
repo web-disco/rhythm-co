@@ -27,11 +27,38 @@
             "text": "",
             "button_label": ""
           }
+        },
+        "product_Q6gYCx": {
+          "type": "product",
+          "settings": {
+            "product": "tea-ep",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_9Fp76U": {
+          "type": "product",
+          "settings": {
+            "product": "ten-years-of-frole-2x12",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_UBp9Tq": {
+          "type": "product",
+          "settings": {
+            "product": "hit-piece",
+            "text": "",
+            "button_label": ""
+          }
         }
       },
       "block_order": [
         "product_NGq74J",
-        "product_UCe7z8"
+        "product_UCe7z8",
+        "product_Q6gYCx",
+        "product_9Fp76U",
+        "product_UBp9Tq"
       ],
       "settings": {
         "section_color_scheme": "scheme-5"
