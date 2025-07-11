@@ -12,6 +12,14 @@
     "featured_records_ca3QVJ": {
       "type": "featured-records",
       "blocks": {
+        "product_UzhfTm": {
+          "type": "product",
+          "settings": {
+            "product": "yuna-imprint-001",
+            "text": "",
+            "button_label": ""
+          }
+        },
         "product_XWJcN3": {
           "type": "product",
           "settings": {
@@ -20,54 +28,28 @@
             "button_label": ""
           }
         },
-        "product_44CYA4": {
-          "type": "product",
-          "settings": {
-            "product": "annus-alchemicus-mini-lp",
-            "text": "",
-            "button_label": ""
-          }
-        },
-        "product_dyWgiV": {
-          "type": "product",
-          "settings": {
-            "product": "fragments-of-us-lp",
-            "text": "",
-            "button_label": ""
-          }
-        },
-        "product_TzgfyL": {
-          "type": "product",
-          "settings": {
-            "product": "lexica",
-            "text": "",
-            "button_label": "Shop Now"
-          }
-        },
-        "product_NHb8ec": {
-          "type": "product",
-          "settings": {
-            "product": "ministry-of-wish",
-            "text": "",
-            "button_label": ""
-          }
-        },
         "product_NGq74J": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "galaxico-copy",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_trTxtp": {
+          "type": "product",
+          "settings": {
+            "product": "two-opposites",
             "text": "",
             "button_label": ""
           }
         }
       },
       "block_order": [
+        "product_UzhfTm",
         "product_XWJcN3",
-        "product_44CYA4",
-        "product_dyWgiV",
-        "product_TzgfyL",
-        "product_NHb8ec",
-        "product_NGq74J"
+        "product_NGq74J",
+        "product_trTxtp"
       ],
       "settings": {
         "section_color_scheme": "scheme-5"
