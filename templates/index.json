@@ -12,53 +12,62 @@
     "featured_records_ca3QVJ": {
       "type": "featured-records",
       "blocks": {
+        "product_XWJcN3": {
+          "type": "product",
+          "settings": {
+            "product": "fermented-grooves-vol-4",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_44CYA4": {
+          "type": "product",
+          "settings": {
+            "product": "annus-alchemicus-mini-lp",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_dyWgiV": {
+          "type": "product",
+          "settings": {
+            "product": "fragments-of-us-lp",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_TzgfyL": {
+          "type": "product",
+          "settings": {
+            "product": "lexica",
+            "text": "",
+            "button_label": "Shop Now"
+          }
+        },
+        "product_NHb8ec": {
+          "type": "product",
+          "settings": {
+            "product": "ministry-of-wish",
+            "text": "",
+            "button_label": ""
+          }
+        },
         "product_NGq74J": {
           "type": "product",
           "settings": {
-            "product": "two-opposites",
-            "text": "",
-            "button_label": ""
-          }
-        },
-        "product_UCe7z8": {
-          "type": "product",
-          "settings": {
-            "product": "hypnotic-mindscapes-vol-03-copy-1",
-            "text": "",
-            "button_label": ""
-          }
-        },
-        "product_Q6gYCx": {
-          "type": "product",
-          "settings": {
-            "product": "tea-ep",
-            "text": "",
-            "button_label": ""
-          }
-        },
-        "product_9Fp76U": {
-          "type": "product",
-          "settings": {
-            "product": "ten-years-of-frole-2x12",
-            "text": "",
-            "button_label": ""
-          }
-        },
-        "product_UBp9Tq": {
-          "type": "product",
-          "settings": {
-            "product": "hit-piece",
+            "product": "",
             "text": "",
             "button_label": ""
           }
         }
       },
       "block_order": [
-        "product_NGq74J",
-        "product_UCe7z8",
-        "product_Q6gYCx",
-        "product_9Fp76U",
-        "product_UBp9Tq"
+        "product_XWJcN3",
+        "product_44CYA4",
+        "product_dyWgiV",
+        "product_TzgfyL",
+        "product_NHb8ec",
+        "product_NGq74J"
       ],
       "settings": {
         "section_color_scheme": "scheme-5"
@@ -85,14 +94,14 @@
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<h2>Prichindel (RO)</h2>",
+            "text": "<h2>NICOLA CRUZ (</h2>",
             "text_style": "subtitle"
           }
         },
         "caption_xBJgtQ": {
           "type": "caption",
           "settings": {
-            "caption": "Hailing from Romania, Prichindel brings a distinct, joy-fueled energy to the dancefloor. As co-founder of Tonomat Records, he’s been instrumental in shaping a new wave of Romanian electronic music—one that’s playful, genre-fluid, and deeply rooted in groove.",
+            "caption": "Nicola Cruz is  an Equatorian DJ and Producer known for his distinctive style that blends traditional South American sounds with electronic music, often incorporating elements like Andean folk instruments, polyrhythmic percussion, and dub production techniques. He has released music on various labels, including ZZK Records and Multi Culti, and has performed at major international festivals like Sonar, Glastonbury, and Berghain. Next, he will be gracing Rhythm on August 16th.",
             "text_style": "subtitle",
             "text_size": "medium"
           }
