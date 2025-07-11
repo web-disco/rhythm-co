@@ -20,34 +20,10 @@
             "button_label": ""
           }
         },
-        "product_44CYA4": {
+        "product_UCe7z8": {
           "type": "product",
           "settings": {
-            "product": "annus-alchemicus-mini-lp",
-            "text": "",
-            "button_label": ""
-          }
-        },
-        "product_dyWgiV": {
-          "type": "product",
-          "settings": {
-            "product": "fragments-of-us-lp",
-            "text": "",
-            "button_label": ""
-          }
-        },
-        "product_TzgfyL": {
-          "type": "product",
-          "settings": {
-            "product": "lexica",
-            "text": "",
-            "button_label": "Shop Now"
-          }
-        },
-        "product_NHb8ec": {
-          "type": "product",
-          "settings": {
-            "product": "ministry-of-wish",
+            "product": "hypnotic-mindscapes-vol-03-copy-1",
             "text": "",
             "button_label": ""
           }
@@ -55,10 +31,7 @@
       },
       "block_order": [
         "product_NGq74J",
-        "product_44CYA4",
-        "product_dyWgiV",
-        "product_TzgfyL",
-        "product_NHb8ec"
+        "product_UCe7z8"
       ],
       "settings": {
         "section_color_scheme": "scheme-5"
