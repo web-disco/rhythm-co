@@ -94,7 +94,7 @@
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<h2>NICOLA CRUZ (</h2>",
+            "text": "<h2>NICOLA CRUZ (EQ)</h2>",
             "text_style": "subtitle"
           }
         },
@@ -109,7 +109,7 @@
         "button_Gw3kqU": {
           "type": "button",
           "settings": {
-            "button_label": "TICKETS FOR PRICHINDEL",
+            "button_label": "TICKETS FOR NICOLA CRUZ",
             "button_link": "https://ra.co/events/2199819",
             "button_style_secondary": false
           }
