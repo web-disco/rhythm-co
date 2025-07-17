@@ -29,8 +29,8 @@
         "column_aChyzf": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/5.png",
-            "title": "JULY 26 - TBA",
+            "image": "shopify://shop_images/New_Breakfast_Club_Flyer_1.jpg",
+            "title": "JULY 26 - BREAKFAST CLUB (OVERTIME EDITION)",
             "text": "",
             "link_label": "",
             "link": ""
@@ -77,7 +77,7 @@
           "type": "button",
           "settings": {
             "button_label": "EVENT REQUEST FORM",
-            "button_link": "https://forms.clickup.com/9011245313/f/8chtc81-1211/KJHJOJ4J0OL5JLC98E",
+            "button_link": "https://airtable.com/appo6Rmd9u6q7HRuc/shrXw6xvQZpTqGyjS",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
