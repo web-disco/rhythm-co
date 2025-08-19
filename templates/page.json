@@ -26,16 +26,6 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_aChyzf": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/BC.jpg",
-            "title": "SEPT 13 - BREAKFAST CLUB WITH LOFI BAGLES",
-            "text": "<p>Canadian Techno Legend and Global Sound System Shaker Patrick DSP joins us from Berlin, spearheading the decks for a night of Dark, Hard, Underground Techno.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_fWFHBM": {
           "type": "column",
           "settings": {
@@ -45,11 +35,21 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_aChyzf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BC.jpg",
+            "title": "SEPT 13 - BREAKFAST CLUB WITH LOFI BAGLES",
+            "text": "<p>Canadian Techno Legend and Global Sound System Shaker Patrick DSP joins us from Berlin, spearheading the decks for a night of Dark, Hard, Underground Techno.</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "column_aChyzf",
-        "column_fWFHBM"
+        "column_fWFHBM",
+        "column_aChyzf"
       ],
       "settings": {
         "title": "",
