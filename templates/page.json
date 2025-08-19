@@ -31,7 +31,7 @@
           "settings": {
             "image": "shopify://shop_images/BC.jpg",
             "title": "SEPT 13 - BREAKFAST CLUB WITH LOFI BAGLES",
-            "text": "",
+            "text": "<p>Canadian Techno Legend and Global Sound System Shaker Patrick DSP joins us from Berlin, spearheading the decks for a night of Dark, Hard, Underground Techno.</p>",
             "link_label": "",
             "link": ""
           }
@@ -41,7 +41,7 @@
           "settings": {
             "image": "shopify://shop_images/Screenshot_2025-08-19_at_17.05.19.png",
             "title": "SEPT 23 - THE BLACK GATE PT.1 -     PATRICK DSP",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>in collaboration with Rhythm, Constanz, and Gardiner Express, we march forth to 'The Black Gate'. Canadian Techno Legend and Global Sound System Shaker Patrick DSP joins us from Berlin, spearheading the decks for a night of Dark, Hard, Underground Techno.</p>",
             "link_label": "",
             "link": ""
           }
@@ -52,7 +52,7 @@
         "column_fWFHBM"
       ],
       "settings": {
-        "title": "in collaboration with Rhythm, Constanz, and Gardiner Express, we march forth to 'The Black Gate'.",
+        "title": "",
         "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "portrait",
