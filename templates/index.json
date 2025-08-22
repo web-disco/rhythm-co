@@ -150,6 +150,7 @@
         "text_PGJkmX",
         "button_eKTUfx"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/5.jpg",
         "height": "adapt",
