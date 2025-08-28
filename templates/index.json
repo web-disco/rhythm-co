@@ -12,18 +12,18 @@
     "featured_records_ca3QVJ": {
       "type": "featured-records",
       "blocks": {
-        "product_UzhfTm": {
-          "type": "product",
-          "settings": {
-            "product": "yuna-imprint-001",
-            "text": "",
-            "button_label": ""
-          }
-        },
         "product_XWJcN3": {
           "type": "product",
           "settings": {
             "product": "fermented-grooves-vol-4",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_UzhfTm": {
+          "type": "product",
+          "settings": {
+            "product": "yuna-imprint-001",
             "text": "",
             "button_label": ""
           }
@@ -43,13 +43,31 @@
             "text": "",
             "button_label": ""
           }
+        },
+        "product_Kecr4w": {
+          "type": "product",
+          "settings": {
+            "product": "00am002",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_yQ8Lwj": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "text": "",
+            "button_label": ""
+          }
         }
       },
       "block_order": [
-        "product_UzhfTm",
         "product_XWJcN3",
+        "product_UzhfTm",
         "product_NGq74J",
-        "product_trTxtp"
+        "product_trTxtp",
+        "product_Kecr4w",
+        "product_yQ8Lwj"
       ],
       "settings": {
         "section_color_scheme": "scheme-5"
