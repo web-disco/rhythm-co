@@ -13,6 +13,7 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-3",
         "show_line_separator": false,
@@ -37,6 +38,7 @@
       "block_order": [
         "announcement_8htFVd"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "color_scheme": "scheme-3",
