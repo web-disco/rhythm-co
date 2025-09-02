@@ -20,42 +20,26 @@
             "button_label": ""
           }
         },
-        "product_UzhfTm": {
-          "type": "product",
-          "settings": {
-            "product": "yuna-imprint-001",
-            "text": "",
-            "button_label": ""
-          }
-        },
-        "product_NGq74J": {
-          "type": "product",
-          "settings": {
-            "product": "galaxico-copy",
-            "text": "",
-            "button_label": ""
-          }
-        },
-        "product_trTxtp": {
-          "type": "product",
-          "settings": {
-            "product": "two-opposites",
-            "text": "",
-            "button_label": ""
-          }
-        },
-        "product_Kecr4w": {
-          "type": "product",
-          "settings": {
-            "product": "00am002",
-            "text": "",
-            "button_label": ""
-          }
-        },
         "product_yQ8Lwj": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "untitled",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_mbbCF9": {
+          "type": "product",
+          "settings": {
+            "product": "les-gout",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_ALPpCF": {
+          "type": "product",
+          "settings": {
+            "product": "hot-mess-ep",
             "text": "",
             "button_label": ""
           }
@@ -63,11 +47,9 @@
       },
       "block_order": [
         "product_XWJcN3",
-        "product_UzhfTm",
-        "product_NGq74J",
-        "product_trTxtp",
-        "product_Kecr4w",
-        "product_yQ8Lwj"
+        "product_yQ8Lwj",
+        "product_mbbCF9",
+        "product_ALPpCF"
       ],
       "settings": {
         "section_color_scheme": "scheme-5"
