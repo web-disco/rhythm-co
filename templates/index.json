@@ -12,18 +12,18 @@
     "featured_records_ca3QVJ": {
       "type": "featured-records",
       "blocks": {
-        "product_mbbCF9": {
-          "type": "product",
-          "settings": {
-            "product": "les-gout",
-            "text": "",
-            "button_label": ""
-          }
-        },
         "product_yQ8Lwj": {
           "type": "product",
           "settings": {
             "product": "untitled",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_mbbCF9": {
+          "type": "product",
+          "settings": {
+            "product": "les-gout",
             "text": "",
             "button_label": ""
           }
@@ -46,8 +46,8 @@
         }
       },
       "block_order": [
-        "product_mbbCF9",
         "product_yQ8Lwj",
+        "product_mbbCF9",
         "product_XWJcN3",
         "product_ALPpCF"
       ],
