@@ -12,10 +12,10 @@
     "featured_records_ca3QVJ": {
       "type": "featured-records",
       "blocks": {
-        "product_XWJcN3": {
+        "product_mbbCF9": {
           "type": "product",
           "settings": {
-            "product": "leo-mirjam-incl-legowelt-remix",
+            "product": "les-gout",
             "text": "",
             "button_label": ""
           }
@@ -28,10 +28,10 @@
             "button_label": ""
           }
         },
-        "product_mbbCF9": {
+        "product_XWJcN3": {
           "type": "product",
           "settings": {
-            "product": "les-gout",
+            "product": "leo-mirjam-incl-legowelt-remix",
             "text": "",
             "button_label": ""
           }
@@ -46,9 +46,9 @@
         }
       },
       "block_order": [
-        "product_XWJcN3",
-        "product_yQ8Lwj",
         "product_mbbCF9",
+        "product_yQ8Lwj",
+        "product_XWJcN3",
         "product_ALPpCF"
       ],
       "settings": {
