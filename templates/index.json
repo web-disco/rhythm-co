@@ -175,7 +175,7 @@
         "heading_UwVP8P": {
           "type": "heading",
           "settings": {
-            "heading": "Records",
+            "heading": "Shop our records",
             "heading_size": "h1"
           }
         },
@@ -204,8 +204,8 @@
       "settings": {
         "image": "shopify://shop_images/Screenshot_2025-09-25_at_1.52.21_PM.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
+        "desktop_image_width": "small",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -222,7 +222,7 @@
     "featured_records_ca3QVJ",
     "essentials_slider_4Jdkgx",
     "image_with_text_EEn6jt",
-    "image_with_text_PgkTUz",
-    "image_with_text_xQxCGj"
+    "image_with_text_xQxCGj",
+    "image_with_text_PgkTUz"
   ]
 }
