@@ -51,12 +51,14 @@
         "product_XWJcN3",
         "product_ALPpCF"
       ],
+      "disabled": true,
       "settings": {
         "section_color_scheme": "scheme-5"
       }
     },
     "essentials_slider_4Jdkgx": {
       "type": "essentials-slider",
+      "disabled": true,
       "settings": {
         "section_color_scheme": "",
         "title": "This Week's Staff picks",
@@ -166,12 +168,61 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "image_with_text_xQxCGj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UwVP8P": {
+          "type": "heading",
+          "settings": {
+            "heading": "Records",
+            "heading_size": "h1"
+          }
+        },
+        "text_rAC7y4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have over 600 records spanning everthing from techno, dub, electro, progressive, minimal, UKG, house and so much more.   </p>",
+            "text_style": "body"
+          }
+        },
+        "button_Urach4": {
+          "type": "button",
+          "settings": {
+            "button_label": "See the full collection here",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UwVP8P",
+        "text_rAC7y4",
+        "button_Urach4"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2025-09-25_at_1.52.21_PM.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "featured_records_ca3QVJ",
     "essentials_slider_4Jdkgx",
     "image_with_text_EEn6jt",
-    "image_with_text_PgkTUz"
+    "image_with_text_PgkTUz",
+    "image_with_text_xQxCGj"
   ]
 }
