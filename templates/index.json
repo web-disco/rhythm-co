@@ -65,6 +65,54 @@
         "collection": "essentials"
       }
     },
+    "image_with_text_xQxCGj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UwVP8P": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop our records",
+            "heading_size": "h1"
+          }
+        },
+        "text_rAC7y4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have over 600 records spanning everthing from techno, dub, electro, progressive, minimal, UKG, house and so much more.   </p>",
+            "text_style": "body"
+          }
+        },
+        "button_Urach4": {
+          "type": "button",
+          "settings": {
+            "button_label": "See the full collection here",
+            "button_link": "https://rhythm.common-ground.io",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UwVP8P",
+        "text_rAC7y4",
+        "button_Urach4"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2025-09-25_at_1.52.21_PM.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_EEn6jt": {
       "type": "image-with-text",
       "blocks": {
@@ -121,54 +169,6 @@
         "padding_bottom": 100
       }
     },
-    "image_with_text_xQxCGj": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_UwVP8P": {
-          "type": "heading",
-          "settings": {
-            "heading": "Shop our records",
-            "heading_size": "h1"
-          }
-        },
-        "text_rAC7y4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We have over 600 records spanning everthing from techno, dub, electro, progressive, minimal, UKG, house and so much more.   </p>",
-            "text_style": "body"
-          }
-        },
-        "button_Urach4": {
-          "type": "button",
-          "settings": {
-            "button_label": "See the full collection here",
-            "button_link": "https://rhythm.common-ground.io",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_UwVP8P",
-        "text_rAC7y4",
-        "button_Urach4"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/Screenshot_2025-09-25_at_1.52.21_PM.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-5",
-        "color_scheme": "scheme-5",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_PgkTUz": {
       "type": "image-with-text",
       "blocks": {
@@ -221,8 +221,8 @@
   "order": [
     "featured_records_ca3QVJ",
     "essentials_slider_4Jdkgx",
-    "image_with_text_EEn6jt",
     "image_with_text_xQxCGj",
+    "image_with_text_EEn6jt",
     "image_with_text_PgkTUz"
   ]
 }
