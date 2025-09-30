@@ -126,14 +126,14 @@
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<h2>CINTHIE</h2>",
+            "text": "<h2>ADA KALEH</h2>",
             "text_style": "subtitle"
           }
         },
         "caption_xBJgtQ": {
           "type": "caption",
           "settings": {
-            "caption": "German producer, DJ, label and record store owner Cinthie has become one of the most sought-after artists in the contemporary electronic scene. Dubbed by many as the Berlin Queen of House, the last decade has seen her become an unstoppable force who has a touring schedule that takes her across the globe to perform at leading clubs and festivals across Europe, Asia, the Americas and beyond.",
+            "caption": "Romanian musician releasing uninterrupted pulsations and techno repetitions on R&S Records; Creative Director at Supersanity, a multi-disciplinary event series and platform where music, fashion, light installations, theatre, performance and visual arts intertwine; aiming at creating a healthy and inclusive environment, a sanctuary that prides itself not on exclusivity, but on community, creativity and diversity; an ecosystem for self-expression and a safe space for the open minded, the curious, the outcasts and those passionate about arts and the conceptual side of techno; regardless of age, beliefs, appearance or orientations.",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -141,8 +141,8 @@
         "button_Gw3kqU": {
           "type": "button",
           "settings": {
-            "button_label": "TICKETS FOR CINTHIE ON SALE",
-            "button_link": "https://ra.co/events/2252401",
+            "button_label": "TICKETS FOR ADA KALEH",
+            "button_link": "",
             "button_style_secondary": false
           }
         }
@@ -154,7 +154,7 @@
         "button_Gw3kqU"
       ],
       "settings": {
-        "image": "shopify://shop_images/CINTHIE_PRESS_PIC.jpg",
+        "image": "shopify://shop_images/ADA.jpg",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
