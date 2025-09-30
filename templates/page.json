@@ -45,11 +45,22 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_XnynYM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CURE.jpg",
+            "title": "OCT 24 - CURE PRESENTS: HARUKA",
+            "text": "<p>Haruka makes his Toronto debut - a leading figure in Tokyo’s underground scene, known for long-form sets that drift between hypnotic techno and contemporary sound. Over the past decade, he’s carried this approach across Europe, Asia, and the Americas. This time, it’s Toronto’s turn.<br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_fWFHBM",
-        "column_aChyzf"
+        "column_aChyzf",
+        "column_XnynYM"
       ],
       "settings": {
         "title": "",
