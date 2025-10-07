@@ -1,18 +1,78 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "image_with_text_GhNqDJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_c3NebT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Studio booking",
+            "heading_size": "h1"
+          }
+        },
+        "text_FQcmrF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Stream Room is a versatile studio available for DJ practice or podcast recording.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_kjbM8X": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book studio time",
+            "button_link": "https://app.squareup.com/appointments/book/2f415dw23azy2d/LT485MY1XZMHX/start",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_c3NebT",
+        "text_FQcmrF",
+        "button_kjbM8X"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/DSC01692_2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "coming-soon": {
       "type": "coming-soon",
       "settings": {
-        "section_color_scheme": ""
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "studio_form_HrWaRF": {
@@ -21,13 +81,12 @@
         "paragraph_pPNF6C": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Sign up for early studio access.<\/p>"
+            "text": "<p>Sign up for early studio access.</p>"
           }
         },
         "email_form_QqMadk": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -43,6 +102,7 @@
     }
   },
   "order": [
+    "image_with_text_GhNqDJ",
     "coming-soon",
     "studio_form_HrWaRF"
   ]
