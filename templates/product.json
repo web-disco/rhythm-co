@@ -9,6 +9,16 @@
  */
 {
   "sections": {
+    "custom_liquid_8Yqbna": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<!-- Start Square Appointments Embed Code --><script src='https://square.site/appointments/buyer/widget/2f415dw23azy2d/LT485MY1XZMHX.js'></script><!-- End Square Appointments Embed Code -->",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -81,6 +91,7 @@
         "text_n8QJck",
         "description"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
@@ -117,6 +128,7 @@
     }
   },
   "order": [
+    "custom_liquid_8Yqbna",
     "main",
     "related-products"
   ]
