@@ -26,26 +26,6 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_fWFHBM": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/csr.jpg",
-            "title": "OCT 3 - COMMUNITY SERVICE FUNDRAISER",
-            "text": "<p>Join us on Friday, October 3rd as we host our very first fundraiser in our beloved home Rhythm with an all-star lineup of our resident DJs at Community Service!</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_aChyzf": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/MOON_FESTIVAL.jpg",
-            "title": "OCT 5 - MOON FESTIVAL",
-            "text": "<p>Dreaming of how to celebrate Mid-Autumn Festival? Join us with mahjong, DJs, lychee martinis, and mooncakes.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_XnynYM": {
           "type": "column",
           "settings": {
@@ -65,13 +45,33 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_AzEj9b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CRISTI_CONS_AND_EDAN_POSTER_FINAL.jpg",
+            "title": "NOV 1 - RHYTHM PRESENTS: CRISTI CONS",
+            "text": "<p>A night of hypnotic rhythm and timeless groove awaits as Cristi brings his signature sound to the city on Saturday, November 1st, as part of our Halloween Weekender. A classically trained cellist turned minimal visionary, Cristi’s sets are known for their subtle intricacy, deep emotion, and seamless flow — a masterclass in restraint and rhythm.<br/><br/></p>",
+            "link_label": "TICKETS",
+            "link": "https://ra.co/events/2278497"
+          }
+        },
+        "column_9zGHBr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PARIAH_POSTER_FINAL.jpg",
+            "title": "NOV 7: RHYTHM PRESENTS: PARIAH",
+            "text": "<p>Rhythm is proud to present Pariah — the British producer and DJ whose sound fuses emotional depth with raw physical energy. Now based in Amsterdam, he co-runs the acclaimed Voam label with Blawan, with whom he also forms the celebrated live act Karenn. Emerging on R&S Records in the late 2000s and later releasing his acclaimed debut LP <em>Here From Where We Are</em> on Houndstooth, Pariah continues to push boundaries through projects like Persher, blending experimental rock and techno with a deeply human touch that transcends genre and era.<br/><br/><br/></p>",
+            "link_label": "TICKETS",
+            "link": "https://ra.co/events/2281059"
+          }
         }
       },
       "block_order": [
-        "column_fWFHBM",
-        "column_aChyzf",
         "column_XnynYM",
-        "column_zeDKcc"
+        "column_zeDKcc",
+        "column_AzEj9b",
+        "column_9zGHBr"
       ],
       "settings": {
         "title": "",
