@@ -15,21 +15,21 @@
         "heading_c3NebT": {
           "type": "heading",
           "settings": {
-            "heading": "Studio booking",
+            "heading": "The Mix Room",
             "heading_size": "h1"
           }
         },
         "text_FQcmrF": {
           "type": "text",
           "settings": {
-            "text": "<p>Our Stream Room is a versatile studio available for DJ practice or podcast recording.</p>",
+            "text": "<p>Practice, refine, or record your set on a high-end club-ready system in a comfortable, private room.</p><p></p>",
             "text_style": "body"
           }
         },
         "button_kjbM8X": {
           "type": "button",
           "settings": {
-            "button_label": "Book studio time",
+            "button_label": "Book a Session",
             "button_link": "https://app.squareup.com/appointments/book/2f415dw23azy2d/LT485MY1XZMHX/start",
             "button_style_secondary": false
           }
@@ -57,8 +57,199 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_hwaeNy": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_ejiUYB": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Mix Room",
+            "heading_size": "hxl"
+          }
+        },
+        "text_F88cnA": {
+          "type": "text",
+          "settings": {
+            "text": "Practice, refine, or record your set on a high-end club-ready system in a comfortable, private room.",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_wFdCRz": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Book a Session",
+            "button_link_1": "https://app.squareup.com/appointments/book/2f415dw23azy2d/LT485MY1XZMHX/start",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ejiUYB",
+        "text_F88cnA",
+        "buttons_wFdCRz"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/weekender-3.png",
+        "image_overlay_opacity": 80,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text_H9aypG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_x9PazF": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Built for Working DJs & Aspiring Selectors</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_PBqhME": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you’re preparing for a big gig, getting comfortable on CDJs for the first time, or finally recording that mix you’ve been sitting on, our mix room is the perfect place to dial in your sound.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_x9PazF",
+        "text_PBqhME"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_TQD433": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YHcnLi": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Practice long-format sets without worrying about noise complaints</p><p><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LdWtnK": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Learn on industry-standard equipment</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pFtqAh": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Record clean audio directly to your laptop<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_YHcnLi",
+        "column_LdWtnK",
+        "column_pFtqAh"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_44z9Xh": {
+      "type": "multirow",
+      "blocks": {
+        "row_dUDgYd": {
+          "type": "row",
+          "settings": {
+            "caption": "High-End, Club-Standard Setup",
+            "heading": "Our Backline",
+            "text": "<ul><li>2 × CDJ-2000NXS2</li><li>1 × Allen & Heath Xone 92 Mixer</li><li>2 × Adam Audio T7V Studio Monitors</li><li>2 x Technic 1200MK5</li></ul><p></p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_pBrjCe": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_AVw49c": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_dUDgYd",
+        "row_pBrjCe",
+        "row_AVw49c"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "coming-soon": {
       "type": "coming-soon",
+      "disabled": true,
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",
@@ -103,6 +294,10 @@
   },
   "order": [
     "image_with_text_GhNqDJ",
+    "image_banner_hwaeNy",
+    "rich_text_H9aypG",
+    "multicolumn_TQD433",
+    "multirow_44z9Xh",
     "coming-soon",
     "studio_form_HrWaRF"
   ]
