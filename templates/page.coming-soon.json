@@ -174,7 +174,7 @@
             "image": "shopify://shop_images/Facetune_22-10-2025-13-14-31.heic",
             "caption": "",
             "heading": "Customize for your needs",
-            "text": "<p>You're welcome to bring any external gear you want to use (extra CDJs, FX pedals, etc.)<br/></p><p>The space can accommodate your crew too, up to 5 people total in the room</p>",
+            "text": "<p>You're welcome to bring any external gear you want to use (extra CDJs, FX pedals, etc.)</p><p>Our booth table is adjustable to any height.<br/></p><p>The space can accommodate your crew too, up to 5 people total in the room</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -313,7 +313,7 @@
           "type": "button",
           "settings": {
             "button_label": "Book The Mix Room",
-            "button_link": "",
+            "button_link": "https://app.squareup.com/appointments/book/2f415dw23azy2d/LT485MY1XZMHX/start",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
