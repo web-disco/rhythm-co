@@ -65,13 +65,45 @@
             "link_label": "TICKETS",
             "link": "https://ra.co/events/2281059"
           }
+        },
+        "column_NQjWtm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/d6b97cbd5c0a7aeed1ee57dce20338c76a8a7cfd.webp",
+            "title": "Dec 13 - Jawani 4eva",
+            "text": "<p>We back in the Six, quick circuit tour. Touchdown in Toronto for one night, its about to be carnage. Taking over a new space, and got all the UK DJs coming through. Get the Panjabi garms ready and bring the full taur. Expect eclectic sounds, ranging from Afro House to Folk to Grime, by the most iconic Punjabi DJs, all supplemented by live performances from familiar and unfamiliar talent within the community.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MwBjaN": {
+          "type": "column",
+          "settings": {
+            "title": "Dec 14 - Chloé Robinson",
+            "text": "<p>Chloé Robinson arrives at Rhythm for the very first time - bringing her sharp, future-facing take on UK club music to a rare Sunday day party in the space. Known for stitching together polyrhythmic techno, swung electro, UKG, and percussive club pressure with effortless precision, Robinson has carved out a lane all her own. After a decade touring globally as Barely Legal, she stepped into a new era of production and curation, rebuilding her label Pretty Weird Records and doubling down on a sound that feels both unmistakably UK and strikingly contemporary.</p><p>Backed by the support of artists like Four Tet, Skrillex, Caribou, Bonobo, Ben UFO, Floating Points, and Bradley Zero, Chloé’s sets continue to push the boundaries of modern club culture. Welcoming her to Rhythm for a daytime session feels like the perfect way to close a weekend—light pouring in, energy high, and a world-class selector steering the room.<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_h696yB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4422b25f7e967946dcb138bb7b2cdb8c11e0ec0d.webp",
+            "title": "Dec 31 - New Years at the Space",
+            "text": "<p>Join us for our first New Year's Eve Party in the space. 8pm the doors open for a house party style event - beer pong, pizza, tunes, open decks, and other games and activities. At midnight, the space transforms into a two-room experience with two different musical styles that will take you and your friends in the early morning.<br/></p>",
+            "link_label": "Tickets",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_XnynYM",
         "column_zeDKcc",
         "column_AzEj9b",
-        "column_9zGHBr"
+        "column_9zGHBr",
+        "column_NQjWtm",
+        "column_MwBjaN",
+        "column_h696yB"
       ],
       "settings": {
         "title": "",
