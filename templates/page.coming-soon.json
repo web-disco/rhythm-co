@@ -9,54 +9,6 @@
  */
 {
   "sections": {
-    "image_with_text_GhNqDJ": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_c3NebT": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Mix Room",
-            "heading_size": "h1"
-          }
-        },
-        "text_FQcmrF": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Practice, refine, or record your set on a high-end club-ready system in a comfortable, private room.</p><p></p>",
-            "text_style": "body"
-          }
-        },
-        "button_kjbM8X": {
-          "type": "button",
-          "settings": {
-            "button_label": "Book a Session",
-            "button_link": "https://app.squareup.com/appointments/book/2f415dw23azy2d/LT485MY1XZMHX/start",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_c3NebT",
-        "text_FQcmrF",
-        "button_kjbM8X"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/DSC01692_2.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_banner_hwaeNy": {
       "type": "image-banner",
       "blocks": {
@@ -64,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "The Mix Room",
-            "heading_size": "hxl"
+            "heading_size": "hxxl"
           }
         },
         "text_F88cnA": {
@@ -113,7 +65,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Built for Working DJs & Aspiring Selectors</strong>",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "text_PBqhME": {
@@ -131,7 +83,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -144,7 +96,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Practice long-format sets without worrying about noise complaints</p><p><br/></p>",
+            "text": "<h3>Practice long-format sets without worrying about noise complaints</h3>",
             "link_label": "",
             "link": ""
           }
@@ -153,7 +105,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Learn on industry-standard equipment</p>",
+            "text": "<h3>Learn on industry-standard equipment</h3>",
             "link_label": "",
             "link": ""
           }
@@ -162,7 +114,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Record clean audio directly to your laptop<br/></p>",
+            "text": "<h3>Record clean audio directly to your laptop</h3>",
             "link_label": "",
             "link": ""
           }
@@ -180,11 +132,11 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "Button label",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -197,9 +149,9 @@
         "row_dUDgYd": {
           "type": "row",
           "settings": {
-            "caption": "High-End, Club-Standard Setup",
-            "heading": "Our Backline",
-            "text": "<ul><li>2 × CDJ-2000NXS2</li><li>1 × Allen & Heath Xone 92 Mixer</li><li>2 × Adam Audio T7V Studio Monitors</li><li>2 x Technic 1200MK5</li></ul><p></p>",
+            "caption": "",
+            "heading": "<strong>Club-Standard Setup</strong>",
+            "text": "<p>Train on the same kind of gear you’ll find in professional venues and festivals.</p><p><strong>In the room you’ll find:</strong></p><ul><li><strong>2 × CDJ-2000NXS2</strong></li><li><strong>1 × Allen & Heath Xone 92 Mixer</strong></li><li><strong>2 × Adam Audio T7V Studio Monitors</strong></li><li><strong>2 x Technic 1210MK5 </strong><br/></li></ul><p>You get a focused, treated room with great sound and a layout that feels like a booth in a real club, minus the pressure.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -207,9 +159,9 @@
         "row_pBrjCe": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "caption": "",
+            "heading": "<strong>Record Studio Quality Mixes</strong>",
+            "text": "<p>Want to leave with a mix you can share or use for promo?</p><ul><li><strong>We’ll help you get set up to record your audio</strong></li><li><strong>Bring a laptop with recording software </strong></li><li><strong>Plug directly into our audio interface via USB-C</strong><br/></li></ul><p>Our staff can walk you through the basics so you can focus on the music.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -217,9 +169,9 @@
         "row_AVw49c": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "caption": "",
+            "heading": "Customize for your needs",
+            "text": "<p>You're welcome to bring any external gear you want to use (extra CDJs, FX pedals, etc.)<br/></p><p>The space can accommodate your crew too, up to 5 people total in the room</p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -266,39 +218,85 @@
         "padding_bottom": 36
       }
     },
-    "studio_form_HrWaRF": {
-      "type": "studio-form",
+    "collapsible_content_PCTrha": {
+      "type": "collapsible-content",
       "blocks": {
-        "paragraph_pPNF6C": {
-          "type": "paragraph",
+        "collapsible_row_qthXAC": {
+          "type": "collapsible_row",
           "settings": {
-            "text": "<p>Sign up for early studio access.</p>"
+            "heading": "How do I record audio for my session?",
+            "icon": "none",
+            "row_content": "<p>Let us know when you arrive and we’ll help with setup.<br/><br/>You’ll need a laptop with recording software; you can connect via USB-C to our audio interface.</p>",
+            "page": ""
           }
         },
-        "email_form_QqMadk": {
-          "type": "email_form",
-          "settings": {}
+        "collapsible_row_8383DT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What recording software should I use?",
+            "icon": "none",
+            "row_content": "<p>We recommend Audacity because it’s free, lightweight, and great for recording DJ sets.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kENB7p": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Am I allowed to bring friends?",
+            "icon": "none",
+            "row_content": "<p>Yes, absolutely. We just ask that you keep it to 5 people max in the room.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qibwRx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I bring food and drinks?",
+            "icon": "none",
+            "row_content": "<p>Yes, you’re welcome to bring snacks and drinks. Just keep them away from the DJ booth and clean up before you leave.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_iVxVfX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use the video equipment to livestream my set?",
+            "icon": "none",
+            "row_content": "<p>No the camera and video system are reserved for Community Service Radio only.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "paragraph_pPNF6C",
-        "email_form_QqMadk"
+        "collapsible_row_qthXAC",
+        "collapsible_row_8383DT",
+        "collapsible_row_kENB7p",
+        "collapsible_row_qibwRx",
+        "collapsible_row_iVxVfX"
       ],
+      "name": "t:sections.collapsible_content.presets.name",
       "settings": {
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "caption": "",
+        "heading": "FAQ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-2",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_with_text_GhNqDJ",
     "image_banner_hwaeNy",
     "rich_text_H9aypG",
     "multicolumn_TQD433",
     "multirow_44z9Xh",
     "coming-soon",
-    "studio_form_HrWaRF"
+    "collapsible_content_PCTrha"
   ]
 }
