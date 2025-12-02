@@ -32,8 +32,8 @@
             "button_label_1": "Book a Session",
             "button_link_1": "https://app.squareup.com/appointments/book/2f415dw23azy2d/LT485MY1XZMHX/start",
             "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "Gift a Session",
+            "button_link_2": "https://app.squareup.com/gift/ML1ZZ2GQWZG3D/order",
             "button_style_secondary_2": false
           }
         }
@@ -263,9 +263,9 @@
         "collapsible_row_iVxVfX": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I use the video equipment to livestream my set?",
+            "heading": "Can I film my set?",
             "icon": "none",
-            "row_content": "<p>No the camera and video system are reserved for Community Service Radio only.</p>",
+            "row_content": "<p>Filming in The Mix Room is reserved for Community Service Radio only. All other filming is prohibited. </p>",
             "page": ""
           }
         }
