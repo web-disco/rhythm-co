@@ -315,8 +315,8 @@
             "button_label": "Book The Mix Room",
             "button_link": "https://app.squareup.com/appointments/book/2f415dw23azy2d/LT485MY1XZMHX/start",
             "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "Gift  a Session",
+            "button_link_2": "https://app.squareup.com/gift/ML1ZZ2GQWZG3D/order",
             "button_style_secondary_2": false
           }
         }
