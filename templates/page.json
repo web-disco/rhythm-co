@@ -151,6 +151,15 @@
             "link": "https://ra.co/events/2298747"
           }
         },
+        "column_cxth4C": {
+          "type": "column",
+          "settings": {
+            "title": "Dec 13 - The Coat Drive",
+            "text": "<p>TBA</p>",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2298747"
+          }
+        },
         "column_MwBjaN": {
           "type": "column",
           "settings": {
@@ -164,8 +173,9 @@
         "column_pQFAkq": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/d2a90748d52ccdac3c1019b97dbf02d9d72eeb3a.webp",
             "title": "Dec 19 - Marto & Negin All Night Long",
-            "text": "",
+            "text": "<p>Friday December 19th we welcome two of our most reputable selectors for an all night long affair ~<br/><br/>Back in March of this year, Marto and Negin opened for Cap - an impromptu b2b went down, and our community is still hailing this as one of the best sets to have graced the space to date<br/><br/>We're so looking forward to rounding out 2025 with our locals keeping the Rhythm dance floor hot to the touch.</p>",
             "link_label": "Tickets",
             "link": "https://ra.co/events/2315061"
           }
@@ -186,6 +196,7 @@
         "column_AzEj9b",
         "column_9zGHBr",
         "column_NQjWtm",
+        "column_cxth4C",
         "column_MwBjaN",
         "column_pQFAkq",
         "column_h696yB"
