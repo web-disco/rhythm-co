@@ -111,26 +111,6 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_zeDKcc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/0c699bfeddc64c75dd9736e99bed31c832b433df.webp",
-            "title": "Dec 3 - Workshop Series: Vinyl DJing",
-            "text": "<p>Discover the art of vinyl DJing in this hands-on beginner workshop at Rhythm. Learn the basics of turntable setup, beat-matching, mixing, and vinyl care in a supportive and accessible environment. No prior experience required—just bring your curiosity and love of music.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2303100"
-          }
-        },
-        "column_AzEj9b": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/438952d398341536fc4bc4769c9636d82f6f6225.webp",
-            "title": "Dec 6 - Fukhouse 25 Year Anniversary",
-            "text": "<p>Join us for our 25th anniversary at this amazing warehouse/loft styled space with a custom sound system right in the heart of downtown. We've invited our old friend Greg Gow (now a Juno winner, and international star) to join us!</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2274948"
-          }
-        },
         "column_9zGHBr": {
           "type": "column",
           "settings": {
@@ -193,8 +173,6 @@
         }
       },
       "block_order": [
-        "column_zeDKcc",
-        "column_AzEj9b",
         "column_9zGHBr",
         "column_NQjWtm",
         "column_cxth4C",
