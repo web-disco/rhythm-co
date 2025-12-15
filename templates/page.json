@@ -111,47 +111,17 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_9zGHBr": {
+        "column_nafgU7": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/e3a6b08f3c0a562f2614c1fd8e90c5d15ffacb14.webp",
-            "title": "Dec 12 - Rhythm presents: Liquid Earth",
-            "text": "<p>We’re excited to welcome Liquid Earth back to Rhythm for a special night on December 12- a full-circle moment that traces back to our very first event in July 2024. His set helped define the energy and intention behind what Rhythm would become, so bringing him into the space again feels both natural and overdue.</p>",
+            "image": "shopify://shop_images/club-check-dec-17.png",
+            "title": "Dec 17 - Workshop Series: Club Check",
+            "text": "<p>Club Check is Back.<br/><br/>Translation can be a tricky part of music production and songwriting.<br/><br/>We are happy to invite all aspiring producers to get together at Rhythm to test their tunes on our sound system - and for this edition of Club Check, we’ll have an A&R segment where the team to help with feedback specifically around demo pitching for labels.<br/><br/>We welcome you to tweak the EQ as you listen and get feedback from your peers.<br/><br/>This is a free event.<br/>Bring your USBs or hard drives.</p>",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2311989"
+            "link": "https://ra.co/events/2326812"
           }
         },
-        "column_NQjWtm": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/d6b97cbd5c0a7aeed1ee57dce20338c76a8a7cfd.webp",
-            "title": "Dec 13 - Jawani 4eva",
-            "text": "<p>We back in the Six, quick circuit tour. Touchdown in Toronto for one night, its about to be carnage. Taking over a new space, and got all the UK DJs coming through. Get the Panjabi garms ready and bring the full taur. Expect eclectic sounds, ranging from Afro House to Folk to Grime, by the most iconic Punjabi DJs, all supplemented by live performances from familiar and unfamiliar talent within the community.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2298747"
-          }
-        },
-        "column_cxth4C": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/244a76a6b1a9b837f616c106a1d418ac9f168e7c.webp",
-            "title": "Dec 13 - The Coat Drive",
-            "text": "<p>December 13 · 10AM–6PM · Free Entry<br/><br/>Rhythm’s annual coat drive returns — a day dedicated to warmth, community, and mutual support. From 10AM–6PM, we’re opening our doors for a cozy winter gathering featuring special guest in-store DJs, café offerings by Cafeteca, and a full clothing swap open to all.<br/><br/>We’re collecting new or gently used coats and clothing to support New Circles Community Services in Scarborough, whose programs help newcomer families and low-income communities stay warm through the winter. Cash donations are also welcome, with 100% of proceeds going directly to New Circles.<br/><br/>Bring a coat, take a coat, swap something you no longer wear, or simply come hang out, sip something warm, and contribute to a meaningful cause. The event is completely free - just come with an open heart and anything you’re able to give.<br/><br/>Let’s make sure everyone in our city feels the warmth this season.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2318419"
-          }
-        },
-        "column_MwBjaN": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/36a7ea8e590a88a8ecd03e0d8a983cc7c3f33573.webp",
-            "title": "Dec 14 - Chloé Robinson",
-            "text": "<p>Chloé Robinson arrives at Rhythm for the very first time - bringing her sharp, future-facing take on UK club music to a rare Sunday day party in the space. Known for stitching together polyrhythmic techno, swung electro, UKG, and percussive club pressure with effortless precision, Robinson has carved out a lane all her own. After a decade touring globally as Barely Legal, she stepped into a new era of production and curation, rebuilding her label Pretty Weird Records and doubling down on a sound that feels both unmistakably UK and strikingly contemporary.</p><p>Backed by the support of artists like Four Tet, Skrillex, Caribou, Bonobo, Ben UFO, Floating Points, and Bradley Zero, Chloé’s sets continue to push the boundaries of modern club culture. Welcoming her to Rhythm for a daytime session feels like the perfect way to close a weekend—light pouring in, energy high, and a world-class selector steering the room.<br/></p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2312353"
-          }
-        },
-        "column_pQFAkq": {
+        "column_ayMkBx": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/d2a90748d52ccdac3c1019b97dbf02d9d72eeb3a.webp",
@@ -161,10 +131,50 @@
             "link": "https://ra.co/events/2315061"
           }
         },
+        "column_pQFAkq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/5c2184bcfddb5006992479fa6b728669413102e0.webp",
+            "title": "Dec 26 - TODD EDWARDS with Kiinjo, Nitin",
+            "text": "<p>Perhaps best known though for his collaborations with Daft Punk, on the album Discovery he co-produced and performed vocals on the song \"Face to Face”. His work on the track \"Fragments of Time” from the album Random Access Memories, (where he again provided vocals) led to him earning a Grammy award for album of the year.</p>",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2324503"
+          }
+        },
+        "column_88ALE3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/c47d9937bfdc39c7bc2e7989d7e6b59bbf443557.webp",
+            "title": "Dec 27 - UFFIE with AL P MSTRKRFT, Indie Sleaze",
+            "text": "<p>Uffie helped define the raw, playful edge of late-2000s electronic music. Breaking out through the Ed Banger scene with tracks like Pop the Glock and MCs Can Kiss, she blended club energy with sharp, irreverent lyricism—effortlessly cool, unapologetically fun.</p>",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2326141"
+          }
+        },
+        "column_mHx4WX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/5e167c2dff6f798ec658ea3d3875245b8d801f38.webp",
+            "title": "Dec 28 - TIGA with Pat Lok, Lucie Tic",
+            "text": "<p>Tiga is a Montreal icon and one of the most influential figures in modern electronic music. As a DJ, producer, and founder of Turbo Recordings, he helped shape the sound and attitude of underground club culture in the 2000s, bridging raw techno, electro, and punk irreverence. Known for his sharp taste, razor-clean sets, and cultural instincts.</p>",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2326144"
+          }
+        },
+        "column_nkhDAh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4c05cc7e5865f7c4c36c36980461baf714023b5a.webp",
+            "title": "Dec 29 - FLOSSTRADAMUS with Torro Torro, Wrongbar Allstars",
+            "text": "<p>Flosstradamus helped redefine festival-scale bass music in the early 2010s, fusing hip-hop, trap, and raw rave energy into a sound that hit hard and crossed scenes. With tracks like Original Don and Roll Up.</p>",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2326149"
+          }
+        },
         "column_h696yB": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/4422b25f7e967946dcb138bb7b2cdb8c11e0ec0d.webp",
+            "image": "shopify://shop_images/new_years.webp",
             "title": "Dec 31 - New Years at the Space",
             "text": "<p>Join us for our first New Year's Eve Party in the space. 8pm the doors open for a house party style event - beer pong, pizza, tunes, open decks, and other games and activities. At midnight, the space transforms into a two-room experience with two different musical styles that will take you and your friends in the early morning.<br/></p>",
             "link_label": "Tickets",
@@ -173,11 +183,12 @@
         }
       },
       "block_order": [
-        "column_9zGHBr",
-        "column_NQjWtm",
-        "column_cxth4C",
-        "column_MwBjaN",
+        "column_nafgU7",
+        "column_ayMkBx",
         "column_pQFAkq",
+        "column_88ALE3",
+        "column_mHx4WX",
+        "column_nkhDAh",
         "column_h696yB"
       ],
       "settings": {
