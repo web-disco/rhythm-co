@@ -52,7 +52,7 @@
         "heading_QETeCz": {
           "type": "heading",
           "settings": {
-            "heading": "BRUX",
+            "heading": "<strong>BRUX</strong>",
             "heading_size": "h1"
           }
         },
@@ -100,7 +100,7 @@
         "heading_aCM34R": {
           "type": "heading",
           "settings": {
-            "heading": "Martyn Bootyspoon",
+            "heading": "<strong>Martyn Bootyspoon</strong>",
             "heading_size": "h1"
           }
         },
@@ -162,8 +162,8 @@
         "button_JWBkeM": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "ÈBONY",
+            "button_link": "https://www.instagram.com/darknhard/",
             "button_style_secondary": false
           }
         }
