@@ -79,7 +79,8 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "height": "adapt",
+        "image": "shopify://shop_images/BRUX_1_-_Credit_Jess_Licata_fcbe2897-763e-43e6-ac3c-4ae636ff0daa.png",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
