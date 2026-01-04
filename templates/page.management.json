@@ -59,14 +59,14 @@
         "text_yNnRH4": {
           "type": "text",
           "settings": {
-            "text": "<h6><strong>BRUX</strong> is an Australian-born electronic artist, producer, singer, and DJ known for her bold fusion of hook-driven pop and dark, club-forward experimentation. With releases and support from tastemaker labels including LuckyMe, Fool’s Gold, Future Classic, Hotflush, and Half Pipe Records, her sound has earned praise from DJ Mag, Billboard, Mixmag, and Rolling Stone, alongside collaborations with artists such as Kimbra, Baauer, Hamdi, and Ninajirachi. Following a breakout 2025—marked by acclaimed releases, Boiler Room appearances, and international performances—BRUX continues to carve out her place as one of dance music’s most forward-thinking and versatile voices, delivering high-impact productions built for both packed dance floors and repeat listens.<br/><br/></h6>",
+            "text": "<p>BRUX is an Australian-born electronic artist, producer, singer, and DJ known for her bold fusion of hook-driven pop and dark, club-forward experimentation. With releases and support from tastemaker labels including LuckyMe, Fool’s Gold, Future Classic, Hotflush, and Half Pipe Records, her sound has earned praise from DJ Mag, Billboard, Mixmag, and Rolling Stone, alongside collaborations with artists such as Kimbra, Baauer, Hamdi, and Ninajirachi. <br/><br/>BRUX continues to carve out her place as one of dance music’s most forward-thinking and versatile voices, delivering high-impact productions built for both packed dance floors and repeat listens.<br/></p>",
             "text_style": "body"
           }
         },
         "button_YCAcec": {
           "type": "button",
           "settings": {
-            "button_label": "Check Out BRUX",
+            "button_label": "BRUX",
             "button_link": "https://itsbrux.komi.io/",
             "button_style_secondary": false
           }
