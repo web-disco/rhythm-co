@@ -29,183 +29,209 @@
         "heading_CdQfXf": {
           "type": "heading",
           "settings": {
-            "heading": "Want to host an event?",
+            "heading": "rhythm co. artists",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CdQfXf"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "image_with_text_ndCF8H": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QETeCz": {
+          "type": "heading",
+          "settings": {
+            "heading": "BRUX",
             "heading_size": "h1"
           }
         },
-        "text_BeeQTg": {
+        "text_yNnRH4": {
           "type": "text",
           "settings": {
-            "text": "<p>Fill out the form link below, we would love to hear from you. Please allow 2  business days for response.</p>"
+            "text": "<h6><strong>BRUX</strong> is an Australian-born electronic artist, producer, singer, and DJ known for her bold fusion of hook-driven pop and dark, club-forward experimentation. With releases and support from tastemaker labels including LuckyMe, Fool’s Gold, Future Classic, Hotflush, and Half Pipe Records, her sound has earned praise from DJ Mag, Billboard, Mixmag, and Rolling Stone, alongside collaborations with artists such as Kimbra, Baauer, Hamdi, and Ninajirachi. Following a breakout 2025—marked by acclaimed releases, Boiler Room appearances, and international performances—BRUX continues to carve out her place as one of dance music’s most forward-thinking and versatile voices, delivering high-impact productions built for both packed dance floors and repeat listens.<br/><br/></h6>",
+            "text_style": "body"
           }
         },
-        "button_UzL9T8": {
+        "button_YCAcec": {
           "type": "button",
           "settings": {
-            "button_label": "EVENT REQUEST FORM",
-            "button_link": "https://airtable.com/appo6Rmd9u6q7HRuc/shrXw6xvQZpTqGyjS",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label": "Check Out BRUX",
+            "button_link": "https://itsbrux.komi.io/",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_CdQfXf",
-        "text_BeeQTg",
-        "button_UzL9T8"
+        "heading_QETeCz",
+        "text_yNnRH4",
+        "button_YCAcec"
       ],
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "rich_text_q8rMHF": {
-      "type": "rich-text",
+    "image_with_text_7yNCA9": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_DKDDL6": {
+        "heading_aCM34R": {
           "type": "heading",
           "settings": {
-            "heading": "Here's what's going on in the space",
-            "heading_size": "h2"
+            "heading": "Martyn Bootyspoon",
+            "heading_size": "h1"
           }
         },
-        "text_bp7iMK": {
+        "text_3zjhQN": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
           }
         },
-        "button_rdeyrY": {
+        "button_9pDxEr": {
           "type": "button",
           "settings": {
-            "button_label": "",
+            "button_label": "Button label",
             "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_DKDDL6",
-        "text_bp7iMK",
-        "button_rdeyrY"
+        "heading_aCM34R",
+        "text_3zjhQN",
+        "button_9pDxEr"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "right",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "multicolumn_7xzUm9": {
-      "type": "multicolumn",
+    "image_with_text_VUNn7n": {
+      "type": "image-with-text",
       "blocks": {
-        "column_nafgU7": {
-          "type": "column",
+        "heading_Ad6f96": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/club-check-dec-17.png",
-            "title": "Dec 17 - Workshop Series: Club Check",
-            "text": "<p>Club Check is Back.<br/><br/>Translation can be a tricky part of music production and songwriting.<br/><br/>We are happy to invite all aspiring producers to get together at Rhythm to test their tunes on our sound system - and for this edition of Club Check, we’ll have an A&R segment where the team to help with feedback specifically around demo pitching for labels.<br/><br/>We welcome you to tweak the EQ as you listen and get feedback from your peers.<br/><br/>This is a free event.<br/>Bring your USBs or hard drives.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2326812"
+            "heading": "EBONY",
+            "heading_size": "h1"
           }
         },
-        "column_ayMkBx": {
-          "type": "column",
+        "text_d7tJxc": {
+          "type": "text",
           "settings": {
-            "image": "shopify://shop_images/d2a90748d52ccdac3c1019b97dbf02d9d72eeb3a.webp",
-            "title": "Dec 19 - Marto & Negin All Night Long",
-            "text": "<p>Friday December 19th we welcome two of our most reputable selectors for an all night long affair ~<br/><br/>Back in March of this year, Marto and Negin opened for Cap - an impromptu b2b went down, and our community is still hailing this as one of the best sets to have graced the space to date<br/><br/>We're so looking forward to rounding out 2025 with our locals keeping the Rhythm dance floor hot to the touch.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2315061"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
           }
         },
-        "column_pQFAkq": {
-          "type": "column",
+        "button_JWBkeM": {
+          "type": "button",
           "settings": {
-            "image": "shopify://shop_images/5c2184bcfddb5006992479fa6b728669413102e0.webp",
-            "title": "Dec 26 - TODD EDWARDS with Kiinjo, Nitin",
-            "text": "<p>Perhaps best known though for his collaborations with Daft Punk, on the album Discovery he co-produced and performed vocals on the song \"Face to Face”. His work on the track \"Fragments of Time” from the album Random Access Memories, (where he again provided vocals) led to him earning a Grammy award for album of the year.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2324503"
-          }
-        },
-        "column_88ALE3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/c47d9937bfdc39c7bc2e7989d7e6b59bbf443557.webp",
-            "title": "Dec 27 - UFFIE with AL P MSTRKRFT, Indie Sleaze",
-            "text": "<p>Uffie helped define the raw, playful edge of late-2000s electronic music. Breaking out through the Ed Banger scene with tracks like Pop the Glock and MCs Can Kiss, she blended club energy with sharp, irreverent lyricism—effortlessly cool, unapologetically fun.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2326141"
-          }
-        },
-        "column_mHx4WX": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/5e167c2dff6f798ec658ea3d3875245b8d801f38.webp",
-            "title": "Dec 28 - TIGA with Pat Lok, Lucie Tic",
-            "text": "<p>Tiga is a Montreal icon and one of the most influential figures in modern electronic music. As a DJ, producer, and founder of Turbo Recordings, he helped shape the sound and attitude of underground club culture in the 2000s, bridging raw techno, electro, and punk irreverence. Known for his sharp taste, razor-clean sets, and cultural instincts.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2326144"
-          }
-        },
-        "column_nkhDAh": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/4c05cc7e5865f7c4c36c36980461baf714023b5a.webp",
-            "title": "Dec 29 - FLOSSTRADAMUS with Torro Torro, Wrongbar Allstars",
-            "text": "<p>Flosstradamus helped redefine festival-scale bass music in the early 2010s, fusing hip-hop, trap, and raw rave energy into a sound that hit hard and crossed scenes. With tracks like Original Don and Roll Up.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2326149"
-          }
-        },
-        "column_h696yB": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/new_years.webp",
-            "title": "Dec 31 - New Years at the Space",
-            "text": "<p>Join us for our first New Year's Eve Party in the space. 8pm the doors open for a house party style event - beer pong, pizza, tunes, open decks, and other games and activities. At midnight, the space transforms into a two-room experience with two different musical styles that will take you and your friends in the early morning.<br/></p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2307119"
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "column_nafgU7",
-        "column_ayMkBx",
-        "column_pQFAkq",
-        "column_88ALE3",
-        "column_mHx4WX",
-        "column_nkhDAh",
-        "column_h696yB"
+        "heading_Ad6f96",
+        "text_d7tJxc",
+        "button_JWBkeM"
       ],
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "portrait",
-        "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "See all our events",
-        "button_link": "https://ra.co/clubs/248685",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 32,
-        "padding_bottom": 28
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FLxaXH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Ft8CUH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jordan Gardner",
+            "heading_size": "h1"
+          }
+        },
+        "text_N84CCr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_BB6Tmx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ft8CUH",
+        "text_N84CCr",
+        "button_BB6Tmx"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "right",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -213,7 +239,9 @@
     "main",
     "17316468437bab37d9",
     "rich_text_ALVQfM",
-    "rich_text_q8rMHF",
-    "multicolumn_7xzUm9"
+    "image_with_text_ndCF8H",
+    "image_with_text_7yNCA9",
+    "image_with_text_VUNn7n",
+    "image_with_text_FLxaXH"
   ]
 }
