@@ -59,7 +59,7 @@
         "text_yNnRH4": {
           "type": "text",
           "settings": {
-            "text": "<p>BRUX is an Australian-born electronic artist, producer, singer, and DJ known for her bold fusion of hook-driven pop and dark, club-forward experimentation. With releases and support from tastemaker labels including LuckyMe, Fool’s Gold, Future Classic, Hotflush, and Half Pipe Records, her sound has earned praise from DJ Mag, Billboard, Mixmag, and Rolling Stone, alongside collaborations with artists such as Kimbra, Baauer, Hamdi, and Ninajirachi. <br/><br/>BRUX continues to carve out her place as one of dance music’s most forward-thinking and versatile voices, delivering high-impact productions built for both packed dance floors and repeat listens.<br/></p>",
+            "text": "<p><strong>BRUX</strong> is an Australian-born electronic artist, producer, singer, and DJ known for her bold fusion of hook-driven pop and dark, club-forward experimentation. With releases and support from tastemaker labels including LuckyMe, Fool’s Gold, Future Classic, Hotflush, and Half Pipe Records, her sound has earned praise from DJ Mag, Billboard, Mixmag, and Rolling Stone, alongside collaborations with artists such as Kimbra, Baauer, Hamdi, and Ninajirachi. <br/><br/>BRUX continues to carve out her place as one of dance music’s most forward-thinking and versatile voices, delivering high-impact productions built for both packed dance floors and repeat listens.<br/></p>",
             "text_style": "body"
           }
         },
@@ -81,7 +81,7 @@
       "settings": {
         "image": "shopify://shop_images/BRUX_1_-_Credit_Jess_Licata_fcbe2897-763e-43e6-ac3c-4ae636ff0daa.png",
         "height": "small",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -107,15 +107,15 @@
         "text_3zjhQN": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p><strong>Martyn Bootyspoon</strong> is a Montreal-based producer, DJ, and vocalist whose work sits at the collision point of satire, sensuality, and sub-bass pressure. Emerging from the city’s post-club underground, he’s built a reputation as a singular force in dance music - blending ghetto tech, techno, and jacking house with sharp wit and flair. Known for high-impact releases, shape-shifting DJ sets, and a magnetic on-stage presence, Bootyspoon’s music is equal parts provocative and precise. </p><p>As he enters his next chapter with major festival appearances and new releases on the horizon, he continues to push club culture into stranger, bolder, and more ecstatic territory.<br/><br/></p>",
             "text_style": "body"
           }
         },
         "button_9pDxEr": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Martyn Bootyspoon",
+            "button_link": "https://www.instagram.com/mbootyspoon/",
             "button_style_secondary": false
           }
         }
@@ -127,8 +127,9 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/Press_Shot_3.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "right",
