@@ -148,14 +148,14 @@
         "heading_Ad6f96": {
           "type": "heading",
           "settings": {
-            "heading": "EBONY",
+            "heading": "<strong>ÈBONY</strong>",
             "heading_size": "h1"
           }
         },
         "text_d7tJxc": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p><strong>ÈBONY</strong> is a Toronto- and Montreal-based electronic duo comprised of Jordan Gardner and R-ODERICK, crafting a bold, future-facing sound rooted in Detroit techno, Chicago house, and South African rhythmic traditions, shaped by their West Indian heritage. JUNO-nominated and sonically fearless, the duo blends immersive textures, polyrhythmic groove, and emotive storytelling into music that honors dance music’s global lineage while pushing it forward. Known for powerful releases and electrifying live and DJ performances, ÈBONY has earned widespread support across the electronic spectrum and continues to establish themselves as essential voices in contemporary, avant-garde club culture.<br/><br/></p>",
             "text_style": "body"
           }
         },
@@ -175,6 +175,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/Untitled.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
