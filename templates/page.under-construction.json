@@ -22,30 +22,17 @@
         "text_F88cnA": {
           "type": "text",
           "settings": {
-            "text": "Practice, refine, or record your set on a high-end club-ready system in a comfortable, private room.",
+            "text": "Be the first to know when our production studio goes live",
             "text_style": "subtitle"
-          }
-        },
-        "buttons_wFdCRz": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Book a Session",
-            "button_link_1": "https://app.squareup.com/appointments/book/2f415dw23azy2d/LT485MY1XZMHX/start",
-            "button_style_secondary_1": false,
-            "button_label_2": "Gift a Session",
-            "button_link_2": "https://app.squareup.com/gift/ML1ZZ2GQWZG3D/order",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading_ejiUYB",
-        "text_F88cnA",
-        "buttons_wFdCRz"
+        "text_F88cnA"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/IMG_6166-2.png",
         "image_overlay_opacity": 70,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
