@@ -45,6 +45,40 @@
         "show_text_below": false
       }
     },
+    "newsletter_KVX8BD": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_pRG6Ri": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coming Soon",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_YwtWKW": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know when our production studio goes live</p>"
+          }
+        },
+        "email_form_TDdGNQ": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_pRG6Ri",
+        "paragraph_YwtWKW",
+        "email_form_TDdGNQ"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multirow_44z9Xh": {
       "type": "multirow",
       "blocks": {
@@ -241,6 +275,7 @@
   },
   "order": [
     "image_banner_hwaeNy",
+    "newsletter_KVX8BD",
     "multirow_44z9Xh",
     "coming-soon",
     "collapsible_content_PCTrha",
