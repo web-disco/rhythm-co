@@ -15,7 +15,7 @@
         "heading_ejiUYB": {
           "type": "heading",
           "settings": {
-            "heading": "The Mix Room",
+            "heading": "Coming Soon",
             "heading_size": "hxxl"
           }
         },
@@ -56,91 +56,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
-      }
-    },
-    "rich_text_H9aypG": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_x9PazF": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Built for Working DJs & Aspiring Selectors</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_PBqhME": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Whether you’re preparing for a big gig, getting comfortable on CDJs for the first time, or finally recording that mix you’ve been sitting on, our mix room is the perfect place to dial in your sound.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_x9PazF",
-        "text_PBqhME"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "multicolumn_TQD433": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_YHcnLi": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<h3>Practice long-format sets without worrying about noise complaints</h3>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_LdWtnK": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<h3>Learn on industry-standard equipment</h3>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_pFtqAh": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<h3>Record clean audio directly to your laptop</h3>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_YHcnLi",
-        "column_LdWtnK",
-        "column_pFtqAh"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "multirow_44z9Xh": {
@@ -339,8 +254,6 @@
   },
   "order": [
     "image_banner_hwaeNy",
-    "rich_text_H9aypG",
-    "multicolumn_TQD433",
     "multirow_44z9Xh",
     "coming-soon",
     "collapsible_content_PCTrha",
