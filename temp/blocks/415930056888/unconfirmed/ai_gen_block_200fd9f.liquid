@@ -1,6 +1,576 @@
+{% doc %}
+  @prompt
+    A price list
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-price-list-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    padding: {{ block.settings.padding }}px;
+    background-color: {{ block.settings.background_color }};
+    border-radius: {{ block.settings.border_radius }}px;
+  }
+
+  .ai-price-list-header-{{ ai_gen_id }} {
+    margin-bottom: {{ block.settings.spacing }}px;
+    text-align: {{ block.settings.text_alignment }};
+  }
+
+  .ai-price-list-title-{{ ai_gen_id }} {
+    margin: 0 0 8px;
+    font-size: {{ block.settings.title_size }}px;
+    color: {{ block.settings.text_color }};
+    font-weight: 600;
+  }
+
+  .ai-price-list-description-{{ ai_gen_id }} {
+    margin: 0;
+    font-size: {{ block.settings.description_size }}px;
+    color: {{ block.settings.text_color }};
+    opacity: 0.8;
+  }
+
+  .ai-price-list-items-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: {{ block.settings.item_spacing }}px;
+  }
+
+  .ai-price-list-item-{{ ai_gen_id }} {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    padding: {{ block.settings.item_padding }}px;
+    background-color: {{ block.settings.item_background_color }};
+    border-radius: {{ block.settings.item_border_radius }}px;
+    border: {{ block.settings.item_border_thickness }}px solid {{ block.settings.item_border_color }};
+  }
+
+  .ai-price-list-item-content-{{ ai_gen_id }} {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .ai-price-list-item-name-{{ ai_gen_id }} {
+    margin: 0 0 4px;
+    font-size: {{ block.settings.item_name_size }}px;
+    color: {{ block.settings.text_color }};
+    font-weight: 600;
+  }
+
+  .ai-price-list-item-description-{{ ai_gen_id }} {
+    margin: 0;
+    font-size: {{ block.settings.item_description_size }}px;
+    color: {{ block.settings.text_color }};
+    opacity: 0.7;
+  }
+
+  .ai-price-list-item-price-{{ ai_gen_id }} {
+    flex-shrink: 0;
+    font-size: {{ block.settings.price_size }}px;
+    color: {{ block.settings.price_color }};
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .ai-price-list-divider-{{ ai_gen_id }} {
+    flex: 1;
+    min-width: 20px;
+    height: 1px;
+    background: repeating-linear-gradient(
+      to right,
+      {{ block.settings.divider_color }} 0,
+      {{ block.settings.divider_color }} 4px,
+      transparent 4px,
+      transparent 8px
+    );
+    align-self: center;
+    margin: 0 8px;
+  }
+
+  .ai-price-list-item-top-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-price-list-{{ ai_gen_id }} {
+      width: 100%;
+    }
+
+    .ai-price-list-item-{{ ai_gen_id }} {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    .ai-price-list-divider-{{ ai_gen_id }} {
+      display: none;
+    }
+
+    .ai-price-list-item-top-{{ ai_gen_id }} {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+{% endstyle %}
+
+<price-list-{{ ai_gen_id }} class="ai-price-list-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  {% if block.settings.title != blank or block.settings.description != blank %}
+    <div class="ai-price-list-header-{{ ai_gen_id }}">
+      {% if block.settings.title != blank %}
+        <h2 class="ai-price-list-title-{{ ai_gen_id }}">{{ block.settings.title }}</h2>
+      {% endif %}
+      {% if block.settings.description != blank %}
+        <div class="ai-price-list-description-{{ ai_gen_id }}">{{ block.settings.description }}</div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="ai-price-list-items-{{ ai_gen_id }}">
+    {% for i in (1..10) %}
+      {% liquid
+        assign item_name_key = 'item_' | append: i | append: '_name'
+        assign item_description_key = 'item_' | append: i | append: '_description'
+        assign item_price_key = 'item_' | append: i | append: '_price'
+        
+        assign item_name = block.settings[item_name_key]
+        assign item_description = block.settings[item_description_key]
+        assign item_price = block.settings[item_price_key]
+      %}
+
+      {% if item_name != blank %}
+        <div class="ai-price-list-item-{{ ai_gen_id }}">
+          <div class="ai-price-list-item-content-{{ ai_gen_id }}">
+            <div class="ai-price-list-item-top-{{ ai_gen_id }}">
+              <h3 class="ai-price-list-item-name-{{ ai_gen_id }}">{{ item_name }}</h3>
+              {% if block.settings.show_divider %}
+                <div class="ai-price-list-divider-{{ ai_gen_id }}"></div>
+              {% endif %}
+              <div class="ai-price-list-item-price-{{ ai_gen_id }}">{{ item_price }}</div>
+            </div>
+            {% if item_description != blank %}
+              <p class="ai-price-list-item-description-{{ ai_gen_id }}">{{ item_description }}</p>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</price-list-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class PriceList{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+    }
+    customElements.define('price-list-{{ ai_gen_id }}', PriceList{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Price list",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Header"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "Title",
+      "default": "Our menu"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "Freshly prepared daily"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "header",
+      "content": "Items"
+    },
+    {
+      "type": "text",
+      "id": "item_1_name",
+      "label": "Item 1 name",
+      "default": "Espresso"
+    },
+    {
+      "type": "text",
+      "id": "item_1_description",
+      "label": "Item 1 description",
+      "default": "Rich and bold single shot"
+    },
+    {
+      "type": "text",
+      "id": "item_1_price",
+      "label": "Item 1 price",
+      "default": "$3.50"
+    },
+    {
+      "type": "text",
+      "id": "item_2_name",
+      "label": "Item 2 name",
+      "default": "Cappuccino"
+    },
+    {
+      "type": "text",
+      "id": "item_2_description",
+      "label": "Item 2 description",
+      "default": "Espresso with steamed milk foam"
+    },
+    {
+      "type": "text",
+      "id": "item_2_price",
+      "label": "Item 2 price",
+      "default": "$4.50"
+    },
+    {
+      "type": "text",
+      "id": "item_3_name",
+      "label": "Item 3 name",
+      "default": "Latte"
+    },
+    {
+      "type": "text",
+      "id": "item_3_description",
+      "label": "Item 3 description",
+      "default": "Smooth espresso with steamed milk"
+    },
+    {
+      "type": "text",
+      "id": "item_3_price",
+      "label": "Item 3 price",
+      "default": "$5.00"
+    },
+    {
+      "type": "text",
+      "id": "item_4_name",
+      "label": "Item 4 name"
+    },
+    {
+      "type": "text",
+      "id": "item_4_description",
+      "label": "Item 4 description"
+    },
+    {
+      "type": "text",
+      "id": "item_4_price",
+      "label": "Item 4 price"
+    },
+    {
+      "type": "text",
+      "id": "item_5_name",
+      "label": "Item 5 name"
+    },
+    {
+      "type": "text",
+      "id": "item_5_description",
+      "label": "Item 5 description"
+    },
+    {
+      "type": "text",
+      "id": "item_5_price",
+      "label": "Item 5 price"
+    },
+    {
+      "type": "text",
+      "id": "item_6_name",
+      "label": "Item 6 name"
+    },
+    {
+      "type": "text",
+      "id": "item_6_description",
+      "label": "Item 6 description"
+    },
+    {
+      "type": "text",
+      "id": "item_6_price",
+      "label": "Item 6 price"
+    },
+    {
+      "type": "text",
+      "id": "item_7_name",
+      "label": "Item 7 name"
+    },
+    {
+      "type": "text",
+      "id": "item_7_description",
+      "label": "Item 7 description"
+    },
+    {
+      "type": "text",
+      "id": "item_7_price",
+      "label": "Item 7 price"
+    },
+    {
+      "type": "text",
+      "id": "item_8_name",
+      "label": "Item 8 name"
+    },
+    {
+      "type": "text",
+      "id": "item_8_description",
+      "label": "Item 8 description"
+    },
+    {
+      "type": "text",
+      "id": "item_8_price",
+      "label": "Item 8 price"
+    },
+    {
+      "type": "text",
+      "id": "item_9_name",
+      "label": "Item 9 name"
+    },
+    {
+      "type": "text",
+      "id": "item_9_description",
+      "label": "Item 9 description"
+    },
+    {
+      "type": "text",
+      "id": "item_9_price",
+      "label": "Item 9 price"
+    },
+    {
+      "type": "text",
+      "id": "item_10_name",
+      "label": "Item 10 name"
+    },
+    {
+      "type": "text",
+      "id": "item_10_description",
+      "label": "Item 10 description"
+    },
+    {
+      "type": "text",
+      "id": "item_10_price",
+      "label": "Item 10 price"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "padding",
+      "label": "Padding",
+      "min": 0,
+      "max": 60,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "spacing",
+      "label": "Header spacing",
+      "min": 8,
+      "max": 48,
+      "step": 4,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "item_spacing",
+      "label": "Item spacing",
+      "min": 4,
+      "max": 32,
+      "step": 4,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "item_padding",
+      "label": "Item padding",
+      "min": 0,
+      "max": 32,
+      "step": 4,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#121212"
+    },
+    {
+      "type": "color",
+      "id": "price_color",
+      "label": "Price",
+      "default": "#121212"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Item style"
+    },
+    {
+      "type": "color",
+      "id": "item_background_color",
+      "label": "Background",
+      "default": "#f9f9f9"
+    },
+    {
+      "type": "color",
+      "id": "item_border_color",
+      "label": "Border",
+      "default": "#e8e8e8"
+    },
+    {
+      "type": "range",
+      "id": "item_border_thickness",
+      "label": "Border thickness",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "item_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "checkbox",
+      "id": "show_divider",
+      "label": "Show divider line",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Divider color",
+      "default": "#cccccc"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Title size",
+      "min": 16,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Description size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "item_name_size",
+      "label": "Item name size",
+      "min": 12,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "item_description_size",
+      "label": "Item description size",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "price_size",
+      "label": "Price size",
+      "min": 12,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    }
+  ],
+  "presets": [
+    {
+      "name": "Price list"
+    }
+  ]
+}
 {% endschema %}
