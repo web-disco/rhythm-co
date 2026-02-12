@@ -254,6 +254,15 @@
             "page": ""
           }
         },
+        "collapsible_row_rmDRPw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I hire an engineer for my session?",
+            "icon": "none",
+            "row_content": "<p>Yes, you can hire an engineer for an additional $20/hr. The engineer is only available to help you set up for your session and not for creative output or collaboration.</p>",
+            "page": ""
+          }
+        },
         "collapsible_row_kENB7p": {
           "type": "collapsible_row",
           "settings": {
@@ -268,7 +277,7 @@
           "settings": {
             "heading": "Can I bring food and drinks?",
             "icon": "none",
-            "row_content": "<p>Yes, you’re welcome to bring snacks and drinks. Just keep them away from the desk.</p>",
+            "row_content": "<p>Non-alcoholic drinks are fine but we kindly ask that you don't bring food and alcoholic drinks.</p>",
             "page": ""
           }
         },
@@ -285,6 +294,7 @@
       "block_order": [
         "collapsible_row_qthXAC",
         "collapsible_row_8383DT",
+        "collapsible_row_rmDRPw",
         "collapsible_row_kENB7p",
         "collapsible_row_qibwRx",
         "collapsible_row_iVxVfX"
