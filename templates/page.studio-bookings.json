@@ -151,7 +151,7 @@
           "settings": {
             "image": "shopify://shop_images/IMG_6137.png",
             "caption": "",
-            "heading": "Plug in and Play",
+            "heading": "Plug In & Play",
             "text": "<p>Bring your own computer or use ours. Whether you want to work on an existing project or start fresh, we are well equipped to cater to your needs.</p>",
             "button_label": "",
             "button_link": ""
@@ -220,7 +220,7 @@
         "ai_gen_block_134b3bb_rxEtPg": {
           "type": "ai_gen_block_134b3bb",
           "settings": {
-            "title": "Studio Gear",
+            "title": "Our Gear",
             "description": "",
             "text_alignment": "center",
             "desktop_width_percent": 100,
@@ -247,26 +247,26 @@
             "icon_color": "#ffffff",
             "gear_name_color": "#ffffff",
             "gear_details_color": "#cccccc",
-            "title_size": 32,
+            "title_size": 38,
             "description_size": 16,
             "gear_name_size": 16,
             "gear_details_size": 14,
-            "gear_1_name": "Neumann U87 Microphone",
+            "gear_1_name": "Microphone",
             "gear_1_details": "Large-diaphragm condenser microphone for vocals and instruments",
             "gear_1_icon": "microphone",
-            "gear_2_name": "SSL G-Series Console",
-            "gear_2_details": "Analog mixing console with legendary SSL sound",
+            "gear_2_name": "Novation Launch Control XL",
+            "gear_2_details": "Control your session with ease",
             "gear_2_icon": "mixer",
             "gear_3_name": "Adam Audio T7V Monitors",
             "gear_3_details": "Industry-standard studio reference monitors",
             "gear_3_icon": "speaker",
-            "gear_4_name": "Universal Audio Apollo Interface",
+            "gear_4_name": "Interface",
             "gear_4_details": "High-quality audio interface with UAD processing",
             "gear_4_icon": "cable",
-            "gear_5_name": "",
-            "gear_5_details": "",
-            "gear_5_icon": "music",
-            "gear_6_name": "",
+            "gear_5_name": "Elektron Digitakt II",
+            "gear_5_details": "A powerful drum-machine and sampler",
+            "gear_5_icon": "keyboard",
+            "gear_6_name": "Novation Launchpad",
             "gear_6_details": "",
             "gear_6_icon": "keyboard",
             "gear_7_name": "",
@@ -518,14 +518,14 @@
         "heading_hCT7NT": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Ready to Lock In Your Session?</strong>",
+            "heading": "<strong>Ready to book?</strong>",
             "heading_size": "h1"
           }
         },
         "text_AWeJ7X": {
           "type": "text",
           "settings": {
-            "text": "<p>Reserve time in The Mix Room and give your practice or next mix the attention it deserves.</p><p></p>"
+            "text": ""
           }
         },
         "button_4FBKPc": {
