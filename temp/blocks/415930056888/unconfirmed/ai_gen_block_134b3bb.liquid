@@ -1,6 +1,1224 @@
+{% doc %}
+  @prompt
+    A list of studio gear in a music production studio
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-studio-gear-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    padding: {{ block.settings.section_padding }}px;
+    background-color: {{ block.settings.background_color }};
+  }
+
+  .ai-studio-gear-container-{{ ai_gen_id }} {
+    max-width: {{ block.settings.max_width }}px;
+    margin: 0 auto;
+  }
+
+  .ai-studio-gear-header-{{ ai_gen_id }} {
+    margin-bottom: {{ block.settings.header_spacing }}px;
+    text-align: {{ block.settings.text_alignment }};
+  }
+
+  .ai-studio-gear-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.title_size }}px;
+    color: {{ block.settings.title_color }};
+    margin: 0 0 12px 0;
+    font-weight: 700;
+  }
+
+  .ai-studio-gear-description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.description_size }}px;
+    color: {{ block.settings.description_color }};
+    margin: 0;
+  }
+
+  .ai-studio-gear-list-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat({{ block.settings.columns_desktop }}, 1fr);
+    gap: {{ block.settings.item_spacing }}px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .ai-studio-gear-item-{{ ai_gen_id }} {
+    display: flex;
+    align-items: flex-start;
+    gap: {{ block.settings.icon_spacing }}px;
+    padding: {{ block.settings.item_padding }}px;
+    background-color: {{ block.settings.item_background_color }};
+    border: {{ block.settings.item_border_width }}px solid {{ block.settings.item_border_color }};
+    border-radius: {{ block.settings.item_border_radius }}px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  {% if block.settings.enable_hover_effect %}
+    .ai-studio-gear-item-{{ ai_gen_id }}:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+  {% endif %}
+
+  .ai-studio-gear-icon-{{ ai_gen_id }} {
+    flex-shrink: 0;
+    width: {{ block.settings.icon_size }}px;
+    height: {{ block.settings.icon_size }}px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: {{ block.settings.icon_background_color }};
+    border-radius: {{ block.settings.icon_border_radius }}px;
+    color: {{ block.settings.icon_color }};
+  }
+
+  .ai-studio-gear-icon-{{ ai_gen_id }} svg {
+    width: calc({{ block.settings.icon_size }}px * 0.6);
+    height: calc({{ block.settings.icon_size }}px * 0.6);
+  }
+
+  .ai-studio-gear-content-{{ ai_gen_id }} {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .ai-studio-gear-name-{{ ai_gen_id }} {
+    font-size: {{ block.settings.gear_name_size }}px;
+    color: {{ block.settings.gear_name_color }};
+    margin: 0 0 4px 0;
+    font-weight: 600;
+  }
+
+  .ai-studio-gear-details-{{ ai_gen_id }} {
+    font-size: {{ block.settings.gear_details_size }}px;
+    color: {{ block.settings.gear_details_color }};
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  @media screen and (max-width: 989px) {
+    .ai-studio-gear-list-{{ ai_gen_id }} {
+      grid-template-columns: repeat({{ block.settings.columns_tablet }}, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-studio-gear-list-{{ ai_gen_id }} {
+      grid-template-columns: repeat({{ block.settings.columns_mobile }}, 1fr);
+    }
+
+    .ai-studio-gear-title-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.title_size }}px * 0.8);
+    }
+
+    .ai-studio-gear-description-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.description_size }}px * 0.9);
+    }
+  }
+{% endstyle %}
+
+<studio-gear-{{ ai_gen_id }} class="ai-studio-gear-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-studio-gear-container-{{ ai_gen_id }}">
+    {% if block.settings.title != blank or block.settings.description != blank %}
+      <div class="ai-studio-gear-header-{{ ai_gen_id }}">
+        {% if block.settings.title != blank %}
+          <h2 class="ai-studio-gear-title-{{ ai_gen_id }}">{{ block.settings.title }}</h2>
+        {% endif %}
+        {% if block.settings.description != blank %}
+          <div class="ai-studio-gear-description-{{ ai_gen_id }}">{{ block.settings.description }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <ul class="ai-studio-gear-list-{{ ai_gen_id }}">
+      {% for i in (1..12) %}
+        {% liquid
+          assign gear_name_key = 'gear_' | append: i | append: '_name'
+          assign gear_details_key = 'gear_' | append: i | append: '_details'
+          assign gear_icon_key = 'gear_' | append: i | append: '_icon'
+          
+          assign gear_name = block.settings[gear_name_key]
+          assign gear_details = block.settings[gear_details_key]
+          assign gear_icon = block.settings[gear_icon_key]
+        %}
+
+        {% if gear_name != blank %}
+          <li class="ai-studio-gear-item-{{ ai_gen_id }}">
+            <div class="ai-studio-gear-icon-{{ ai_gen_id }}">
+              {% case gear_icon %}
+                {% when 'microphone' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path>
+                    <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                    <line x1="12" y1="19" x2="12" y2="22"></line>
+                  </svg>
+                {% when 'headphones' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                    <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+                  </svg>
+                {% when 'speaker' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
+                    <circle cx="12" cy="14" r="4"></circle>
+                    <line x1="12" y1="6" x2="12.01" y2="6"></line>
+                  </svg>
+                {% when 'music' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 18V5l12-2v13"></path>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <circle cx="18" cy="16" r="3"></circle>
+                  </svg>
+                {% when 'keyboard' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                    <path d="M6 8h.01"></path>
+                    <path d="M10 8h.01"></path>
+                    <path d="M14 8h.01"></path>
+                    <path d="M18 8h.01"></path>
+                    <path d="M8 12h.01"></path>
+                    <path d="M12 12h.01"></path>
+                    <path d="M16 12h.01"></path>
+                    <path d="M7 16h10"></path>
+                  </svg>
+                {% when 'guitar' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m11.9 12.1 4.514-4.514"></path>
+                    <path d="M20.1 2.3a1 1 0 0 0-1.4 0l-1.114 1.114A2 2 0 0 0 17 4.828v1.344a2 2 0 0 1-.586 1.414A2 2 0 0 1 17.828 7h1.344a2 2 0 0 0 1.414-.586L21.7 5.3a1 1 0 0 0 0-1.4z"></path>
+                    <path d="m6 16 2 2"></path>
+                    <path d="M8.2 9.9C8.7 8.8 9.8 8 11 8c2.8 0 5 2.2 5 5 0 1.2-.8 2.3-1.9 2.8l-.9.4A2 2 0 0 0 12 18a4 4 0 0 1-4 4c-3.3 0-6-2.7-6-6a4 4 0 0 1 4-4 2 2 0 0 0 1.8-1.2z"></path>
+                    <circle cx="11.5" cy="12.5" r=".5"></circle>
+                  </svg>
+                {% when 'mixer' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="4" y1="21" x2="4" y2="14"></line>
+                    <line x1="4" y1="10" x2="4" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12" y2="3"></line>
+                    <line x1="20" y1="21" x2="20" y2="16"></line>
+                    <line x1="20" y1="12" x2="20" y2="3"></line>
+                    <line x1="1" y1="14" x2="7" y2="14"></line>
+                    <line x1="9" y1="8" x2="15" y2="8"></line>
+                    <line x1="17" y1="16" x2="23" y2="16"></line>
+                  </svg>
+                {% when 'cable' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 9a2 2 0 0 1-2-2V5h6v2a2 2 0 0 1-2 2Z"></path>
+                    <path d="M3 5V3"></path>
+                    <path d="M7 5V3"></path>
+                    <path d="M19 15a2 2 0 0 1 2 2v2h-6v-2a2 2 0 0 1 2-2Z"></path>
+                    <path d="M17 21v-2"></path>
+                    <path d="M21 21v-2"></path>
+                    <path d="M22 19h-6v-2a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2Z"></path>
+                    <path d="M2 9h6v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2Z"></path>
+                    <path d="M6 13v2"></path>
+                    <path d="M6 17v.01"></path>
+                  </svg>
+                {% else %}
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
+              {% endcase %}
+            </div>
+            <div class="ai-studio-gear-content-{{ ai_gen_id }}">
+              <h3 class="ai-studio-gear-name-{{ ai_gen_id }}">{{ gear_name }}</h3>
+              {% if gear_details != blank %}
+                <p class="ai-studio-gear-details-{{ ai_gen_id }}">{{ gear_details }}</p>
+              {% endif %}
+            </div>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</studio-gear-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class StudioGear{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.items = this.querySelectorAll('.ai-studio-gear-item-{{ ai_gen_id }}');
+      }
+    }
+
+    customElements.define('studio-gear-{{ ai_gen_id }}', StudioGear{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Studio gear list",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "Title",
+      "default": "Studio gear"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Professional equipment for music production</p>"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "label": "Maximum width",
+      "min": 600,
+      "max": 1400,
+      "step": 100,
+      "unit": "px",
+      "default": 1200
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "label": "Columns on desktop",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "columns_tablet",
+      "label": "Columns on tablet",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "default": 2
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "label": "Columns on mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "1"
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Section padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "header_spacing",
+      "label": "Header spacing",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "item_spacing",
+      "label": "Item spacing",
+      "min": 8,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Item style"
+    },
+    {
+      "type": "range",
+      "id": "item_padding",
+      "label": "Item padding",
+      "min": 8,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "item_border_radius",
+      "label": "Item border radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "item_border_width",
+      "label": "Item border width",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "default": 1
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_hover_effect",
+      "label": "Enable hover effect",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Icon style"
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "label": "Icon size",
+      "min": 24,
+      "max": 64,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "icon_spacing",
+      "label": "Icon spacing",
+      "min": 8,
+      "max": 32,
+      "step": 4,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "icon_border_radius",
+      "label": "Icon border radius",
+      "min": 0,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#0d0d0d"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "description_color",
+      "label": "Description",
+      "default": "#c5b540"
+    },
+    {
+      "type": "color",
+      "id": "item_background_color",
+      "label": "Item background",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "item_border_color",
+      "label": "Item border",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "icon_background_color",
+      "label": "Icon background",
+      "default": "#3a4abf"
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Icon",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "gear_name_color",
+      "label": "Gear name",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "gear_details_color",
+      "label": "Gear details",
+      "default": "#cccccc"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Title size",
+      "min": 16,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Description size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "gear_name_size",
+      "label": "Gear name size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "gear_details_size",
+      "label": "Gear details size",
+      "min": 10,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "header",
+      "content": "Gear item 1"
+    },
+    {
+      "type": "text",
+      "id": "gear_1_name",
+      "label": "Name",
+      "default": "Neumann U87 Microphone"
+    },
+    {
+      "type": "textarea",
+      "id": "gear_1_details",
+      "label": "Details",
+      "default": "Large-diaphragm condenser microphone for vocals and instruments"
+    },
+    {
+      "type": "select",
+      "id": "gear_1_icon",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "microphone",
+          "label": "Microphone"
+        },
+        {
+          "value": "headphones",
+          "label": "Headphones"
+        },
+        {
+          "value": "speaker",
+          "label": "Speaker"
+        },
+        {
+          "value": "music",
+          "label": "Music"
+        },
+        {
+          "value": "keyboard",
+          "label": "Keyboard"
+        },
+        {
+          "value": "guitar",
+          "label": "Guitar"
+        },
+        {
+          "value": "mixer",
+          "label": "Mixer"
+        },
+        {
+          "value": "cable",
+          "label": "Cable"
+        }
+      ],
+      "default": "microphone"
+    },
+    {
+      "type": "header",
+      "content": "Gear item 2"
+    },
+    {
+      "type": "text",
+      "id": "gear_2_name",
+      "label": "Name",
+      "default": "SSL G-Series Console"
+    },
+    {
+      "type": "textarea",
+      "id": "gear_2_details",
+      "label": "Details",
+      "default": "Analog mixing console with legendary SSL sound"
+    },
+    {
+      "type": "select",
+      "id": "gear_2_icon",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "microphone",
+          "label": "Microphone"
+        },
+        {
+          "value": "headphones",
+          "label": "Headphones"
+        },
+        {
+          "value": "speaker",
+          "label": "Speaker"
+        },
+        {
+          "value": "music",
+          "label": "Music"
+        },
+        {
+          "value": "keyboard",
+          "label": "Keyboard"
+        },
+        {
+          "value": "guitar",
+          "label": "Guitar"
+        },
+        {
+          "value": "mixer",
+          "label": "Mixer"
+        },
+        {
+          "value": "cable",
+          "label": "Cable"
+        }
+      ],
+      "default": "mixer"
+    },
+    {
+      "type": "header",
+      "content": "Gear item 3"
+    },
+    {
+      "type": "text",
+      "id": "gear_3_name",
+      "label": "Name",
+      "default": "Yamaha NS-10M Monitors"
+    },
+    {
+      "type": "textarea",
+      "id": "gear_3_details",
+      "label": "Details",
+      "default": "Industry-standard studio reference monitors"
+    },
+    {
+      "type": "select",
+      "id": "gear_3_icon",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "microphone",
+          "label": "Microphone"
+        },
+        {
+          "value": "headphones",
+          "label": "Headphones"
+        },
+        {
+          "value": "speaker",
+          "label": "Speaker"
+        },
+        {
+          "value": "music",
+          "label": "Music"
+        },
+        {
+          "value": "keyboard",
+          "label": "Keyboard"
+        },
+        {
+          "value": "guitar",
+          "label": "Guitar"
+        },
+        {
+          "value": "mixer",
+          "label": "Mixer"
+        },
+        {
+          "value": "cable",
+          "label": "Cable"
+        }
+      ],
+      "default": "speaker"
+    },
+    {
+      "type": "header",
+      "content": "Gear item 4"
+    },
+    {
+      "type": "text",
+      "id": "gear_4_name",
+      "label": "Name",
+      "default": "Universal Audio Apollo Interface"
+    },
+    {
+      "type": "textarea",
+      "id": "gear_4_details",
+      "label": "Details",
+      "default": "High-quality audio interface with UAD processing"
+    },
+    {
+      "type": "select",
+      "id": "gear_4_icon",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "microphone",
+          "label": "Microphone"
+        },
+        {
+          "value": "headphones",
+          "label": "Headphones"
+        },
+        {
+          "value": "speaker",
+          "label": "Speaker"
+        },
+        {
+          "value": "music",
+          "label": "Music"
+        },
+        {
+          "value": "keyboard",
+          "label": "Keyboard"
+        },
+        {
+          "value": "guitar",
+          "label": "Guitar"
+        },
+        {
+          "value": "mixer",
+          "label": "Mixer"
+        },
+        {
+          "value": "cable",
+          "label": "Cable"
+        }
+      ],
+      "default": "cable"
+    },
+    {
+      "type": "header",
+      "content": "Gear item 5"
+    },
+    {
+      "type": "text",
+      "id": "gear_5_name",
+      "label": "Name"
+    },
+    {
+      "type": "textarea",
+      "id": "gear_5_details",
+      "label": "Details"
+    },
+    {
+      "type": "select",
+      "id": "gear_5_icon",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "microphone",
+          "label": "Microphone"
+        },
+        {
+          "value": "headphones",
+          "label": "Headphones"
+        },
+        {
+          "value": "speaker",
+          "label": "Speaker"
+        },
+        {
+          "value": "music",
+          "label": "Music"
+        },
+        {
+          "value": "keyboard",
+          "label": "Keyboard"
+        },
+        {
+          "value": "guitar",
+          "label": "Guitar"
+        },
+        {
+          "value": "mixer",
+          "label": "Mixer"
+        },
+        {
+          "value": "cable",
+          "label": "Cable"
+        }
+      ],
+      "default": "music"
+    },
+    {
+      "type": "header",
+      "content": "Gear item 6"
+    },
+    {
+      "type": "text",
+      "id": "gear_6_name",
+      "label": "Name"
+    },
+    {
+      "type": "textarea",
+      "id": "gear_6_details",
+      "label": "Details"
+    },
+    {
+      "type": "select",
+      "id": "gear_6_icon",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "microphone",
+          "label": "Microphone"
+        },
+        {
+          "value": "headphones",
+          "label": "Headphones"
+        },
+        {
+          "value": "speaker",
+          "label": "Speaker"
+        },
+        {
+          "value": "music",
+          "label": "Music"
+        },
+        {
+          "value": "keyboard",
+          "label": "Keyboard"
+        },
+        {
+          "value": "guitar",
+          "label": "Guitar"
+        },
+        {
+          "value": "mixer",
+          "label": "Mixer"
+        },
+        {
+          "value": "cable",
+          "label": "Cable"
+        }
+      ],
+      "default": "keyboard"
+    },
+    {
+      "type": "header",
+      "content": "Gear item 7"
+    },
+    {
+      "type": "text",
+      "id": "gear_7_name",
+      "label": "Name"
+    },
+    {
+      "type": "textarea",
+      "id": "gear_7_details",
+      "label": "Details"
+    },
+    {
+      "type": "select",
+      "id": "gear_7_icon",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "microphone",
+          "label": "Microphone"
+        },
+        {
+          "value": "headphones",
+          "label": "Headphones"
+        },
+        {
+          "value": "speaker",
+          "label": "Speaker"
+        },
+        {
+          "value": "music",
+          "label": "Music"
+        },
+        {
+          "value": "keyboard",
+          "label": "Keyboard"
+        },
+        {
+          "value": "guitar",
+          "label": "Guitar"
+        },
+        {
+          "value": "mixer",
+          "label": "Mixer"
+        },
+        {
+          "value": "cable",
+          "label": "Cable"
+        }
+      ],
+      "default": "headphones"
+    },
+    {
+      "type": "header",
+      "content": "Gear item 8"
+    },
+    {
+      "type": "text",
+      "id": "gear_8_name",
+      "label": "Name"
+    },
+    {
+      "type": "textarea",
+      "id": "gear_8_details",
+      "label": "Details"
+    },
+    {
+      "type": "select",
+      "id": "gear_8_icon",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "microphone",
+          "label": "Microphone"
+        },
+        {
+          "value": "headphones",
+          "label": "Headphones"
+        },
+        {
+          "value": "speaker",
+          "label": "Speaker"
+        },
+        {
+          "value": "music",
+          "label": "Music"
+        },
+        {
+          "value": "keyboard",
+          "label": "Keyboard"
+        },
+        {
+          "value": "guitar",
+          "label": "Guitar"
+        },
+        {
+          "value": "mixer",
+          "label": "Mixer"
+        },
+        {
+          "value": "cable",
+          "label": "Cable"
+        }
+      ],
+      "default": "guitar"
+    },
+    {
+      "type": "header",
+      "content": "Gear item 9"
+    },
+    {
+      "type": "text",
+      "id": "gear_9_name",
+      "label": "Name"
+    },
+    {
+      "type": "textarea",
+      "id": "gear_9_details",
+      "label": "Details"
+    },
+    {
+      "type": "select",
+      "id": "gear_9_icon",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "microphone",
+          "label": "Microphone"
+        },
+        {
+          "value": "headphones",
+          "label": "Headphones"
+        },
+        {
+          "value": "speaker",
+          "label": "Speaker"
+        },
+        {
+          "value": "music",
+          "label": "Music"
+        },
+        {
+          "value": "keyboard",
+          "label": "Keyboard"
+        },
+        {
+          "value": "guitar",
+          "label": "Guitar"
+        },
+        {
+          "value": "mixer",
+          "label": "Mixer"
+        },
+        {
+          "value": "cable",
+          "label": "Cable"
+        }
+      ],
+      "default": "music"
+    },
+    {
+      "type": "header",
+      "content": "Gear item 10"
+    },
+    {
+      "type": "text",
+      "id": "gear_10_name",
+      "label": "Name"
+    },
+    {
+      "type": "textarea",
+      "id": "gear_10_details",
+      "label": "Details"
+    },
+    {
+      "type": "select",
+      "id": "gear_10_icon",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "microphone",
+          "label": "Microphone"
+        },
+        {
+          "value": "headphones",
+          "label": "Headphones"
+        },
+        {
+          "value": "speaker",
+          "label": "Speaker"
+        },
+        {
+          "value": "music",
+          "label": "Music"
+        },
+        {
+          "value": "keyboard",
+          "label": "Keyboard"
+        },
+        {
+          "value": "guitar",
+          "label": "Guitar"
+        },
+        {
+          "value": "mixer",
+          "label": "Mixer"
+        },
+        {
+          "value": "cable",
+          "label": "Cable"
+        }
+      ],
+      "default": "mixer"
+    },
+    {
+      "type": "header",
+      "content": "Gear item 11"
+    },
+    {
+      "type": "text",
+      "id": "gear_11_name",
+      "label": "Name"
+    },
+    {
+      "type": "textarea",
+      "id": "gear_11_details",
+      "label": "Details"
+    },
+    {
+      "type": "select",
+      "id": "gear_11_icon",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "microphone",
+          "label": "Microphone"
+        },
+        {
+          "value": "headphones",
+          "label": "Headphones"
+        },
+        {
+          "value": "speaker",
+          "label": "Speaker"
+        },
+        {
+          "value": "music",
+          "label": "Music"
+        },
+        {
+          "value": "keyboard",
+          "label": "Keyboard"
+        },
+        {
+          "value": "guitar",
+          "label": "Guitar"
+        },
+        {
+          "value": "mixer",
+          "label": "Mixer"
+        },
+        {
+          "value": "cable",
+          "label": "Cable"
+        }
+      ],
+      "default": "speaker"
+    },
+    {
+      "type": "header",
+      "content": "Gear item 12"
+    },
+    {
+      "type": "text",
+      "id": "gear_12_name",
+      "label": "Name"
+    },
+    {
+      "type": "textarea",
+      "id": "gear_12_details",
+      "label": "Details"
+    },
+    {
+      "type": "select",
+      "id": "gear_12_icon",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "microphone",
+          "label": "Microphone"
+        },
+        {
+          "value": "headphones",
+          "label": "Headphones"
+        },
+        {
+          "value": "speaker",
+          "label": "Speaker"
+        },
+        {
+          "value": "music",
+          "label": "Music"
+        },
+        {
+          "value": "keyboard",
+          "label": "Keyboard"
+        },
+        {
+          "value": "guitar",
+          "label": "Guitar"
+        },
+        {
+          "value": "mixer",
+          "label": "Mixer"
+        },
+        {
+          "value": "cable",
+          "label": "Cable"
+        }
+      ],
+      "default": "cable"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Studio gear list"
+    }
+  ]
+}
 {% endschema %}
