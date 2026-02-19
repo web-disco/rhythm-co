@@ -29,7 +29,7 @@
         "buttons_wFdCRz": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Book a Session",
+            "button_label_1": "Book the Studio",
             "button_link_1": "https://app.squareup.com/appointments/book/2f415dw23azy2d/LT485MY1XZMHX/start",
             "button_style_secondary_1": false,
             "button_label_2": "Gift a Session",
@@ -70,7 +70,7 @@
         "text_PBqhME": {
           "type": "text",
           "settings": {
-            "text": "<p>Our studio is designed for both beginners and advanced producers. Start creating in a relaxed and welcoming environment.</p>"
+            "text": "<p>Our studio is designed for both beginner and advanced producers. Start creating in a relaxed and welcoming environment where you can network with others involved in the scene.</p>"
           }
         }
       },
@@ -523,7 +523,7 @@
         "heading_hCT7NT": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Ready to book?</strong>",
+            "heading": "<strong>Ready to create?</strong>",
             "heading_size": "h1"
           }
         },
@@ -536,10 +536,10 @@
         "button_4FBKPc": {
           "type": "button",
           "settings": {
-            "button_label": "Book The Mix Room",
+            "button_label": "Book the Studio",
             "button_link": "https://app.squareup.com/appointments/book/2f415dw23azy2d/LT485MY1XZMHX/start",
             "button_style_secondary": false,
-            "button_label_2": "Gift  a Session",
+            "button_label_2": "Gift a Studio Session",
             "button_link_2": "https://app.squareup.com/gift/ML1ZZ2GQWZG3D/order",
             "button_style_secondary_2": false
           }
