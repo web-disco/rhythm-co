@@ -45,7 +45,6 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/IMG_6166-2.png",
         "image_overlay_opacity": 70,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -149,7 +148,6 @@
         "row_dUDgYd": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/IMG_6137.png",
             "caption": "",
             "heading": "Plug In & Play",
             "text": "<p>Bring your own computer or use ours. Whether you want to work on an existing project or start fresh, we are well equipped to cater to your needs.</p>",
@@ -160,7 +158,6 @@
         "row_pBrjCe": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/IMG_6160.png",
             "caption": "",
             "heading": "Designed by musicians",
             "text": "<p>This studio was built by a team of experienced music makers, sound technicians and passionate creatives. The room offers a well-rounded studio experience carefully crafted to develop your skills.</p>",
@@ -171,7 +168,6 @@
         "row_AVw49c": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/IMG_6132.png",
             "caption": "",
             "heading": "Connect with like-minded creatives",
             "text": "<p>Located at Rhythm in the heart of downtown we are a community hub where you can meet other artists, DJs and other creatives involved in the scene.</p>",
@@ -182,7 +178,6 @@
         "row_pigLUL": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/IMG_6132.png",
             "caption": "",
             "heading": "Test your tracks on our system",
             "text": "<p>Curious to see how your music translates on a club system? Export and listen on site to fine-tune your mix so it’s club ready.</p>",
