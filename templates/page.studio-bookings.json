@@ -486,6 +486,15 @@
             "row_content": "<p>Yes. We have free parking on-site in the front parking lot.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_JyeRkG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your cancellation policy?",
+            "icon": "none",
+            "row_content": "<p>You must provide 24 hours notice to receive a refund</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -494,7 +503,8 @@
         "collapsible_row_rmDRPw",
         "collapsible_row_kENB7p",
         "collapsible_row_qibwRx",
-        "collapsible_row_iVxVfX"
+        "collapsible_row_iVxVfX",
+        "collapsible_row_JyeRkG"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
