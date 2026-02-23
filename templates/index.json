@@ -65,6 +65,35 @@
         "collection": "essentials"
       }
     },
+    "image_banner_EqzCch": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_kWRBXy": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kWRBXy"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/hero-image.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
     "image_with_text_xQxCGj": {
       "type": "image-with-text",
       "blocks": {
@@ -111,35 +140,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "image_banner_EqzCch": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_kWRBXy": {
-          "type": "heading",
-          "settings": {
-            "heading": "Coffee / Records / Events / Studios",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_kWRBXy"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/DSC0924-2.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
       }
     },
     "image_with_text_EEn6jt": {
