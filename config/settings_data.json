@@ -11,7 +11,7 @@
   "current": {
     "logo": "shopify://shop_images/white_rhythm.png",
     "logo_width": 160,
-    "favicon": "shopify://shop_images/R_Logo.png",
+    "favicon": "shopify://shop_images/Asset_5_4x_e8406296-426e-4b4a-8a60-b49cb8794692.png",
     "type_header_font": "space_mono_n4",
     "heading_scale": 100,
     "type_body_font": "neue_haas_unica_n4",
@@ -139,38 +139,6 @@
     },
     "content_for_index": [],
     "blocks": {
-      "10905257233323761681": {
-        "type": "shopify://apps/audioly-sticky-audio-player/blocks/audio-player/1f530410-ca0c-4485-98fc-b2daea5cb117",
-        "disabled": false,
-        "settings": {
-          "playerBackground": "#0D0D0D",
-          "playerForegroundColor": "#ffffff",
-          "playButtonBackgroundColor": "#ffffff",
-          "playButtonIconColor": "#0d0d0d",
-          "volumeButtonsIconColor": "#0d0d0d",
-          "playerIconPosition": "left",
-          "advanceTimeBySecondsOnArrowKeyPress": 5,
-          "desktopPlayerProductImagePadding": "10px",
-          "buyNowButtonThemeClass": "button",
-          "playButtonLabel": "Play",
-          "pauseButtonLabel": "Pause",
-          "muteVolumeButtonLabel": "Mute volume",
-          "unmuteVolumeButtonLabel": "Unmute volume",
-          "volumeUpButtonLabel": "Volume up",
-          "volumeDownButtonLabel": "Volume down",
-          "timeProgressSliderLabel": "Time progress",
-          "buyNowButtonText": "Buy now",
-          "previewText": "Preview",
-          "infoTextForNoAudio": "No sample is available for the product",
-          "errorText": "An error ocurred while loading the file",
-          "firstVisitText": "No product is selected"
-        }
-      },
-      "8154336783611098045": {
-        "type": "shopify://apps/izyrent/blocks/izyrent/cda4a37a-6d4d-4f3d-b8e5-c19d5c367c6a",
-        "disabled": false,
-        "settings": {}
-      },
       "4015264832934714879": {
         "type": "shopify://apps/ecomsend-popups/blocks/app/a5670cf8-5705-4b01-ad9e-447033feae26",
         "disabled": false,
