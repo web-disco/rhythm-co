@@ -119,33 +119,13 @@
         "heading_kWRBXy": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "text_e74HBP": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_fw9nJF": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "heading": "Coffee / Records / Events / Studios",
+            "heading_size": "h2"
           }
         }
       },
       "block_order": [
-        "heading_kWRBXy",
-        "text_e74HBP",
-        "buttons_fw9nJF"
+        "heading_kWRBXy"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
@@ -153,13 +133,13 @@
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "image_with_text_EEn6jt": {
@@ -270,8 +250,8 @@
   "order": [
     "featured_records_ca3QVJ",
     "essentials_slider_4Jdkgx",
-    "image_with_text_xQxCGj",
     "image_banner_EqzCch",
+    "image_with_text_xQxCGj",
     "image_with_text_EEn6jt",
     "image_with_text_PgkTUz"
   ]
