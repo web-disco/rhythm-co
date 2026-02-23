@@ -114,82 +114,37 @@
         "column_nafgU7": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/club-check-dec-17.png",
-            "title": "Dec 17 - Workshop Series: Club Check",
-            "text": "<p>Club Check is Back.<br/><br/>Translation can be a tricky part of music production and songwriting.<br/><br/>We are happy to invite all aspiring producers to get together at Rhythm to test their tunes on our sound system - and for this edition of Club Check, we’ll have an A&R segment where the team to help with feedback specifically around demo pitching for labels.<br/><br/>We welcome you to tweak the EQ as you listen and get feedback from your peers.<br/><br/>This is a free event.<br/>Bring your USBs or hard drives.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2326812"
+            "title": "In Store Session: Jungli",
+            "text": "<p>This is a free event.</p>",
+            "link_label": "FREE RSVP",
+            "link": "https://ra.co/events/2376922"
           }
         },
         "column_ayMkBx": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/d2a90748d52ccdac3c1019b97dbf02d9d72eeb3a.webp",
-            "title": "Dec 19 - Marto & Negin All Night Long",
-            "text": "<p>Friday December 19th we welcome two of our most reputable selectors for an all night long affair ~<br/><br/>Back in March of this year, Marto and Negin opened for Cap - an impromptu b2b went down, and our community is still hailing this as one of the best sets to have graced the space to date<br/><br/>We're so looking forward to rounding out 2025 with our locals keeping the Rhythm dance floor hot to the touch.</p>",
+            "image": "shopify://shop_images/garrett-flyer.webp",
+            "title": "Mar 7 - Garrett David, Edan b2b Me, Myself & I",
+            "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2315061"
+            "link": "https://ra.co/events/2350617"
           }
         },
         "column_pQFAkq": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/5c2184bcfddb5006992479fa6b728669413102e0.webp",
-            "title": "Dec 26 - TODD EDWARDS with Kiinjo, Nitin",
-            "text": "<p>Perhaps best known though for his collaborations with Daft Punk, on the album Discovery he co-produced and performed vocals on the song \"Face to Face”. His work on the track \"Fragments of Time” from the album Random Access Memories, (where he again provided vocals) led to him earning a Grammy award for album of the year.</p>",
+            "image": "shopify://shop_images/7fc9992beb515c841ca66fdac6394dcf9fcccf57.webp",
+            "title": "March 13 - Detroit In Effect, 999ADJ and Chloe J presented by Rhythm x Standard Time",
+            "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2324503"
-          }
-        },
-        "column_88ALE3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/c47d9937bfdc39c7bc2e7989d7e6b59bbf443557.webp",
-            "title": "Dec 27 - UFFIE with AL P MSTRKRFT, Indie Sleaze",
-            "text": "<p>Uffie helped define the raw, playful edge of late-2000s electronic music. Breaking out through the Ed Banger scene with tracks like Pop the Glock and MCs Can Kiss, she blended club energy with sharp, irreverent lyricism—effortlessly cool, unapologetically fun.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2326141"
-          }
-        },
-        "column_mHx4WX": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/5e167c2dff6f798ec658ea3d3875245b8d801f38.webp",
-            "title": "Dec 28 - TIGA with Pat Lok, Lucie Tic",
-            "text": "<p>Tiga is a Montreal icon and one of the most influential figures in modern electronic music. As a DJ, producer, and founder of Turbo Recordings, he helped shape the sound and attitude of underground club culture in the 2000s, bridging raw techno, electro, and punk irreverence. Known for his sharp taste, razor-clean sets, and cultural instincts.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2326144"
-          }
-        },
-        "column_nkhDAh": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/4c05cc7e5865f7c4c36c36980461baf714023b5a.webp",
-            "title": "Dec 29 - FLOSSTRADAMUS with Torro Torro, Wrongbar Allstars",
-            "text": "<p>Flosstradamus helped redefine festival-scale bass music in the early 2010s, fusing hip-hop, trap, and raw rave energy into a sound that hit hard and crossed scenes. With tracks like Original Don and Roll Up.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2326149"
-          }
-        },
-        "column_h696yB": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/new_years.webp",
-            "title": "Dec 31 - New Years at the Space",
-            "text": "<p>Join us for our first New Year's Eve Party in the space. 8pm the doors open for a house party style event - beer pong, pizza, tunes, open decks, and other games and activities. At midnight, the space transforms into a two-room experience with two different musical styles that will take you and your friends in the early morning.<br/></p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2307119"
+            "link": "https://ra.co/events/2350301"
           }
         }
       },
       "block_order": [
         "column_nafgU7",
         "column_ayMkBx",
-        "column_pQFAkq",
-        "column_88ALE3",
-        "column_mHx4WX",
-        "column_nkhDAh",
-        "column_h696yB"
+        "column_pQFAkq"
       ],
       "settings": {
         "title": "",
