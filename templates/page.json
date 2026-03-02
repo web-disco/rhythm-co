@@ -139,12 +139,23 @@
             "link_label": "Tickets",
             "link": "https://ra.co/events/2350301"
           }
+        },
+        "column_9eRQLk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/RHYTHM_PRESENTS_FABE_FINAL.jpg",
+            "title": "April 3 - Fabe, Alx Hale and Tabbara",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2378933"
+          }
         }
       },
       "block_order": [
         "column_nafgU7",
         "column_ayMkBx",
-        "column_pQFAkq"
+        "column_pQFAkq",
+        "column_9eRQLk"
       ],
       "settings": {
         "title": "",
