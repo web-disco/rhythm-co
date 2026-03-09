@@ -120,16 +120,6 @@
             "link": "https://ra.co/events/2376922"
           }
         },
-        "column_ayMkBx": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/garrett-flyer.webp",
-            "title": "Mar 7 - Garrett David, Edan b2b Me, Myself & I",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2350617"
-          }
-        },
         "column_pQFAkq": {
           "type": "column",
           "settings": {
@@ -153,7 +143,6 @@
       },
       "block_order": [
         "column_nafgU7",
-        "column_ayMkBx",
         "column_pQFAkq",
         "column_9eRQLk"
       ],
