@@ -151,6 +151,16 @@
             "link": "https://ra.co/events/2355843"
           }
         },
+        "column_LGceVJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DJ_Workshop.webp",
+            "title": "March 18 - Workshop Series: Intro to Digital DJing",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2390702"
+          }
+        },
         "column_yh4xzb": {
           "type": "column",
           "settings": {
@@ -180,16 +190,6 @@
             "link_label": "Tickets",
             "link": "https://ra.co/events/2378935"
           }
-        },
-        "column_LGceVJ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/DJ_Workshop.webp",
-            "title": "March 18 - Workshop Series: Intro to Digital DJing",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2390702"
-          }
         }
       },
       "block_order": [
@@ -197,10 +197,10 @@
         "column_nafgU7",
         "column_T3WKFj",
         "column_wHwU3D",
+        "column_LGceVJ",
         "column_yh4xzb",
         "column_9eRQLk",
-        "column_WpNEFg",
-        "column_LGceVJ"
+        "column_WpNEFg"
       ],
       "settings": {
         "title": "",
