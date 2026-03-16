@@ -111,16 +111,6 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_wHwU3D": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Nomada.webp",
-            "title": "March 14 - NOMADA presents KORA",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2355843"
-          }
-        },
         "column_LGceVJ": {
           "type": "column",
           "settings": {
@@ -160,14 +150,35 @@
             "link_label": "Tickets",
             "link": "https://ra.co/events/2378935"
           }
+        },
+        "column_6k6GeL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Jeep_Mix.webp",
+            "title": "March 21 - (JEEP MIX) // NETWORKS",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2369537"
+          }
+        },
+        "column_FHx7w7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Groove_Pool.webp",
+            "title": "April 4 - Groove Pool",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2367160"
+          }
         }
       },
       "block_order": [
-        "column_wHwU3D",
         "column_LGceVJ",
         "column_yh4xzb",
         "column_9eRQLk",
-        "column_WpNEFg"
+        "column_WpNEFg",
+        "column_6k6GeL",
+        "column_FHx7w7"
       ],
       "settings": {
         "title": "",
