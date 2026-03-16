@@ -131,6 +131,16 @@
             "link": "https://ra.co/events/2383522"
           }
         },
+        "column_6k6GeL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Jeep_Mix.webp",
+            "title": "March 21 - (JEEP MIX) // NETWORKS",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2369537"
+          }
+        },
         "column_9eRQLk": {
           "type": "column",
           "settings": {
@@ -139,6 +149,16 @@
             "text": "",
             "link_label": "Tickets",
             "link": "https://ra.co/events/2378933"
+          }
+        },
+        "column_FHx7w7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Groove_Pool.webp",
+            "title": "April 4 - Groove Pool",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2367160"
           }
         },
         "column_WpNEFg": {
@@ -151,34 +171,36 @@
             "link": "https://ra.co/events/2378935"
           }
         },
-        "column_6k6GeL": {
+        "column_QAdkGp": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Jeep_Mix.webp",
-            "title": "March 21 - (JEEP MIX) // NETWORKS",
+            "image": "shopify://shop_images/Open_House.webp",
+            "title": "April 11 - Open House 7",
             "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2369537"
+            "link": "https://ra.co/events/2371244"
           }
         },
-        "column_FHx7w7": {
+        "column_6KCf4P": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Groove_Pool.webp",
-            "title": "April 4 - Groove Pool",
+            "image": "shopify://shop_images/Ghost_Sessions_Vol_1.webp",
+            "title": "May 2 - Ghost Sessions Vol. 1",
             "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2367160"
+            "link": "https://ra.co/events/2392946"
           }
         }
       },
       "block_order": [
         "column_LGceVJ",
         "column_yh4xzb",
-        "column_9eRQLk",
-        "column_WpNEFg",
         "column_6k6GeL",
-        "column_FHx7w7"
+        "column_9eRQLk",
+        "column_FHx7w7",
+        "column_WpNEFg",
+        "column_QAdkGp",
+        "column_6KCf4P"
       ],
       "settings": {
         "title": "",
