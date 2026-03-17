@@ -121,16 +121,6 @@
             "link": "https://ra.co/events/2390702"
           }
         },
-        "column_Mfp3iy": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ISS_BABL.webp",
-            "title": "March 20 - In Store Session: BABL",
-            "text": "<p>This is a free event.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2395201"
-          }
-        },
         "column_yh4xzb": {
           "type": "column",
           "settings": {
@@ -139,6 +129,16 @@
             "text": "",
             "link_label": "Tickets",
             "link": "https://ra.co/events/2383522"
+          }
+        },
+        "column_Mfp3iy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ISS_BABL.webp",
+            "title": "March 20 - In Store Session: BABL",
+            "text": "<p>This is a free event.</p>",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2395201"
           }
         },
         "column_6k6GeL": {
@@ -205,8 +205,8 @@
       },
       "block_order": [
         "column_LGceVJ",
-        "column_Mfp3iy",
         "column_yh4xzb",
+        "column_Mfp3iy",
         "column_6k6GeL",
         "column_9eRQLk",
         "column_FHx7w7",
