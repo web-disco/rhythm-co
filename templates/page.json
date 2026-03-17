@@ -121,6 +121,16 @@
             "link": "https://ra.co/events/2390702"
           }
         },
+        "column_Mfp3iy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ISS_BABL.webp",
+            "title": "March 20 - In Store Session: BABL",
+            "text": "<p>This is a free event.</p>",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2395201"
+          }
+        },
         "column_yh4xzb": {
           "type": "column",
           "settings": {
@@ -183,6 +193,7 @@
         },
         "column_6KCf4P": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ghost_Sessions_Vol_1.webp",
             "title": "May 2 - Ghost Sessions Vol. 1",
@@ -194,6 +205,7 @@
       },
       "block_order": [
         "column_LGceVJ",
+        "column_Mfp3iy",
         "column_yh4xzb",
         "column_6k6GeL",
         "column_9eRQLk",
