@@ -114,41 +114,21 @@
         "column_LGceVJ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/DJ_Workshop.webp",
-            "title": "March 18 - Workshop Series: Intro to Digital DJing",
-            "text": "<p>This event is pay what you can.</p>",
+            "image": "shopify://shop_images/club_check_march_25.jpg",
+            "title": "March 25 - Club Check",
+            "text": "<p>This event is a free event.</p>",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2390702"
-          }
-        },
-        "column_yh4xzb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/LONGPLAY-FULL_SIZE.png",
-            "title": "March 19 - Long Play: Massive Attack",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2383522"
+            "link": "https://ra.co/events/2396266"
           }
         },
         "column_Mfp3iy": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ISS_BABL.webp",
-            "title": "March 20 - In Store Session: BABL",
+            "image": "shopify://shop_images/ISS_Roam.webp",
+            "title": "March 27 - In Store Session: Roam DJs & Vishal",
             "text": "<p>This is a free event.</p>",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2395201"
-          }
-        },
-        "column_6k6GeL": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Jeep_Mix.webp",
-            "title": "March 21 - (JEEP MIX) // NETWORKS",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2369537"
+            "link": "https://ra.co/events/2400497"
           }
         },
         "column_9eRQLk": {
@@ -191,9 +171,18 @@
             "link": "https://ra.co/events/2371244"
           }
         },
+        "column_VBX8Mp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Carousel_Junky.webp",
+            "title": "April 17 - Carousel x Rhythm: Junki Inoue with Mary",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2396245"
+          }
+        },
         "column_6KCf4P": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ghost_Sessions_Vol_1.webp",
             "title": "May 2 - Ghost Sessions Vol. 1",
@@ -205,13 +194,12 @@
       },
       "block_order": [
         "column_LGceVJ",
-        "column_yh4xzb",
         "column_Mfp3iy",
-        "column_6k6GeL",
         "column_9eRQLk",
         "column_FHx7w7",
         "column_WpNEFg",
         "column_QAdkGp",
+        "column_VBX8Mp",
         "column_6KCf4P"
       ],
       "settings": {
