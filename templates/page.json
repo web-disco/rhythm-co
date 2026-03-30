@@ -56,6 +56,7 @@
         "text_BeeQTg",
         "button_UzL9T8"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -114,21 +115,21 @@
         "column_LGceVJ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/club_check_march_25.jpg",
-            "title": "March 25 - Workshop Series: Clubcheck",
-            "text": "<p>This event is a free event.</p>",
+            "image": "shopify://shop_images/Vinyl_Workshop_Poster.webp",
+            "title": "April 1 - Rhythm Workshop Series: Vinyl DJing",
+            "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2396266"
+            "link": "https://ra.co/events/2400930"
           }
         },
         "column_Mfp3iy": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ISS_Roam.webp",
-            "title": "March 27 - Rhythm Extended in Store Session: Roam",
+            "image": "shopify://shop_images/ISS_-_DJ_Rach.webp",
+            "title": "April 2 - Rhythm In Store Session: DJ Rach Phonotek",
             "text": "<p>This is a free event.</p>",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2400497"
+            "link": "https://ra.co/events/2406016"
           }
         },
         "column_9eRQLk": {
