@@ -449,9 +449,9 @@
         "collapsible_row_rmDRPw": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I hire an engineer for my session?",
+            "heading": "Can I hire a technician for my session?",
             "icon": "none",
-            "row_content": "<p>Yes, you can hire an engineer for an additional $20/hr. The engineer is only available to help you set up for your session and not for creative output or collaboration.</p>",
+            "row_content": "<p>Yes, you can hire a technician for an additional $20/hr. The technician is only available to help you set up for your session and not for creative output or collaboration.</p>",
             "page": ""
           }
         },
