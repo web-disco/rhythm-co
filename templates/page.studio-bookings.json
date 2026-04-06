@@ -22,7 +22,7 @@
         "text_F88cnA": {
           "type": "text",
           "settings": {
-            "text": "A welcoming, professional recording studio inside Rhythm — built for independent artists, DJs, and producers who want to enhance their sound with a community embedded studio experience.",
+            "text": "A welcoming, professional recording studio inside Rhythm. Built for independent artists, DJs, and producers who want to enhance their sound with a community embedded studio experience.",
             "text_style": "subtitle"
           }
         },
@@ -45,6 +45,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
+        "image": "shopify://shop_images/IMG_6908.png",
         "image_overlay_opacity": 70,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -148,6 +149,7 @@
         "row_dUDgYd": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/IMG_6924.png",
             "caption": "",
             "heading": "Plug In & Play",
             "text": "<p>Bring your own computer or use ours. Whether you want to work on an existing project or start fresh, we are well equipped to cater to your needs.</p>",
@@ -319,7 +321,7 @@
             "item_2_addon_2_price": "",
             "item_2_addon_3_name": "",
             "item_2_addon_3_price": "",
-            "item_3_name": "Day Rate (Up to 10 Hours)",
+            "item_3_name": "Day Rate (Up to 9 Hours)",
             "item_3_description": "",
             "item_3_price": "$300",
             "item_3_addon_1_name": "Technician",
@@ -442,7 +444,7 @@
           "settings": {
             "heading": "What are the hours of operation?",
             "icon": "none",
-            "row_content": "<p>The studio is open from 10am to 8pm Tuesday to Saturday. A staff member will always be on-site during your session.</p>",
+            "row_content": "<p>Tuesday to Friday: 11am - 8pm</p><p>Saturday: 12pm - 6pm</p><p>A staff member will always be on-site during your session.</p>",
             "page": ""
           }
         },
@@ -473,21 +475,12 @@
             "page": ""
           }
         },
-        "collapsible_row_iVxVfX": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Is there parking available?",
-            "icon": "none",
-            "row_content": "<p>Yes. We have free parking on-site in the front parking lot.</p>",
-            "page": ""
-          }
-        },
         "collapsible_row_JyeRkG": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What is your cancellation policy?",
             "icon": "none",
-            "row_content": "<p>You must provide 24 hours notice to receive a refund</p>",
+            "row_content": "<p>You must provide 24 hours notice to receive a full refund.</p>",
             "page": ""
           }
         }
@@ -498,7 +491,6 @@
         "collapsible_row_rmDRPw",
         "collapsible_row_kENB7p",
         "collapsible_row_qibwRx",
-        "collapsible_row_iVxVfX",
         "collapsible_row_JyeRkG"
       ],
       "name": "t:sections.collapsible_content.presets.name",
