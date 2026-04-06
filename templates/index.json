@@ -148,21 +148,21 @@
         "heading_n773QR": {
           "type": "heading",
           "settings": {
-            "heading": "ARTIST OF THE MONTH",
+            "heading": "ARTIST SPOTLIGHT",
             "heading_size": "h1"
           }
         },
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<h2>GARRETT DAVID</h2>",
+            "text": "<h2>DYED SOUNDOROM</h2>",
             "text_style": "subtitle"
           }
         },
         "caption_xBJgtQ": {
           "type": "caption",
           "settings": {
-            "caption": "A mainstay of Chicago’s house ecosystem, Garrett David is known for a deeply musical approach to DJing that prioritizes feel over flash. His sound lives in the pocket - warm, swinging, and soulful - pulling from classic house, disco, and modern club music with a selector’s touch that’s both refined and quietly powerful. It’s the kind of music that doesn’t rush the moment, but lets the room breathe, settle, and lock in. As a DJ, label head, and longtime scene builder, Garrett is becoming a trusted name internationally, earning releases and support across some of the most respected corners of underground dance music. Whether behind the decks or curating records, his work is guided by intention, taste, and a deep respect for the culture that shaped him.",
+            "caption": "Known globally both as a solo artist and as part of Apollonia. Dyed is known for hypnotic, groove-driven sets that build slowly and lock the room into motion. Expect rolling basslines, crisp percussion, and the kind of patient energy that keeps the dancefloor moving deep in the night.",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -183,7 +183,7 @@
         "button_Gw3kqU"
       ],
       "settings": {
-        "image": "shopify://shop_images/garrett-david.jpg",
+        "image": "shopify://shop_images/Dyed_Soundorom_Image.jpg",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
