@@ -170,6 +170,7 @@
         "row_AVw49c": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/image00001.jpg",
             "caption": "",
             "heading": "Connect with like-minded creatives",
             "text": "<p>Located at Rhythm in the heart of downtown we are a community hub where you can meet other artists, DJs and other creatives involved in the scene.</p>",
@@ -309,7 +310,7 @@
             "item_1_addon_1_name": "Technician",
             "item_1_addon_1_price": "+$20/hr",
             "item_1_addon_2_name": "Additonal Hours (Until 5 Hours)",
-            "item_1_addon_2_price": "+$45/hr",
+            "item_1_addon_2_price": "+$40/hr",
             "item_1_addon_3_name": "",
             "item_1_addon_3_price": "",
             "item_2_name": "5-Hours",
