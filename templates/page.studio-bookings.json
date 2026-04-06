@@ -181,6 +181,7 @@
         "row_pigLUL": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Facetune_22-10-2025-13-14-31.jpg",
             "caption": "",
             "heading": "Test your tracks on our system",
             "text": "<p>Curious to see how your music translates on a club system? Export and listen on site to fine-tune your mix so it’s club ready.</p>",
