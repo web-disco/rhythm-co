@@ -123,41 +123,21 @@
         "column_LGceVJ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Vinyl_Workshop_Poster.webp",
-            "title": "April 1 - Rhythm Workshop Series: Vinyl DJing",
+            "image": "shopify://shop_images/Digital_DJ_Flyer.webp",
+            "title": "April 8 - Rhythm Workshop Series: Digital DJing",
             "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2400930"
+            "link": "https://ra.co/events/2406062"
           }
         },
         "column_Mfp3iy": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ISS_-_DJ_Rach.webp",
-            "title": "April 2 - Rhythm In Store Session: DJ Rach Phonotek",
+            "image": "shopify://shop_images/ISS_Razmatello.webp",
+            "title": "April 9 - Rhythm In Store Session: Razmatello",
             "text": "<p>This is a free event.</p>",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2406016"
-          }
-        },
-        "column_9eRQLk": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/RHYTHM_PRESENTS_FABE_FINAL.jpg",
-            "title": "April 3 - Rhythm presents Fabe(live), Alx Hale and Tabbara",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2378933"
-          }
-        },
-        "column_FHx7w7": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Groove_Pool.webp",
-            "title": "April 4 - Groove Pool",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2367160"
+            "link": "https://ra.co/events/2411528"
           }
         },
         "column_WpNEFg": {
@@ -190,8 +170,39 @@
             "link": "https://ra.co/events/2396245"
           }
         },
+        "column_NQft9C": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/rhythmik.webp",
+            "title": "April 18 - r.hythmik invites: International Habibi",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2404809"
+          }
+        },
+        "column_nJm3WG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Pulse.webp",
+            "title": "April 24 - psyLush + Kaleidoscope present PULSE: An Official Movement Pre-Party",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2402106"
+          }
+        },
         "column_6KCf4P": {
           "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Barac.webp",
+            "title": "May 1 - Rhythm presents Barac with Steve Marto & Negin",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2400597"
+          }
+        },
+        "column_gKMdr4": {
+          "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ghost_Sessions_Vol_1.webp",
             "title": "May 2 - Ghost Sessions Vol. 1",
@@ -204,12 +215,13 @@
       "block_order": [
         "column_LGceVJ",
         "column_Mfp3iy",
-        "column_9eRQLk",
-        "column_FHx7w7",
         "column_WpNEFg",
         "column_QAdkGp",
         "column_VBX8Mp",
-        "column_6KCf4P"
+        "column_NQft9C",
+        "column_nJm3WG",
+        "column_6KCf4P",
+        "column_gKMdr4"
       ],
       "settings": {
         "title": "",
