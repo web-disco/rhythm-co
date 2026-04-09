@@ -35,20 +35,19 @@
         },
         "text_BeeQTg": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p>Fill out the form link below, we would love to hear from you. Please allow 2  business days for response.</p>"
           }
         },
         "text_mDQNqQ": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Reach out to events@rhythm.space</p>"
           }
         },
         "button_UzL9T8": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_label": "EVENT REQUEST FORM",
             "button_link": "https://airtable.com/appo6Rmd9u6q7HRuc/shrXw6xvQZpTqGyjS",
