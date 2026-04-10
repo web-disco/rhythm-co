@@ -46,7 +46,7 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/RHYTHM_Studio_Warm_-6.jpg",
-        "image_overlay_opacity": 70,
+        "image_overlay_opacity": 60,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -171,7 +171,7 @@
         "row_AVw49c": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/image00001.jpg",
+            "image": "shopify://shop_images/RHYTHM_Studio_Warm_-36.jpg",
             "caption": "",
             "heading": "Connect with like-minded creatives",
             "text": "<p>Located at Rhythm in the heart of downtown we are a community hub where you can meet other artists, DJs and other creatives involved in the scene.</p>",
@@ -182,7 +182,7 @@
         "row_pigLUL": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/RHYTHM_Studio_Warm_-43.jpg",
+            "image": "shopify://shop_images/RHYTHM_Studio_Warm_-45.jpg",
             "caption": "",
             "heading": "Test your tracks on our system",
             "text": "<p>Curious to see how your music translates on a club system? Export and listen on site to fine-tune your mix so it’s club ready.</p>",
