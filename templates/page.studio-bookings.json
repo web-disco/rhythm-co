@@ -22,7 +22,7 @@
         "text_F88cnA": {
           "type": "text",
           "settings": {
-            "text": "A welcoming, professional recording studio inside Rhythm. Built for independent artists, DJs, and producers who want to enhance their sound with a community embedded studio experience.",
+            "text": "A welcoming, professional recording studio inside Rhythm. Built for independent artists, DJs, and producers who want to enhance their sound with a community embedded experience.",
             "text_style": "subtitle"
           }
         },
@@ -71,7 +71,7 @@
         "text_PBqhME": {
           "type": "text",
           "settings": {
-            "text": "<p>Our studio is designed for both beginner and advanced producers. Start creating in a relaxed and welcoming environment where you can network with others involved in the scene.</p>"
+            "text": "<p>Our studio is designed for both beginner and advanced producers. Start creating in a relaxed environment where you can network with others involved in the scene.</p>"
           }
         }
       },
