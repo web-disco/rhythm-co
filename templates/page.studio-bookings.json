@@ -281,12 +281,12 @@
             "gear_10_name": "Elektron Model:Cycles",
             "gear_10_details": "FM groovebox for rhythmic, digital textures",
             "gear_10_icon": "music",
-            "gear_11_name": "",
-            "gear_11_details": "",
-            "gear_11_icon": "speaker",
-            "gear_12_name": "",
-            "gear_12_details": "",
-            "gear_12_icon": "cable"
+            "gear_11_name": "Sennheiser E835 Micorphone",
+            "gear_11_details": "Rugged dynamic vocal mic with clear presence",
+            "gear_11_icon": "microphone",
+            "gear_12_name": "Shure SM57 ",
+            "gear_12_details": "Classic dynamic mic for instruments",
+            "gear_12_icon": "microphone"
           },
           "blocks": {}
         }
