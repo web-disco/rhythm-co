@@ -119,16 +119,6 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_LGceVJ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Digital_DJ_Flyer.webp",
-            "title": "April 8 - Rhythm Workshop Series: Digital DJing",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2406062"
-          }
-        },
         "column_Mfp3iy": {
           "type": "column",
           "settings": {
@@ -201,7 +191,6 @@
         },
         "column_gKMdr4": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ghost_Sessions_Vol_1.webp",
             "title": "May 2 - Ghost Sessions Vol. 1",
@@ -212,7 +201,6 @@
         }
       },
       "block_order": [
-        "column_LGceVJ",
         "column_Mfp3iy",
         "column_WpNEFg",
         "column_QAdkGp",
