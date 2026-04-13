@@ -155,14 +155,14 @@
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<h2>DYED SOUNDOROM</h2>",
+            "text": "<h2>JUNKI INOUE</h2>",
             "text_style": "subtitle"
           }
         },
         "caption_xBJgtQ": {
           "type": "caption",
           "settings": {
-            "caption": "Known globally both as a solo artist and as part of Apollonia. Dyed is known for hypnotic, groove-driven sets that build slowly and lock the room into motion. Expect rolling basslines, crisp percussion, and the kind of patient energy that keeps the dancefloor moving deep in the night.",
+            "caption": "As a resident of Toi.Toi and Cartulis, Junki has been a consistent presence in London’s vast underground. His sets move effortlessly between moods and genres, unfolding as deep, hypnotic journeys shaped by an intuitive feel for storytelling.",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -170,8 +170,8 @@
         "button_Gw3kqU": {
           "type": "button",
           "settings": {
-            "button_label": "TICKETS FOR DYED SOUNDOROM",
-            "button_link": "https://ra.co/events/2378935",
+            "button_label": "TICKETS FOR JUNKI INOUE",
+            "button_link": "https://ra.co/events/2396245",
             "button_style_secondary": false
           }
         }
@@ -183,7 +183,7 @@
         "button_Gw3kqU"
       ],
       "settings": {
-        "image": "shopify://shop_images/Dyed_Soundorom_Image.jpg",
+        "image": "shopify://shop_images/Junki_Inoue_20.jpg",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
