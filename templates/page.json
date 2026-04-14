@@ -119,34 +119,34 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_Mfp3iy": {
+        "column_RKbA6L": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ISS_Razmatello.webp",
-            "title": "April 9 - Rhythm In Store Session: Razmatello",
+            "image": "shopify://shop_images/Drink_N_Draw.png",
+            "title": "April 14 - Drink and Draw at Rhythm",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://www.eventbrite.com/e/drink-and-draw-at-rhythm-tickets-1986033978091"
+          }
+        },
+        "column_89M3W6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ISS_-_Live_Hardware_Jam_Post.png",
+            "title": "April 15 - Rhythm x Wavemap In Store Session: Live Hardware Jam",
             "text": "<p>This is a free event.</p>",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2411528"
+            "link": "https://ra.co/events/2416533"
           }
         },
-        "column_WpNEFg": {
+        "column_REG3xe": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Dyed.webp",
-            "title": "April 10 - Rhythm presents Dyed Soundorom, Maves and Bella",
-            "text": "",
+            "image": "shopify://shop_images/Record_Store_Day_Flyer.webp",
+            "title": "April 18 - Rhythm Open Decks: Record Store Day",
+            "text": "<p>This is a free event.</p>",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2378935"
-          }
-        },
-        "column_QAdkGp": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Open_House.webp",
-            "title": "April 11 - Open House 7",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2371244"
+            "link": "https://ra.co/events/2417542"
           }
         },
         "column_VBX8Mp": {
@@ -201,9 +201,9 @@
         }
       },
       "block_order": [
-        "column_Mfp3iy",
-        "column_WpNEFg",
-        "column_QAdkGp",
+        "column_RKbA6L",
+        "column_89M3W6",
+        "column_REG3xe",
         "column_VBX8Mp",
         "column_NQft9C",
         "column_nJm3WG",
