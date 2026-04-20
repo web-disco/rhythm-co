@@ -155,14 +155,14 @@
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<h2>JUNKI INOUE</h2>",
+            "text": "<h2>BARAC</h2>",
             "text_style": "subtitle"
           }
         },
         "caption_xBJgtQ": {
           "type": "caption",
           "settings": {
-            "caption": "As a resident of Toi.Toi and Cartulis, Junki has been a consistent presence in London’s vast underground. His sets move effortlessly between moods and genres, unfolding as deep, hypnotic journeys shaped by an intuitive feel for storytelling.",
+            "caption": "Romania’s sound has always held a strong presence in the underground, but Bucharest’s Barac moves beyond the status quo in favour of something more colourful, dynamic, and textured. His deeply personal Variety Of Different Feelings LP on Raresh’s Metereze label stands as one of the most powerful minimal releases of recent years.                                                                       His sets at Sunwaves, Amore Festival, and, more recently, the 5th Element Festival speak for themselves, unhurried, immersive, and unerringly precise. Don’t miss this rhythmic journey through body and mind.",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -170,8 +170,8 @@
         "button_Gw3kqU": {
           "type": "button",
           "settings": {
-            "button_label": "TICKETS FOR JUNKI INOUE",
-            "button_link": "https://ra.co/events/2396245",
+            "button_label": "TICKETS FOR BARAC",
+            "button_link": "https://ra.co/events/2400597",
             "button_style_secondary": false
           }
         }
@@ -183,7 +183,7 @@
         "button_Gw3kqU"
       ],
       "settings": {
-        "image": "shopify://shop_images/Junki_Inoue_20.jpg",
+        "image": "shopify://shop_images/barac1.jpg",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
