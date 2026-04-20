@@ -119,57 +119,27 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_RKbA6L": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Drink_N_Draw.png",
-            "title": "April 14 - Drink and Draw at Rhythm",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://www.eventbrite.com/e/drink-and-draw-at-rhythm-tickets-1986033978091"
-          }
-        },
-        "column_89M3W6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ISS_-_Live_Hardware_Jam_Post.png",
-            "title": "April 15 - Rhythm x Wavemap In Store Session: Live Hardware Jam",
-            "text": "<p>This is a free event.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2416533"
-          }
-        },
-        "column_REG3xe": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Record_Store_Day_Flyer.webp",
-            "title": "April 18 - Rhythm Open Decks: Record Store Day",
-            "text": "<p>This is a free event.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2417542"
-          }
-        },
-        "column_VBX8Mp": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Carousel_Junky.webp",
-            "title": "April 17 - Carousel x Rhythm: Junki Inoue with Mary",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2396245"
-          }
-        },
-        "column_NQft9C": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/rhythmik.webp",
-            "title": "April 18 - r.hythmik invites: International Habibi",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2404809"
-          }
-        },
         "column_nJm3WG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/club_check_april_22.jpg",
+            "title": "April 22 - Rhythm Workshop Series: Clubcheck + Studio Tour",
+            "text": "<p>This is a free event.</p>",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2417450"
+          }
+        },
+        "column_PgnNGf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/long_play_april_23_proof.png",
+            "title": "April 23 - Long Play: Aphex Twin",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2417528"
+          }
+        },
+        "column_CG6cBM": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Pulse.webp",
@@ -177,6 +147,36 @@
             "text": "",
             "link_label": "Tickets",
             "link": "https://ra.co/events/2402106"
+          }
+        },
+        "column_8HpJjw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/NASTY.webp",
+            "title": "April 25 - NASTY: Femme Warehouse Party",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2420843"
+          }
+        },
+        "column_p8qQH7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ISS_Another_Setting_Radio.webp",
+            "title": "April 26 - Rhythm x ASR In Store Session",
+            "text": "<p>This is a free event.</p>",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2421839"
+          }
+        },
+        "column_k6iMEf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/VJing_Workshop.webp",
+            "title": "April 29 - Rhythm Workshop Series: Intro to VJing",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2417676"
           }
         },
         "column_6KCf4P": {
@@ -201,12 +201,12 @@
         }
       },
       "block_order": [
-        "column_RKbA6L",
-        "column_89M3W6",
-        "column_REG3xe",
-        "column_VBX8Mp",
-        "column_NQft9C",
         "column_nJm3WG",
+        "column_PgnNGf",
+        "column_CG6cBM",
+        "column_8HpJjw",
+        "column_p8qQH7",
+        "column_k6iMEf",
         "column_6KCf4P",
         "column_gKMdr4"
       ],
