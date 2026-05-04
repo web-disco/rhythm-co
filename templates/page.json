@@ -119,47 +119,17 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_k6iMEf": {
+        "column_G8ELja": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/VJing_Workshop.webp",
-            "title": "April 29 - Rhythm Workshop Series: Intro to VJing",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2417676"
-          }
-        },
-        "column_6KCf4P": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Barac.webp",
-            "title": "May 1 - Rhythm presents Barac with Steve Marto & Negin",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2400597"
-          }
-        },
-        "column_gKMdr4": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/SANDWAVV_ROU-H.png",
-            "title": "May 2 - Rhythm In Store Session: Sandwavv & Rou-H",
+            "image": "shopify://shop_images/ISS_RFARAZ.webp",
+            "title": "May 5 - Rhythm In Store Session: Rfaraz",
             "text": "<p>This is a free event.</p>",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2428291"
+            "link": "https://ra.co/events/2417593"
           }
         },
-        "column_3eAcp3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Ghost_Sessions_Vol_1.webp",
-            "title": "May 2 - Ghost Sessions Vol. 1",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2392946"
-          }
-        },
-        "column_G8ELja": {
+        "column_iP3gEw": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Sapporo_Flyer.webp",
@@ -198,17 +168,47 @@
             "link_label": "Tickets",
             "link": "https://ra.co/events/2396494"
           }
+        },
+        "column_wEhDPt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Night_ii.webp",
+            "title": "May 23 - Night ll by Exile: Ciel / Sergio SP / Audio Space",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2423158"
+          }
+        },
+        "column_afnC7B": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/JKriv.webp",
+            "title": "June 13 - JKriv (Razor-N-Tape, Brooklyn)",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2405413"
+          }
+        },
+        "column_JqTFB7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Fachwerk.webp",
+            "title": "June 19 - Fachwerk label night: Mike Dehnert + Marivs",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2421562"
+          }
         }
       },
       "block_order": [
-        "column_k6iMEf",
-        "column_6KCf4P",
-        "column_gKMdr4",
-        "column_3eAcp3",
         "column_G8ELja",
+        "column_iP3gEw",
         "column_K7KXMR",
         "column_jBrPMz",
-        "column_bkG7tE"
+        "column_bkG7tE",
+        "column_wEhDPt",
+        "column_afnC7B",
+        "column_JqTFB7"
       ],
       "settings": {
         "title": "",
