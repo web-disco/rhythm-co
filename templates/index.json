@@ -155,14 +155,14 @@
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<h2>BARAC</h2>",
+            "text": "<h2>MARSHALL JEFFERSON</h2>",
             "text_style": "subtitle"
           }
         },
         "caption_xBJgtQ": {
           "type": "caption",
           "settings": {
-            "caption": "Romania’s sound has always held a strong presence in the underground, but Bucharest’s Barac moves beyond the status quo in favour of something more colourful, dynamic, and textured. His deeply personal Variety Of Different Feelings LP on Raresh’s Metereze label stands as one of the most powerful minimal releases of recent years.                                                                       His sets at Sunwaves, Amore Festival, and, more recently, the 5th Element Festival speak for themselves, unhurried, immersive, and unerringly precise. Don’t miss this rhythmic journey through body and mind.",
+            "caption": "Widely regarded as one of the founding fathers of house music, Marshall Jefferson played a defining role in shaping the Chicago scene from its earliest days. Jefferson’s impact extends far beyond Chicago. From pioneering the acid house movement alongside DJ Pierre on ‘Acid Trax’, to exploring the deeper, more emotional side of the genre, his sound has continuously evolved while remaining rooted in the spirit of the dancefloor. A key figure in taking house music global. Decades on, his catalog remains some of the most celebrated in dance music history.",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -170,7 +170,7 @@
         "button_Gw3kqU": {
           "type": "button",
           "settings": {
-            "button_label": "TICKETS FOR BARAC",
+            "button_label": "TICKETS FOR MARSHALL JEFFERSON",
             "button_link": "https://ra.co/events/2400597",
             "button_style_secondary": false
           }
@@ -183,7 +183,7 @@
         "button_Gw3kqU"
       ],
       "settings": {
-        "image": "shopify://shop_images/barac1.jpg",
+        "image": "shopify://shop_images/Marshall-Jefferson.jpg",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
