@@ -32,7 +32,7 @@
             "button_label_1": "Book the Studio",
             "button_link_1": "https://app.squareup.com/appointments/book/2f415dw23azy2d/LT485MY1XZMHX/start",
             "button_style_secondary_1": false,
-            "button_label_2": "",
+            "button_label_2": "Book a Free Trial",
             "button_link_2": "https://app.squareup.com/gift/ML1ZZ2GQWZG3D/order",
             "button_style_secondary_2": false
           }
@@ -342,8 +342,8 @@
             "item_4_addon_2_price": "",
             "item_4_addon_3_name": "",
             "item_4_addon_3_price": "",
-            "item_5_name": "",
-            "item_5_description": "",
+            "item_5_name": "Free 30-Minute Trial",
+            "item_5_description": "We are dedicated to making sure you are comfortable in our studio - which is why we are offering a free 30-minute one-on-one session with our studio manager to show you how the studio functions and how we can best serve artists of different levels.",
             "item_5_price": "",
             "item_5_addon_1_name": "",
             "item_5_addon_1_price": "",
