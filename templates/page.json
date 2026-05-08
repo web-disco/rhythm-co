@@ -119,28 +119,19 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_G8ELja": {
+        "column_3iTEmP": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ISS_RFARAZ.webp",
-            "title": "May 5 - Rhythm In Store Session: Rfaraz",
-            "text": "<p>This is a free event.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2433429"
-          }
-        },
-        "column_iP3gEw": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Sapporo_Flyer.webp",
-            "title": "May 8 - Sapporo Live: Marshall Jefferson w/ Jodie D, Sakiko Nagai",
+            "image": "shopify://shop_images/Four_Tet_LP.webp",
+            "title": "May 13 - Long Play: Four Tet",
             "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2417593"
+            "link": "https://ra.co/events/2438618"
           }
         },
         "column_K7KXMR": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Bodywerk_Flyer.webp",
             "title": "May 15 - BODYWERK: JT Donaldso w/ Jason Hodges, Mr. Haze & SADSTAB",
@@ -151,6 +142,7 @@
         },
         "column_jBrPMz": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Hightide_Flyer.webp",
             "title": "May 16 - High Tide x SIGNAL x Rhythm present: Tommy Holohan",
@@ -161,6 +153,7 @@
         },
         "column_bkG7tE": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/BLACKOUT-001_Poster.webp",
             "title": "May 21 - BLACKOUT:001",
@@ -171,6 +164,7 @@
         },
         "column_wEhDPt": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Night_ii.webp",
             "title": "May 23 - Night ll by Exile: Ciel / Sergio SP / Audio Space",
@@ -181,6 +175,7 @@
         },
         "column_afnC7B": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/JKriv.webp",
             "title": "June 13 - JKriv (Razor-N-Tape, Brooklyn)",
@@ -191,6 +186,7 @@
         },
         "column_JqTFB7": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Fachwerk.webp",
             "title": "June 19 - Fachwerk label night: Mike Dehnert + Marivs",
@@ -201,8 +197,7 @@
         }
       },
       "block_order": [
-        "column_G8ELja",
-        "column_iP3gEw",
+        "column_3iTEmP",
         "column_K7KXMR",
         "column_jBrPMz",
         "column_bkG7tE",
