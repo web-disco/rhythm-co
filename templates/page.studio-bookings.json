@@ -162,7 +162,7 @@
         "button_PpWNmX": {
           "type": "button",
           "settings": {
-            "button_label": "Book Now",
+            "button_label": "Try it Out",
             "button_link": "mailto:studios@rhythm.space",
             "button_style_secondary": false,
             "button_label_2": "",
