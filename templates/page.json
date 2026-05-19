@@ -122,55 +122,31 @@
         "column_3iTEmP": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Four_Tet_LP.webp",
-            "title": "May 13 - Long Play: Four Tet",
+            "image": "shopify://shop_images/vinyl_workshop_may_20.jpg",
+            "title": "May 20 - Rhythm Workshop Series: Vinyl DJing",
             "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2438618"
-          }
-        },
-        "column_K7KXMR": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Bodywerk_Flyer.webp",
-            "title": "May 15 - BODYWERK: JT Donaldso w/ Jason Hodges, Mr. Haze & SADSTAB",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2393694"
-          }
-        },
-        "column_jBrPMz": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Hightide_Flyer.webp",
-            "title": "May 16 - High Tide x SIGNAL x Rhythm present: Tommy Holohan",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2415997"
+            "link": "https://ra.co/events/2440575"
           }
         },
         "column_bkG7tE": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/BLACKOUT-001_Poster.webp",
-            "title": "May 21 - BLACKOUT:001",
+            "image": "shopify://shop_images/IMG_7198.png",
+            "title": "May 21 - Rhythm x Rhymeschord In Store Session: Kalli, Thomas James, & Fauren",
             "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2396494"
+            "link_label": "This is a free event",
+            "link": "https://ra.co/events/2446971"
           }
         },
-        "column_wEhDPt": {
+        "column_ybNU39": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Night_ii.webp",
-            "title": "May 23 - Night ll by Exile: Ciel / Sergio SP / Audio Space",
+            "image": "shopify://shop_images/Subheading.png",
+            "title": "May 24 - Wine & Vinyl",
             "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2423158"
+            "link_label": "RSVP",
+            "link": "https://posh.vip/e/wine-vinyl"
           }
         },
         "column_afnC7B": {
@@ -198,10 +174,8 @@
       },
       "block_order": [
         "column_3iTEmP",
-        "column_K7KXMR",
-        "column_jBrPMz",
         "column_bkG7tE",
-        "column_wEhDPt",
+        "column_ybNU39",
         "column_afnC7B",
         "column_JqTFB7"
       ],
