@@ -142,6 +142,16 @@
         "column_ybNU39": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Leather_Workshop.png",
+            "title": "May 23 - Lace, Leather, and Longing: A Leather Journal Workshop Series",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://www.eventbrite.com/e/lace-leather-and-longing-a-leather-journal-workshop-series-tickets-1989101274457"
+          }
+        },
+        "column_mW78Un": {
+          "type": "column",
+          "settings": {
             "image": "shopify://shop_images/Subheading.png",
             "title": "May 24 - Wine & Vinyl",
             "text": "",
@@ -176,6 +186,7 @@
         "column_3iTEmP",
         "column_bkG7tE",
         "column_ybNU39",
+        "column_mW78Un",
         "column_afnC7B",
         "column_JqTFB7"
       ],
