@@ -134,8 +134,8 @@
           "settings": {
             "image": "shopify://shop_images/IMG_7198.png",
             "title": "May 21 - Rhythm x Rhymeschord In Store Session: Kalli, Thomas James, & Fauren",
-            "text": "",
-            "link_label": "This is a free event",
+            "text": "<p>This is a free event</p>",
+            "link_label": "Tickets",
             "link": "https://ra.co/events/2446971"
           }
         },
@@ -154,7 +154,7 @@
           "settings": {
             "image": "shopify://shop_images/Subheading.png",
             "title": "May 24 - Wine & Vinyl",
-            "text": "",
+            "text": "<p>This is a free event</p>",
             "link_label": "RSVP",
             "link": "https://posh.vip/e/wine-vinyl"
           }
