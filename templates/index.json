@@ -155,14 +155,14 @@
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<h2>MARSHALL JEFFERSON</h2>",
+            "text": "<h2>TAMMY LAKKIS</h2>",
             "text_style": "subtitle"
           }
         },
         "caption_xBJgtQ": {
           "type": "caption",
           "settings": {
-            "caption": "Widely regarded as one of the founding fathers of house music, Marshall Jefferson played a defining role in shaping the Chicago scene from its earliest days. Jefferson’s impact extends far beyond Chicago. From pioneering the acid house movement alongside DJ Pierre on ‘Acid Trax’, to exploring the deeper, more emotional side of the genre, his sound has continuously evolved while remaining rooted in the spirit of the dancefloor. A key figure in taking house music global. Decades on, his catalog remains some of the most celebrated in dance music history.",
+            "caption": "A Detroit dance floor anomaly, Tammy Lakkis’s presence has become undeniable over the past 8 years. She made a name for herself with her peak-time hardware live sets of jacking bangers, pounding basslines, and fun vocals—leading to the fruition of her Notice EP which struck down like thunder in the electronic music. She has been making ripples in the dance scene, bringing a sense of adventure to unsuspecting crowds. A Tammy DJ set could be described as off-center, funky, risky, strange, playful and ever-evolving. A natural storyteller, her music fluctuates between extremes, genre, and temperature.",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -170,8 +170,8 @@
         "button_Gw3kqU": {
           "type": "button",
           "settings": {
-            "button_label": "TICKETS FOR MARSHALL JEFFERSON",
-            "button_link": "https://ra.co/events/2417593",
+            "button_label": "TICKETS FOR TAMMY LAKKIS",
+            "button_link": "https://ra.co/events/2445427",
             "button_style_secondary": false
           }
         }
@@ -183,7 +183,7 @@
         "button_Gw3kqU"
       ],
       "settings": {
-        "image": "shopify://shop_images/Marshall-Jefferson.jpg",
+        "image": "shopify://shop_images/Tammy_Lakkis.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
