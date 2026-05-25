@@ -122,73 +122,27 @@
         "column_3iTEmP": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/vinyl_workshop_may_20.jpg",
-            "title": "May 20 - Rhythm Workshop Series: Vinyl DJing",
+            "image": "shopify://shop_images/socan_workshop.jpg",
+            "title": "May 27 - Rhythm x SOCAN Workshop: Music Rights and Royalties",
             "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2440575"
+            "link": "https://ra.co/events/2449552"
           }
         },
         "column_bkG7tE": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/IMG_7198.png",
-            "title": "May 21 - Rhythm x Rhymeschord In Store Session: Kalli, Thomas James, & Fauren",
+            "image": "shopify://shop_images/TROPICAL_PUNK.png",
+            "title": "May 30 - Rhythm In Store Session: Tropical Punk",
             "text": "<p>This is a free event</p>",
             "link_label": "Tickets",
             "link": "https://ra.co/events/2446971"
-          }
-        },
-        "column_ybNU39": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Leather_Workshop.png",
-            "title": "May 23 - Lace, Leather, and Longing: A Leather Journal Workshop Series",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://www.eventbrite.com/e/lace-leather-and-longing-a-leather-journal-workshop-series-tickets-1989101274457"
-          }
-        },
-        "column_mW78Un": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Subheading.png",
-            "title": "May 24 - Wine & Vinyl",
-            "text": "<p>This is a free event</p>",
-            "link_label": "RSVP",
-            "link": "https://posh.vip/e/wine-vinyl"
-          }
-        },
-        "column_afnC7B": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/JKriv.webp",
-            "title": "June 13 - JKriv (Razor-N-Tape, Brooklyn)",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2405413"
-          }
-        },
-        "column_JqTFB7": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Fachwerk.webp",
-            "title": "June 19 - Fachwerk label night: Mike Dehnert + Marivs",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2421562"
           }
         }
       },
       "block_order": [
         "column_3iTEmP",
-        "column_bkG7tE",
-        "column_ybNU39",
-        "column_mW78Un",
-        "column_afnC7B",
-        "column_JqTFB7"
+        "column_bkG7tE"
       ],
       "settings": {
         "title": "",
