@@ -438,7 +438,7 @@
         "ai_gen_block_e90bd2e_G3BkFF": {
           "type": "ai_gen_block_e90bd2e",
           "settings": {
-            "title": "Rental Rates",
+            "title": "Production Studio Rates",
             "description": "Hourly rates and available add-ons",
             "text_alignment": "center",
             "addon_label": "Add-ons",
@@ -545,7 +545,7 @@
           "type": "ai_gen_block_e90bd2e",
           "settings": {
             "title": "DJ Practice Rates",
-            "description": "Hourly rates and available add-ons",
+            "description": "Please note you will only have access to the DJ equipment",
             "text_alignment": "center",
             "addon_label": "Add-ons",
             "item_1_name": "1-Hour",
