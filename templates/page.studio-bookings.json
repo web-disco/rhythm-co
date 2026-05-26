@@ -662,7 +662,7 @@
           "settings": {
             "heading": "What do I need to bring to my session?",
             "icon": "none",
-            "row_content": "<p>We have everything you may need to get your project going. If you want to work on an existing project you can bring your laptop or a hard drive with your session files or any external gear. Please make sure to bring a USB or hard drive to move any files if you use our computer.</p>",
+            "row_content": "<p>We have everything you may need to get your project going. </p><p><strong>Production Studio: </strong>If you want to work on an existing project you can bring your laptop or a hard drive with your session files or any external gear. Please make sure to bring a USB or hard drive to move any files if you use our computer.</p><p><strong>DJ Practice: </strong>Please bring your USB(s) that are properly formatted with Rekordbox and a pair of headphones. If you want to learn how to ready your USB with Rekordbox <a href=\"https://youtu.be/mjZCgsszBX0?si=ptTfapKK4b4AIqjv\" target=\"_blank\">please watch this video.</a></p>",
             "page": ""
           }
         },
