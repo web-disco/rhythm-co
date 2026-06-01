@@ -122,27 +122,60 @@
         "column_3iTEmP": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/socan_workshop.jpg",
-            "title": "May 27 - Rhythm x SOCAN Workshop: Music Rights and Royalties",
+            "image": "shopify://shop_images/dj_workshop_june_3_fx.jpg",
+            "title": "June 3 - Rhythm Workshop Series: Digital DJing",
             "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2447145"
+            "link": "https://ra.co/events/2451578"
           }
         },
         "column_bkG7tE": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/TROPICAL_PUNK.png",
-            "title": "May 30 - Rhythm In Store Session: Tropical Punk",
-            "text": "<p>This is a free event</p>",
+            "image": "shopify://shop_images/Boards_of_Canada_Long_Play.webp",
+            "title": "June 4 - Long Play: Boards of Canada",
+            "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2449552"
+            "link": "https://ra.co/events/2453886"
+          }
+        },
+        "column_GB4AUf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ISS_Mezla_Greg.webp",
+            "title": "June 5 - Rhythm In Store Session: Mezla (UK) & Greg",
+            "text": "<p>This is a free event.</p>",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2453897"
+          }
+        },
+        "column_mzQmYW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ISS_Razmatello_Emil.webp",
+            "title": "June 7 - Rhythm In Store Session: Emil & Razmatello",
+            "text": "<p>This is a free event.</p>",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2457450"
+          }
+        },
+        "column_BePRpR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Club_Check_June_10.webp",
+            "title": "June 10 - Rhythm Workshop Series: Clubcheck",
+            "text": "<p>This is a free event.</p>",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2457446"
           }
         }
       },
       "block_order": [
         "column_3iTEmP",
-        "column_bkG7tE"
+        "column_bkG7tE",
+        "column_GB4AUf",
+        "column_mzQmYW",
+        "column_BePRpR"
       ],
       "settings": {
         "title": "",
