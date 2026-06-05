@@ -257,6 +257,22 @@
         "padding_bottom": 36
       }
     },
+    "video_cfRhzp": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "Studio Onboarding",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Rhythm Studio Onboarding.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "177143170874056d0b": {
       "type": "_blocks",
       "blocks": {
@@ -796,6 +812,7 @@
     "multicolumn_TQD433",
     "rich_text_XaCEB3",
     "multirow_44z9Xh",
+    "video_cfRhzp",
     "177143170874056d0b",
     "coming-soon",
     "177093638693135ebc",
