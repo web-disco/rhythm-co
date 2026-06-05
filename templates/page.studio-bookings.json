@@ -261,7 +261,7 @@
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "Studio Onboarding",
+        "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video": "shopify://files/videos/Rhythm Studio Onboarding.mov",
