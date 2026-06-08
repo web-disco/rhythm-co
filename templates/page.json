@@ -119,46 +119,6 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_3iTEmP": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/dj_workshop_june_3_fx.jpg",
-            "title": "June 3 - Rhythm Workshop Series: Digital DJing",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2451578"
-          }
-        },
-        "column_bkG7tE": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Boards_of_Canada_Long_Play.webp",
-            "title": "June 4 - Long Play: Boards of Canada",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2453886"
-          }
-        },
-        "column_GB4AUf": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ISS_Mezla_Greg.webp",
-            "title": "June 5 - Rhythm In Store Session: Mezla (UK) & Greg",
-            "text": "<p>This is a free event.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2453897"
-          }
-        },
-        "column_mzQmYW": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ISS_Razmatello_Emil.webp",
-            "title": "June 7 - Rhythm In Store Session: Emil & Razmatello",
-            "text": "<p>This is a free event.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2457450"
-          }
-        },
         "column_BePRpR": {
           "type": "column",
           "settings": {
@@ -168,14 +128,21 @@
             "link_label": "Tickets",
             "link": "https://ra.co/events/2457446"
           }
+        },
+        "column_mzQmYW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ISS_Athena.webp",
+            "title": "June 11 - Rhythm In Store Session: Athena",
+            "text": "<p>This is a free event.</p>",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2460079"
+          }
         }
       },
       "block_order": [
-        "column_3iTEmP",
-        "column_bkG7tE",
-        "column_GB4AUf",
-        "column_mzQmYW",
-        "column_BePRpR"
+        "column_BePRpR",
+        "column_mzQmYW"
       ],
       "settings": {
         "title": "",
