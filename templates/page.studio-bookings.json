@@ -455,7 +455,7 @@
           "type": "ai_gen_block_e90bd2e",
           "settings": {
             "title": "Production Studio Rates",
-            "description": "You will have access to all of our gear including the DJ equipment",
+            "description": "You will have access to all of our gear including the DJ equipment.",
             "text_alignment": "center",
             "addon_label": "Add-ons",
             "item_1_name": "1-Hour",
