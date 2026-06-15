@@ -122,21 +122,21 @@
         "column_BePRpR": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Club_Check_June_10.webp",
-            "title": "June 10 - Rhythm Workshop Series: Clubcheck",
-            "text": "<p>This is a free event.</p>",
+            "image": "shopify://shop_images/Lighting_Workshop.webp",
+            "title": "June 17 - Rhythm Workshop Series: Lighting 101",
+            "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2457446"
+            "link": "https://ra.co/events/2464402"
           }
         },
         "column_mzQmYW": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ISS_Athena.webp",
-            "title": "June 11 - Rhythm In Store Session: Athena",
-            "text": "<p>This is a free event.</p>",
+            "image": "shopify://shop_images/Long_Play_Bjork.webp",
+            "title": "June 18 - Long Play: Björk",
+            "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2460079"
+            "link": "https://ra.co/events/2464333"
           }
         }
       },
