@@ -122,27 +122,49 @@
         "column_BePRpR": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Lighting_Workshop.webp",
-            "title": "June 17 - Rhythm Workshop Series: Lighting 101",
-            "text": "",
+            "image": "shopify://shop_images/ISS_Shighi.webp",
+            "title": "June 23 - Rhythm In Store Session: Shighi",
+            "text": "<p>This is a free event.</p>",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2464402"
+            "link": "https://ra.co/events/2473703"
           }
         },
-        "column_mzQmYW": {
+        "column_tUz3yk": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Long_Play_Bjork.webp",
-            "title": "June 18 - Long Play: Björk",
-            "text": "",
+            "image": "shopify://shop_images/ISS_Rhymeschord_2.webp",
+            "title": "June 25 - Rhythm In Store Session: Rhymeschord",
+            "text": "<p>This is a free event.</p>",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2464333"
+            "link": "https://ra.co/events/2473710"
+          }
+        },
+        "column_XRmcVz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ISS_Erhua_Archive.webp",
+            "title": "June 28 - Rhythm In Store Session: Erhua Archive",
+            "text": "<p>This is a free event.</p>",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2473713"
+          }
+        },
+        "column_3ErgAV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ISS_Lloyd_Gebbie.webp",
+            "title": "July 4 - Rhythm In Store Session: Lloyd Gebbie",
+            "text": "<p>This is a free event.</p>",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2473705"
           }
         }
       },
       "block_order": [
         "column_BePRpR",
-        "column_mzQmYW"
+        "column_tUz3yk",
+        "column_XRmcVz",
+        "column_3ErgAV"
       ],
       "settings": {
         "title": "",
