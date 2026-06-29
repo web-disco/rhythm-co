@@ -155,14 +155,14 @@
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<h2>TAMMY LAKKIS</h2>",
+            "text": "<h2>ACEMO</h2>",
             "text_style": "subtitle"
           }
         },
         "caption_xBJgtQ": {
           "type": "caption",
           "settings": {
-            "caption": "A Detroit dance floor anomaly, Tammy Lakkis’s presence has become undeniable over the past 8 years. She made a name for herself with her peak-time hardware live sets of jacking bangers, pounding basslines, and fun vocals—leading to the fruition of her Notice EP which struck down like thunder in the electronic music. She has been making ripples in the dance scene, bringing a sense of adventure to unsuspecting crowds. A Tammy DJ set could be described as off-center, funky, risky, strange, playful and ever-evolving. A natural storyteller, her music fluctuates between extremes, genre, and temperature.",
+            "caption": "NYC-based sonic savant ACEMO is one of the key artists reshaping the landscape of electronic music today. Known for seamlessly blending techno, house, rap, and a wide range of left-field sounds, he’s built a dedicated following in New York and around the world through his unmistakable productions and high-energy DJ sets.⁠⁠Expect genre-bending selections, infectious grooves, and a fresh take on dance music from one of the scene’s most exciting voices.⁠",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -170,8 +170,8 @@
         "button_Gw3kqU": {
           "type": "button",
           "settings": {
-            "button_label": "TICKETS FOR TAMMY LAKKIS",
-            "button_link": "https://ra.co/events/2445427",
+            "button_label": "TICKETS FOR ACEMO",
+            "button_link": "https://ra.co/events/2426042",
             "button_style_secondary": false
           }
         }
@@ -183,7 +183,7 @@
         "button_Gw3kqU"
       ],
       "settings": {
-        "image": "shopify://shop_images/Tammy_Lakkis.png",
+        "image": "shopify://shop_images/ACEMO.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
