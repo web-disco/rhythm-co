@@ -119,34 +119,24 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_BePRpR": {
+        "column_KqgEcn": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ISS_Shighi.webp",
-            "title": "June 23 - Rhythm In Store Session: Shighi",
+            "image": "shopify://shop_images/ISS_-_Release_Takeover_30Jun26.jpg",
+            "title": "June 30 - Rhythm In Store Session: Lloyd Gebbie",
             "text": "<p>This is a free event.</p>",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2473703"
+            "link": "https://ra.co/events/2478666"
           }
         },
-        "column_tUz3yk": {
+        "column_kTzpjT": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ISS_Rhymeschord_2.webp",
-            "title": "June 25 - Rhythm In Store Session: Rhymeschord",
-            "text": "<p>This is a free event.</p>",
+            "image": "shopify://shop_images/vinyl_workshop_july_1.jpg",
+            "title": "June 30 - Rhythm Workshop Series: Vinyl DJing",
+            "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2473710"
-          }
-        },
-        "column_XRmcVz": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ISS_Erhua_Archive.webp",
-            "title": "June 28 - Rhythm In Store Session: Erhua Archive",
-            "text": "<p>This is a free event.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2473713"
+            "link": "https://ra.co/events/2473818"
           }
         },
         "column_3ErgAV": {
@@ -161,9 +151,8 @@
         }
       },
       "block_order": [
-        "column_BePRpR",
-        "column_tUz3yk",
-        "column_XRmcVz",
+        "column_KqgEcn",
+        "column_kTzpjT",
         "column_3ErgAV"
       ],
       "settings": {
