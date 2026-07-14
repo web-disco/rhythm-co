@@ -122,38 +122,27 @@
         "column_KqgEcn": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ISS_-_Release_Takeover_30Jun26.jpg",
-            "title": "June 30 - Rhythm In Store Session: Lloyd Gebbie",
-            "text": "<p>This is a free event.</p>",
+            "image": "shopify://shop_images/Long_Play_July_16.png",
+            "title": "July 16 - Long Play: The Language of Guitars",
+            "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2478666"
+            "link": "https://ra.co/events/2486082"
           }
         },
         "column_kTzpjT": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/vinyl_workshop_july_1.jpg",
+            "image": "shopify://shop_images/Club_Check_July_22.jpg",
             "title": "June 30 - Rhythm Workshop Series: Vinyl DJing",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2473818"
-          }
-        },
-        "column_3ErgAV": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ISS_Lloyd_Gebbie.webp",
-            "title": "July 4 - Rhythm In Store Session: Lloyd Gebbie",
             "text": "<p>This is a free event.</p>",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2473705"
+            "link": "https://ra.co/events/2479938"
           }
         }
       },
       "block_order": [
         "column_KqgEcn",
-        "column_kTzpjT",
-        "column_3ErgAV"
+        "column_kTzpjT"
       ],
       "settings": {
         "title": "",
