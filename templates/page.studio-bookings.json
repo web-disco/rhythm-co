@@ -705,7 +705,7 @@
           "type": "button",
           "settings": {
             "button_label": "Book a Lesson",
-            "button_link": "mailto:sun.rain.mastering@gmail.com?cc:will@rhythm.space",
+            "button_link": "mailto:sun.rain.mastering@gmail.com?cc=will@rhythm.space",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
