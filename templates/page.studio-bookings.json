@@ -448,6 +448,66 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_KnkfW8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bTFGny": {
+          "type": "heading",
+          "settings": {
+            "heading": "New to Music Production?",
+            "heading_size": "h1"
+          }
+        },
+        "heading_rYxKri": {
+          "type": "heading",
+          "settings": {
+            "heading": "Book a private lesson with Chad Skinner to learn about production & recording fundamentals",
+            "heading_size": "h2"
+          }
+        },
+        "text_MLwVew": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As co-founder of Half Moon Audio in The Great Hall, Chad Skinner has built a reputation for delivering detailed, impactful mixes and masters across a wide range of musical styles. While experienced in working across all genres, his expertise lies in electronic music, with a particular focus on house, techno, dubstep, ambient, and downtempo.</p><p>Over the years, he has collaborated with a diverse roster of artists, including Distinct Motive, Pick a Piper (Caribou), Alaskan Tapes, Congi, Synkro, and many more. Their work has contributed to multiple charting releases, including two Beatport #1 records in the Dubstep category.</p><p>With a philosophy centered on enhancing an artist's vision rather than imposing one, Chad approaches every project with technical precision, musical sensitivity, and a commitment to creating records that translate beautifully across clubs, streaming platforms, and sound systems alike.</p>"
+          }
+        },
+        "caption_Pyycrx": {
+          "type": "caption",
+          "settings": {
+            "caption": "please note: this does not apply for the complimentary 2-hour session",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "button_DciGfr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book a Lesson",
+            "button_link": "mailto:sun.rain.mastering@gmail.com?cc=will@rhythm.space",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bTFGny",
+        "heading_rYxKri",
+        "text_MLwVew",
+        "caption_Pyycrx",
+        "button_DciGfr"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "177093638693135ebc": {
       "type": "_blocks",
       "blocks": {
@@ -670,66 +730,6 @@
       ],
       "settings": {}
     },
-    "rich_text_KnkfW8": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_bTFGny": {
-          "type": "heading",
-          "settings": {
-            "heading": "New to Music Production?",
-            "heading_size": "h1"
-          }
-        },
-        "heading_rYxKri": {
-          "type": "heading",
-          "settings": {
-            "heading": "Book a private lesson with Chad Skinner to learn about production & recording fundamentals",
-            "heading_size": "h2"
-          }
-        },
-        "text_MLwVew": {
-          "type": "text",
-          "settings": {
-            "text": "<p>As co-founder of Half Moon Audio in The Great Hall, Chad Skinner has built a reputation for delivering detailed, impactful mixes and masters across a wide range of musical styles. While experienced in working across all genres, his expertise lies in electronic music, with a particular focus on house, techno, dubstep, ambient, and downtempo.</p><p>Over the years, he has collaborated with a diverse roster of artists, including Distinct Motive, Pick a Piper (Caribou), Alaskan Tapes, Congi, Synkro, and many more. Their work has contributed to multiple charting releases, including two Beatport #1 records in the Dubstep category.</p><p>With a philosophy centered on enhancing an artist's vision rather than imposing one, Chad approaches every project with technical precision, musical sensitivity, and a commitment to creating records that translate beautifully across clubs, streaming platforms, and sound systems alike.</p>"
-          }
-        },
-        "caption_Pyycrx": {
-          "type": "caption",
-          "settings": {
-            "caption": "please note: this does not apply for the complimentary 2-hour session",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "button_DciGfr": {
-          "type": "button",
-          "settings": {
-            "button_label": "Book a Lesson",
-            "button_link": "mailto:sun.rain.mastering@gmail.com?cc=will@rhythm.space",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_bTFGny",
-        "heading_rYxKri",
-        "text_MLwVew",
-        "caption_Pyycrx",
-        "button_DciGfr"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "collapsible_content_PCTrha": {
       "type": "collapsible-content",
       "blocks": {
@@ -873,9 +873,9 @@
     "rich_text_XaCEB3",
     "multirow_44z9Xh",
     "video_cfRhzp",
-    "rich_text_KnkfW8",
     "177143170874056d0b",
     "coming-soon",
+    "rich_text_KnkfW8",
     "177093638693135ebc",
     "collapsible_content_PCTrha",
     "rich_text_ijtyzk"
