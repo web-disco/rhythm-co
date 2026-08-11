@@ -122,21 +122,21 @@
         "column_kTzpjT": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Club_Check_July_22.jpg",
-            "title": "June 30 - Rhythm Workshop Series: Vinyl DJing",
-            "text": "<p>This is a free event.</p>",
+            "image": "shopify://shop_images/VINYL_WORKSHOP.jpg",
+            "title": "August 12 - Rhythm Workshop Series: Vinyl DJing",
+            "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2479938"
+            "link": "https://ra.co/events/2502836"
           }
         },
         "column_BCrfrP": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ISS_llapse.webp",
-            "title": "July 24 - Rhythm In-Store Session: Llapse",
+            "image": "shopify://shop_images/Wavemap_-_ISS.jpg",
+            "title": "August 13 - Rhythm x Wavemap In-Store Session: Live Hardware Jam",
             "text": "<p>This is a free event.</p>",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2493485"
+            "link": "https://ra.co/events/2505138"
           }
         }
       },
