@@ -94,6 +94,54 @@
         "show_text_below": false
       }
     },
+    "image_with_text_pJanKm": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VqhnXk": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Rhythm Open Air: Trommel x Rhythm</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_QmQNLy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rhythm Open Air returns to 131 McCormack for the final instalment of the summer series.<br/><br/>Presented in partnership with Trommel, this edition celebrates the deeper, groove-driven side of tech house and minimal with a lineup that brings together some of the most respected selectors in the scene. Joining us are Lamache, Cristi Cons, Per Hammar b2b Secret Guest, and Toronto favourite Negin.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_yWUWHA": {
+          "type": "button",
+          "settings": {
+            "button_label": "Tickets",
+            "button_link": "https://ra.co/events/2426044",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VqhnXk",
+        "text_QmQNLy",
+        "button_yWUWHA"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Copy_of_RHTYHM_OPEN_AIR_AUGUST_29_POSTER_4BY5_99a39f57-f04c-4fec-a5ea-2d3182330e0c.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_xQxCGj": {
       "type": "image-with-text",
       "blocks": {
@@ -251,6 +299,7 @@
     "featured_records_ca3QVJ",
     "essentials_slider_4Jdkgx",
     "image_banner_EqzCch",
+    "image_with_text_pJanKm",
     "image_with_text_xQxCGj",
     "image_with_text_EEn6jt",
     "image_with_text_PgkTUz"
