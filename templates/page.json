@@ -119,41 +119,52 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_kTzpjT": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/post-dubstep_long_play.jpg",
-            "title": "August 18 - Long Play: James Blake and Post-Dubstep",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2509736"
-          }
-        },
-        "column_BCrfrP": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/DEMO_WORKSHOP.jpg",
-            "title": "August 19 - Rhythm Workshop Series: From Demo to Distro",
-            "text": "<p>Pay what you can event.</p>",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2510502"
-          }
-        },
         "column_9FYV86": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/daft_punk_long_play.jpg",
-            "title": "August 20 - Long Play: Daft Punk",
+            "image": "shopify://shop_images/sufjan_stevens_long_play.jpg",
+            "title": "September 8 - Long Play: Sufjan Stevens",
             "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2509745"
+            "link": "https://ra.co/events/2521337"
+          }
+        },
+        "column_XDEDc9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ABLETON_WORKSHOP_2.jpg",
+            "title": "September 9 - Rhythm Workshop Series: Ableton Workshop",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2526602"
+          }
+        },
+        "column_BpbP3A": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kraftwerk_long_play.jpg",
+            "title": "September 22 - Long Play: Kraftwerk",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2521336"
+          }
+        },
+        "column_Q9cLrt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ciel_long_play.jpg",
+            "title": "September 29 - Long Play: Shades of Dub",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2520314"
           }
         }
       },
       "block_order": [
-        "column_kTzpjT",
-        "column_BCrfrP",
-        "column_9FYV86"
+        "column_9FYV86",
+        "column_XDEDc9",
+        "column_BpbP3A",
+        "column_Q9cLrt"
       ],
       "settings": {
         "title": "",

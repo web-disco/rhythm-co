@@ -125,6 +125,7 @@
         "text_QmQNLy",
         "button_yWUWHA"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Copy_of_RHTYHM_OPEN_AIR_AUGUST_29_POSTER_4BY5_99a39f57-f04c-4fec-a5ea-2d3182330e0c.jpg",
