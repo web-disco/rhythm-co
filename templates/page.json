@@ -119,26 +119,6 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_9FYV86": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/sufjan_stevens_long_play.jpg",
-            "title": "September 8 - Long Play: Sufjan Stevens",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2521337"
-          }
-        },
-        "column_XDEDc9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ABLETON_WORKSHOP.jpg",
-            "title": "September 16 - Rhythm Workshop Series: Ableton Workshop",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2532531"
-          }
-        },
         "column_BpbP3A": {
           "type": "column",
           "settings": {
@@ -147,6 +127,16 @@
             "text": "",
             "link_label": "Tickets",
             "link": "https://ra.co/events/2521336"
+          }
+        },
+        "column_th93aD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DJ_WORKSHOP.jpg",
+            "title": "September 23 - Rhythm Workshop Series: Intro to Digital DJing",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2536684"
           }
         },
         "column_Q9cLrt": {
@@ -158,13 +148,23 @@
             "link_label": "Tickets",
             "link": "https://ra.co/events/2520314"
           }
+        },
+        "column_MHm4CJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/LIVE_SET_WORKSHOP.jpg",
+            "title": "September 30 - Rhythm Workshop Series: Performing Live",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2536687"
+          }
         }
       },
       "block_order": [
-        "column_9FYV86",
-        "column_XDEDc9",
         "column_BpbP3A",
-        "column_Q9cLrt"
+        "column_th93aD",
+        "column_Q9cLrt",
+        "column_MHm4CJ"
       ],
       "settings": {
         "title": "",
