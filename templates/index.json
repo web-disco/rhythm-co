@@ -218,6 +218,7 @@
         },
         "button_Gw3kqU": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "TICKETS FOR ALEXIS CABRERA",
             "button_link": "https://ra.co/events/2528736",
