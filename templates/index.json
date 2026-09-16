@@ -204,14 +204,14 @@
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<h2>ACEMO</h2>",
+            "text": "<h2>ALEXIS CABRERA</h2>",
             "text_style": "subtitle"
           }
         },
         "caption_xBJgtQ": {
           "type": "caption",
           "settings": {
-            "caption": "NYC-based sonic savant ACEMO is one of the key artists reshaping the landscape of electronic music today. Known for seamlessly blending techno, house, rap, and a wide range of left-field sounds, he’s built a dedicated following in New York and around the world through his unmistakable productions and high-energy DJ sets.⁠⁠Expect genre-bending selections, infectious grooves, and a fresh take on dance music from one of the scene’s most exciting voices.⁠",
+            "caption": "A longtime fixture of the underground, Alexis Cabrera has spent the better part of two decades carving out his own corner of minimal and house — built on groove, experimentation and a distinctly playful approach to the dancefloor. From Buenos Aires to Berlin and dancefloors around the world, his sound sits somewhere between the hypnotic and unexpected, always with movement at its core.",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -219,8 +219,8 @@
         "button_Gw3kqU": {
           "type": "button",
           "settings": {
-            "button_label": "TICKETS FOR ACEMO",
-            "button_link": "https://ra.co/events/2426042",
+            "button_label": "TICKETS FOR ALEXIS CABRERA",
+            "button_link": "https://ra.co/events/2528736",
             "button_style_secondary": false
           }
         }
@@ -232,7 +232,7 @@
         "button_Gw3kqU"
       ],
       "settings": {
-        "image": "shopify://shop_images/ACEMO.png",
+        "image": "shopify://shop_images/Alexis_C4.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
