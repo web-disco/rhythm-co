@@ -119,26 +119,6 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_BpbP3A": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/kraftwerk_long_play.jpg",
-            "title": "September 22 - Long Play: Kraftwerk",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2521336"
-          }
-        },
-        "column_th93aD": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/DJ_WORKSHOP.jpg",
-            "title": "September 23 - Rhythm Workshop Series: Intro to Digital DJing",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2536684"
-          }
-        },
         "column_Q9cLrt": {
           "type": "column",
           "settings": {
@@ -158,13 +138,55 @@
             "link_label": "Tickets",
             "link": "https://ra.co/events/2536687"
           }
+        },
+        "column_KRERLB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FLOATING_POINTS.jpg",
+            "title": "October 1 - Long Play: Floating Points",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2528720"
+          }
+        },
+        "column_wHRi7K": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FRANK_OCEAN.jpg",
+            "title": "October 8 - Long Play: Frank Ocean",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2543431"
+          }
+        },
+        "column_ftz6bm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/COCTEAU_TWINS.jpg",
+            "title": "October 22 - Long Play: Cocteau Twins",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2543433"
+          }
+        },
+        "column_PNWfe7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/KRUANGBIN.jpg",
+            "title": "October 29 - Long Play: Khruangbin",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2543438"
+          }
         }
       },
       "block_order": [
-        "column_BpbP3A",
-        "column_th93aD",
         "column_Q9cLrt",
-        "column_MHm4CJ"
+        "column_MHm4CJ",
+        "column_KRERLB",
+        "column_wHRi7K",
+        "column_ftz6bm",
+        "column_PNWfe7"
       ],
       "settings": {
         "title": "",
