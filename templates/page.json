@@ -119,26 +119,6 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_Q9cLrt": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/FAIRFIELD_WORKSHOP.jpg",
-            "title": "October 14 - Rhythm Workshop Series Effects Pedals in Electronic Music",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2550185"
-          }
-        },
-        "column_MHm4CJ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/FRANK_OCEAN_SESSION_2.jpg",
-            "title": "October 16 - <strong>Long Play: Frank Ocean + Extended Session with Aaron Dunkies</strong>",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2558046"
-          }
-        },
         "column_ftz6bm": {
           "type": "column",
           "settings": {
@@ -147,6 +127,16 @@
             "text": "",
             "link_label": "Tickets",
             "link": "https://ra.co/events/2543433"
+          }
+        },
+        "column_iCNJ6a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/0245f72d2bbceefb52c6115b92ee61eed9b60fe7.webp",
+            "title": "October 24 - r.hythmik invites Ostrich",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2544376"
           }
         },
         "column_PNWfe7": {
@@ -161,9 +151,8 @@
         }
       },
       "block_order": [
-        "column_Q9cLrt",
-        "column_MHm4CJ",
         "column_ftz6bm",
+        "column_iCNJ6a",
         "column_PNWfe7"
       ],
       "settings": {
