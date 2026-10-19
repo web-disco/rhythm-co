@@ -148,12 +148,45 @@
             "link_label": "Tickets",
             "link": "https://ra.co/events/2543438"
           }
+        },
+        "column_XwYMkF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/724101c7065a522021fdfc7cac02ddaea8486f03.webp",
+            "title": "October 30 - OTR & DISQO present: Sweely",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2534638"
+          }
+        },
+        "column_ejFNAB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/261031_mooi_warehouse_POST.png",
+            "title": "October 31 - Yoyaku x Rhythm Halloween Special",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/pro/events/2517833"
+          }
+        },
+        "column_BbwXmK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/878b1828175383048cb73412f342c1dac95e923a.webp",
+            "title": "November 7 - Carousel x Rhythm: Tomoki Tamura",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2560522"
+          }
         }
       },
       "block_order": [
         "column_ftz6bm",
         "column_iCNJ6a",
-        "column_PNWfe7"
+        "column_PNWfe7",
+        "column_XwYMkF",
+        "column_ejFNAB",
+        "column_BbwXmK"
       ],
       "settings": {
         "title": "",
