@@ -119,26 +119,6 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_ftz6bm": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/COCTEAU_TWINS.jpg",
-            "title": "October 22 - Long Play: Cocteau Twins",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2543433"
-          }
-        },
-        "column_iCNJ6a": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/0245f72d2bbceefb52c6115b92ee61eed9b60fe7.webp",
-            "title": "October 24 - r.hythmik invites: Ostrich",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2544376"
-          }
-        },
         "column_PNWfe7": {
           "type": "column",
           "settings": {
@@ -172,6 +152,16 @@
         "column_BbwXmK": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/ABLETON_WORKSHOP_3.jpg",
+            "title": "November 4 - Ableton Workshop",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2565799"
+          }
+        },
+        "column_wCwrhh": {
+          "type": "column",
+          "settings": {
             "image": "shopify://shop_images/878b1828175383048cb73412f342c1dac95e923a.webp",
             "title": "November 7 - Carousel x Rhythm: Tomoki Tamura",
             "text": "",
@@ -181,12 +171,11 @@
         }
       },
       "block_order": [
-        "column_ftz6bm",
-        "column_iCNJ6a",
         "column_PNWfe7",
         "column_XwYMkF",
         "column_ejFNAB",
-        "column_BbwXmK"
+        "column_BbwXmK",
+        "column_wCwrhh"
       ],
       "settings": {
         "title": "",
