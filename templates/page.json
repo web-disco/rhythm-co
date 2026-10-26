@@ -168,6 +168,16 @@
             "link_label": "Tickets",
             "link": "https://ra.co/events/2560522"
           }
+        },
+        "column_tjYwy4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BURNIN_VERNON.jpg",
+            "title": "November 12 - Long Play: Concept Albums",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2567155"
+          }
         }
       },
       "block_order": [
@@ -175,7 +185,8 @@
         "column_XwYMkF",
         "column_ejFNAB",
         "column_BbwXmK",
-        "column_wCwrhh"
+        "column_wCwrhh",
+        "column_tjYwy4"
       ],
       "settings": {
         "title": "",
