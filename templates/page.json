@@ -119,36 +119,6 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_PNWfe7": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/KRUANGBIN.jpg",
-            "title": "October 29 - Long Play: Khruangbin",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2543438"
-          }
-        },
-        "column_XwYMkF": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/724101c7065a522021fdfc7cac02ddaea8486f03.webp",
-            "title": "October 30 - OTR & DISQO present: Sweely",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2534638"
-          }
-        },
-        "column_ejFNAB": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/261031_mooi_warehouse_POST.png",
-            "title": "October 31 - Yoyaku x Rhythm Halloween Special",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2517833"
-          }
-        },
         "column_BbwXmK": {
           "type": "column",
           "settings": {
@@ -178,15 +148,45 @@
             "link_label": "Tickets",
             "link": "https://ra.co/events/2567155"
           }
+        },
+        "column_eRYW9T": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/D_STONE_NICHOLAS_NOTHING_FINAL_4BY5.jpg",
+            "title": "November 13 - Rhythmic Roots x Rhythm: D Stone",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2536827"
+          }
+        },
+        "column_VBUeU6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/afa2e80a58e981a3c5fc04a9e9846b71a46dce60.webp",
+            "title": "November 20 - Rhythm: Barbara Presinger",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2569940"
+          }
+        },
+        "column_7wXdBV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/RHYTHM_PRESENTS_Arapu_FINAL_4BY5.jpg",
+            "title": "November 27 - Rhythm: Arapu",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2570904"
+          }
         }
       },
       "block_order": [
-        "column_PNWfe7",
-        "column_XwYMkF",
-        "column_ejFNAB",
         "column_BbwXmK",
         "column_wCwrhh",
-        "column_tjYwy4"
+        "column_tjYwy4",
+        "column_eRYW9T",
+        "column_VBUeU6",
+        "column_7wXdBV"
       ],
       "settings": {
         "title": "",
