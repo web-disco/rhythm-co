@@ -204,14 +204,14 @@
         "text_FmBMex": {
           "type": "text",
           "settings": {
-            "text": "<h2>CABANNE</h2>",
+            "text": "<h2>BARBARA PRESINGER</h2>",
             "text_style": "subtitle"
           }
         },
         "caption_xBJgtQ": {
           "type": "caption",
           "settings": {
-            "caption": "Cabanne, also known as Jean-Guillaume Cabanne, is a renowned French DJ and producer. With a career spanning over two decades, he has become a prominent figure in the minimal and microhouse scenes. Cabanne's music is characterized by intricate rhythms, playful sounds, and meticulous attention to detail.",
+            "caption": "Barbara Preisinger first began dj-ing in 1996 in her hometown of Munich and was playing regularly at the the green flokati room of the \"ultraschall\" club. in the Summer of 1998 Barbara left Munich for Berlin, where she started working as a freelance press and radio promoter for electronic music. In the years that followed she represented various labels and acts from the experimental music scene, ranging from straight clubsounds to electronic pop and indie-electronia.",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -233,7 +233,7 @@
         "button_Gw3kqU"
       ],
       "settings": {
-        "image": "shopify://shop_images/3c.jpg",
+        "image": "shopify://shop_images/avatars-PxTeqW3NPs9H5wt9-nXZD0w-t1080x1080.jpg",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
