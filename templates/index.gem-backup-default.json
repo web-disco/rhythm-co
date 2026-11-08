@@ -1,0 +1,309 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "featured_records_ca3QVJ": {
+      "type": "featured-records",
+      "blocks": {
+        "product_yQ8Lwj": {
+          "type": "product",
+          "settings": {
+            "product": "untitled",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_mbbCF9": {
+          "type": "product",
+          "settings": {
+            "product": "les-gout",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_XWJcN3": {
+          "type": "product",
+          "settings": {
+            "product": "leo-mirjam-incl-legowelt-remix",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "product_ALPpCF": {
+          "type": "product",
+          "settings": {
+            "product": "hot-mess-ep",
+            "text": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_yQ8Lwj",
+        "product_mbbCF9",
+        "product_XWJcN3",
+        "product_ALPpCF"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_color_scheme": "scheme-5"
+      }
+    },
+    "essentials_slider_4Jdkgx": {
+      "type": "essentials-slider",
+      "disabled": true,
+      "settings": {
+        "section_color_scheme": "",
+        "title": "This Week's Staff picks",
+        "collection": "essentials"
+      }
+    },
+    "image_banner_EqzCch": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_kWRBXy": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kWRBXy"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hero-2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_with_text_pJanKm": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VqhnXk": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Rhythm Open Air: Trommel x Rhythm<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_QmQNLy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rhythm Open Air returns to 131 McCormack for the final instalment of the summer series.<br\/><br\/>Presented in partnership with Trommel, this edition celebrates the deeper, groove-driven side of tech house and minimal with a lineup that brings together some of the most respected selectors in the scene. Joining us are Lamache, Cristi Cons, Per Hammar b2b Secret Guest, and Toronto favourite Negin.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_yWUWHA": {
+          "type": "button",
+          "settings": {
+            "button_label": "Tickets",
+            "button_link": "https:\/\/ra.co\/events\/2426044",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VqhnXk",
+        "text_QmQNLy",
+        "button_yWUWHA"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Copy_of_RHTYHM_OPEN_AIR_AUGUST_29_POSTER_4BY5_99a39f57-f04c-4fec-a5ea-2d3182330e0c.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_xQxCGj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UwVP8P": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop our records",
+            "heading_size": "h1"
+          }
+        },
+        "text_rAC7y4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have over 1000 records spanning everthing from techno, dub, electro, progressive, minimal, UKG, house and so much more.   <\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_Urach4": {
+          "type": "button",
+          "settings": {
+            "button_label": "See the full collection here",
+            "button_link": "https:\/\/rhythm.common-ground.io",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UwVP8P",
+        "text_rAC7y4",
+        "button_Urach4"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-c-3412017610.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_EEn6jt": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_n773QR": {
+          "type": "heading",
+          "settings": {
+            "heading": "ARTIST SPOTLIGHT",
+            "heading_size": "h1"
+          }
+        },
+        "text_FmBMex": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>BARBARA PRESINGER<\/h2>",
+            "text_style": "subtitle"
+          }
+        },
+        "caption_xBJgtQ": {
+          "type": "caption",
+          "settings": {
+            "caption": "Barbara Preisinger first began dj-ing in 1996 in her hometown of Munich and was playing regularly at the the green flokati room of the \"ultraschall\" club. in the Summer of 1998 Barbara left Munich for Berlin, where she started working as a freelance press and radio promoter for electronic music. In the years that followed she represented various labels and acts from the experimental music scene, ranging from straight clubsounds to electronic pop and indie-electronia.",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "button_Gw3kqU": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "TICKETS FOR ALEXIS CABRERA",
+            "button_link": "https:\/\/ra.co\/events\/2528736",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_n773QR",
+        "text_FmBMex",
+        "caption_xBJgtQ",
+        "button_Gw3kqU"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/avatars-PxTeqW3NPs9H5wt9-nXZD0w-t1080x1080.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 96,
+        "padding_bottom": 100
+      }
+    },
+    "image_with_text_PgkTUz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RmMaaq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Co-working Space",
+            "heading_size": "h1"
+          }
+        },
+        "text_PGJkmX": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Now available to book<\/h5>",
+            "text_style": "body"
+          }
+        },
+        "button_eKTUfx": {
+          "type": "button",
+          "settings": {
+            "button_label": "BOOK NOW",
+            "button_link": "https:\/\/rhythm.space\/products\/co-working-slot-day",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RmMaaq",
+        "text_PGJkmX",
+        "button_eKTUfx"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/5.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "featured_records_ca3QVJ",
+    "essentials_slider_4Jdkgx",
+    "image_banner_EqzCch",
+    "image_with_text_pJanKm",
+    "image_with_text_xQxCGj",
+    "image_with_text_EEn6jt",
+    "image_with_text_PgkTUz"
+  ]
+}
