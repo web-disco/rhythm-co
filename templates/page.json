@@ -73,6 +73,96 @@
         "padding_bottom": 52
       }
     },
+    "multicolumn_Dt8NCJ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_BmYzXm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Space-1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ggmzeh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Detail-2-horizontal.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6mUpBk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Space-5.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hLxckM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Rhythm_July_1-9754.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_b3MUCg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9281.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yCAnWi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/RHYTHM_Studio_Warm_-36.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BmYzXm",
+        "column_ggmzeh",
+        "column_6mUpBk",
+        "column_hLxckM",
+        "column_b3MUCg",
+        "column_yCAnWi"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_q8rMHF": {
       "type": "rich-text",
       "blocks": {
@@ -188,6 +278,7 @@
     "main",
     "17316468437bab37d9",
     "rich_text_ALVQfM",
+    "multicolumn_Dt8NCJ",
     "rich_text_q8rMHF",
     "multicolumn_7xzUm9"
   ]
