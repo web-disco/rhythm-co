@@ -119,26 +119,6 @@
     "multicolumn_7xzUm9": {
       "type": "multicolumn",
       "blocks": {
-        "column_BbwXmK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ABLETON_WORKSHOP_3.jpg",
-            "title": "November 4 - Ableton Workshop",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2565799"
-          }
-        },
-        "column_wCwrhh": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/878b1828175383048cb73412f342c1dac95e923a.webp",
-            "title": "November 7 - Carousel x Rhythm: Tomoki Tamura",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2560522"
-          }
-        },
         "column_tjYwy4": {
           "type": "column",
           "settings": {
@@ -181,8 +161,6 @@
         }
       },
       "block_order": [
-        "column_BbwXmK",
-        "column_wCwrhh",
         "column_tjYwy4",
         "column_eRYW9T",
         "column_VBUeU6",
