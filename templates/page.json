@@ -73,6 +73,49 @@
         "padding_bottom": 52
       }
     },
+    "rich_text_xecVek": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DRr6Uc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bookings are Open for December & January",
+            "heading_size": "h2"
+          }
+        },
+        "text_yCteDU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We look forward to hosting your engagement parties, company happy hours, holiday mixers, tasting events, workshops, and beyond.</p>"
+          }
+        },
+        "button_3pNLtU": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DRr6Uc",
+        "text_yCteDU",
+        "button_3pNLtU"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multicolumn_Dt8NCJ": {
       "type": "multicolumn",
       "blocks": {
@@ -278,6 +321,7 @@
     "main",
     "17316468437bab37d9",
     "rich_text_ALVQfM",
+    "rich_text_xecVek",
     "multicolumn_Dt8NCJ",
     "rich_text_q8rMHF",
     "multicolumn_7xzUm9"
