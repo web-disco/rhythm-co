@@ -76,10 +76,10 @@
     "rich_text_xecVek": {
       "type": "rich-text",
       "blocks": {
-        "heading_DRr6Uc": {
+        "heading_GtAzh8": {
           "type": "heading",
           "settings": {
-            "heading": "Bookings are Open for December & January",
+            "heading": "Bookings now open for December & January",
             "heading_size": "h2"
           }
         },
@@ -102,7 +102,7 @@
         }
       },
       "block_order": [
-        "heading_DRr6Uc",
+        "heading_GtAzh8",
         "text_yCteDU",
         "button_3pNLtU"
       ],
