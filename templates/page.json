@@ -148,45 +148,12 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_hLxckM": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Rhythm_July_1-9754.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_b3MUCg": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9281.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_yCAnWi": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/081825_RhythmWedding_0022_copy.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "column_BmYzXm",
         "column_ggmzeh",
-        "column_6mUpBk",
-        "column_hLxckM",
-        "column_b3MUCg",
-        "column_yCAnWi"
+        "column_6mUpBk"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -202,6 +169,123 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_tf97jX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YYgGGw": {
+          "type": "heading",
+          "settings": {
+            "heading": "CORPORATE",
+            "heading_size": "h2"
+          }
+        },
+        "text_6nQ7UG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you're bringing your team together, hosting a client event, or facilitating a collaborative session, our space provides a relaxed yet professional environment designed to encourage connection, creativity, and fresh ideas.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YYgGGw",
+        "text_6nQ7UG"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Rhythm_July_1-9754.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_kNe9Wn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_qapqLp": {
+          "type": "heading",
+          "settings": {
+            "heading": "CELEBRATIONS",
+            "heading_size": "h2"
+          }
+        },
+        "text_qLiDbY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Have a special occaision coming up? Host a more intimate affair with close friends and family. Engagement parties, holiday mixers, tasting events, birthday parties and beyond.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qapqLp",
+        "text_qLiDbY"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/081825_RhythmWedding_0022_copy.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_WCmmTN": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bV4UUC": {
+          "type": "heading",
+          "settings": {
+            "heading": "COMMUNITY EVENTS",
+            "heading_size": "h2"
+          }
+        },
+        "text_prtdHC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer a versatile space for instructors, artists, and community organizers to bring their ideas to life. From Pilates classes and wellness sessions to art exhibitions, our space is designed to accommodate a wide range of activities and collaborations.&nbsp;</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bV4UUC",
+        "text_prtdHC"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/IMG_9281.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -323,6 +407,9 @@
     "rich_text_ALVQfM",
     "rich_text_xecVek",
     "multicolumn_Dt8NCJ",
+    "image_with_text_tf97jX",
+    "image_with_text_kNe9Wn",
+    "image_with_text_WCmmTN",
     "rich_text_q8rMHF",
     "multicolumn_7xzUm9"
   ]
