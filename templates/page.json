@@ -339,21 +339,11 @@
         "column_tjYwy4": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/BURNIN_VERNON.jpg",
-            "title": "November 12 - Long Play: Concept Albums",
+            "image": "shopify://shop_images/DJ_WORKSHOP-2.jpg",
+            "title": "November 18 - Workshop Series: Digital DJing",
             "text": "",
             "link_label": "Tickets",
-            "link": "https://ra.co/events/2567155"
-          }
-        },
-        "column_eRYW9T": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/D_STONE_NICHOLAS_NOTHING_FINAL_4BY5.jpg",
-            "title": "November 13 - Rhythmic Roots x Rhythm: D Stone",
-            "text": "",
-            "link_label": "Tickets",
-            "link": "https://ra.co/events/2536827"
+            "link": "https://ra.co/events/2579218"
           }
         },
         "column_VBUeU6": {
@@ -364,6 +354,16 @@
             "text": "",
             "link_label": "Tickets",
             "link": "https://ra.co/events/2569940"
+          }
+        },
+        "column_FhDANH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/radiance.webp",
+            "title": "November 22 - Radiance Sound Bath & Vinyl",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2576245"
           }
         },
         "column_7wXdBV": {
@@ -379,8 +379,8 @@
       },
       "block_order": [
         "column_tjYwy4",
-        "column_eRYW9T",
         "column_VBUeU6",
+        "column_FhDANH",
         "column_7wXdBV"
       ],
       "settings": {
