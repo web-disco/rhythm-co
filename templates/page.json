@@ -369,6 +369,26 @@
         "column_7wXdBV": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/dubstep.webp",
+            "title": "November 24 - Long Play: Dubstep",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2578405"
+          }
+        },
+        "column_4efmiB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/lenker.webp",
+            "title": "November 26 - Long Play: Adrianne Lenker",
+            "text": "",
+            "link_label": "Tickets",
+            "link": "https://ra.co/events/2579258"
+          }
+        },
+        "column_t6WQTr": {
+          "type": "column",
+          "settings": {
             "image": "shopify://shop_images/RHYTHM_PRESENTS_Arapu_FINAL_4BY5.jpg",
             "title": "November 27 - Rhythm: Arapu",
             "text": "",
@@ -381,7 +401,9 @@
         "column_tjYwy4",
         "column_VBUeU6",
         "column_FhDANH",
-        "column_7wXdBV"
+        "column_7wXdBV",
+        "column_4efmiB",
+        "column_t6WQTr"
       ],
       "settings": {
         "title": "",
